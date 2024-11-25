@@ -1,0 +1,2 @@
+22/11/2024
+   -usei 'rasa init' para gerar a estrutura padrao do rasa e criei a venv
