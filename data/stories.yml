@@ -28,3 +28,9 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: nirvana
+  steps:
+  - intent: nirvana
+  - action: utter_nirvana
+

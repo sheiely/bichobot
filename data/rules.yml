@@ -11,3 +11,9 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+
+- rule: Say 'Is a band' anytime the user ask
+  steps:
+  - intent: nirvana
+  - action: utter_nirvana

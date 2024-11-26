@@ -1,2 +1,11 @@
 22/11/2024
-   -usei 'rasa init' para gerar a estrutura padrao do rasa e criei a venv
+   - Usei 'rasa init' para gerar a estrutura padrao do rasa e criei a venv
+
+25/11/2024  
+   - REUNIAO
+   informações importantes:
+      https://rasa.com/docs/rasa/command-line-interface
+
+      https://github.com/erlanio/-PriseBot
+
+      Python 3.9.13
