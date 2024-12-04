@@ -2,35 +2,32 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: caminho feliz
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: bom_humor
+  - action: utter_feliz
 
-- story: sad path 1
+- story: caminho triste 1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: mal_humor
+  - action: utter_alegrar
+  - action: utter_isso_ajudou
+  - intent: afirmacao
+  - action: utter_feliz
 
-- story: sad path 2
+- story: caminho triste 2
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: saudacao
+  - action: utter_saudacao
+  - intent: mal_humor
+  - action: utter_alegrar
+  - action: utter_isso_ajudou
+  - intent: negacao
+  - action: utter_despedida
 
-- story: nirvana
-  steps:
-  - intent: nirvana
-  - action: utter_nirvana
+
 

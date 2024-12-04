@@ -1,37 +1,66 @@
 version: "3.1"
 
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
-  - nirvana
+  - saudacao
+  - despedida
+  - afirmacao
+  - negacao
+  - bom_humor
+  - mal_humor
+  - desafiar_bot
+  - alocacao_salas
+  - horarios_atividades
+  - mapa_campus
+  - restaurante_horarios
+  - secretaria_academica
+  - biblioteca_horarios
+  - transporte_campus
+  - email_institucional
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_saudacao:
+  - text: "Oi! Sou um chatbot feito para tirar duvida dos calouros, como posso te ajudar?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  utter_alegrar:
+  - text: "Há algo que eu quero te mostrar:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_isso_ajudou:
+  - text: "Isso ajuda vc?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_feliz:
+  - text: "Boa!"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_despedida:
+  - text: "Tchau!"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_soubot:
+  - text: "Sou um bot"
 
-  utter_nirvana:
-    - text: "asidfnaudjfghnai"
+  utter_alocacao_salas:
+  - text: "As alocações das salas são publicadas no site do campus e também estão disponíveis no mural de informações no Bloco 01. Além disso, você pode verificar as atualizações durante o semestre."
+
+  utter_horarios_atividades:
+  - text: "Os horários de atividades são divididos em turnos AB e CD, cada um com 4 horas de atividades. Para organizar seus horários, recomendamos o uso de ferramentas como o Google Agenda."
+  
+  utter_mapa_campus:
+  - text: "Você pode acessar o mapa do campus no site oficial. Ele mostra a localização de cada bloco e sala. Aqui está o link: quixada.ufc.br/mapa-do-campus-da-ufc-em-quixada/"
+  
+  utter_restaurante_horarios:
+    - text: "O Restaurante Universitário funciona de segunda a sexta-feira, das 11h às 14h para o almoço e das 17h às 18h45 para o jantar."
+  
+  utter_horarios_secretaria_academica:
+    - text: "A Secretaria Acadêmica está aberta de segunda a sexta-feira, das 7h30 às 22h durante o período letivo, e das 8h às 17h no recesso escolar."
+  
+  utter_biblioteca_horarios:
+    - text: "A Biblioteca funciona das 7h30 às 22h de segunda a sexta-feira durante o período letivo e das 8h às 12h e das 13h às 17h no recesso escolar."
+  
+  utter_itinerario_onibus:
+    - text: "A Prefeitura de Quixadá oferece transporte gratuito para o campus. O micro-ônibus faz o trajeto entre o Centro e o Campus, com horários fixos. Você pode conferir os horários completos no site da UFC."
+  
+  utter_email_institucional:
+    - text: "Você pode criar seu e-mail institucional acessando o site do Webmail da UFC. Com esse e-mail, você terá acesso a ferramentas como o Google Drive e o GitHub Student Developer Pack."
+  
 
 session_config:
   session_expiration_time: 60

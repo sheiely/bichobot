@@ -9,3 +9,8 @@
       https://github.com/erlanio/-PriseBot
 
       Python 3.9.13
+
+01/12/2024 
+   - setei configurações para portugues
+   - achei um tutorial bem simplificado: https://blog.brq.com/rasa-2-0-criando-um-chatbot-com-uma-poderosa-ferramenta-open-source/
+   - gerei algumas perguntas e respostas com base no manual do calouro

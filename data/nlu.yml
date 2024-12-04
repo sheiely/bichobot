@@ -1,98 +1,112 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+- intent: saudacao
   examples: |
-    - hey
+    - Olá
     - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - Oi
+    - Eae
+    - Bom dia
+    - Boa tarde
+    - Boa noite
 
-- intent: nirvana
+- intent: despedida
   examples: |
-    - what is nirvana?
-
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
+    - tchau
+    - xau
     - bye bye
-    - see you later
+    - ate mais
 
-- intent: affirm
+- intent: afirmacao
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - sim
+    - s
+    - isso
+    - é
 
-- intent: deny
+- intent: negacao
   examples: |
-    - no
+    - não
+    - nunca
+    - jamais
     - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
 
-- intent: mood_great
+- intent: bom_humor
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - perfeito
+    - bom
+    - incrivel
 
-- intent: mood_unhappy
+- intent: mal_humor
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - meu dia foi terrivel
+    - estou triste
 
-- intent: bot_challenge
+- intent: desafiar_bot
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - voce é um robo?
+    - voce é um bot?
+    - voce é humano?
 
+## gerado por sheiely
 
+- intent: alocacao_salas
+  examples: |
+    - Como descubro minha sala de aula?
+    - Onde estão as informações sobre alocação de salas?
+    - Como sei qual sala devo ir?
+    - Onde vejo as salas específicas para cada disciplina?
 
+- intent: horarios_atividades
+  examples: |
+      - Quais são os horários?
+      - Como são divididos os horários no campus?
+      - Tem uma planilha com os horários de aulas?
+      - Como descubro o horario da minha aula?
+
+- intent: mapa_campus
+  examples: |
+      - Onde consigo um mapa do campus?
+      - Como faço para localizar os blocos no campus?
+      - Tem algum mapa para me ajudar a encontrar as salas?
+      - Como vejo a organização do campus?
+      - Como sei onde é minha sala?
+
+- intent: restaurante_horarios
+  examples: |
+      - Quais os horários do restaurante universitário?
+      - Quais os horários do RU?
+      - Quando o restaurante universitário abre para almoço e jantar?
+      - Quando o RU abre para almoço e jantar?
+      - O RU funciona aos finais de semana?
+      - Onde encontro o horário do restaurante universitário?
+      - Onde encontro o horário do RU?
+
+- intent: horarios_secretaria_academica
+  examples: |
+      - Qual o horário de funcionamento da secretaria acadêmica?
+      - A secretaria funciona em período de recesso?
+      - Como entro em contato com a secretaria acadêmica?
+      - Quais os horários da secretaria acadêmica?
+
+- intent: biblioteca_horarios
+  examples: |
+      - Quando a biblioteca está aberta?
+      - Qual o horário da biblioteca em período letivo?
+      - A biblioteca funciona nos recessos escolares?
+      - Como sei quando a biblioteca está aberta?
+
+- intent: itinerario_onibus
+  examples: |
+      - Quais os horários dos ônibus para o campus?
+      - Existe transporte gratuito para o campus?
+      - Onde os ônibus param em Quixadá?
+      - Como funciona o transporte para a UFC Quixadá?
+
+- intent: email_institucional
+  examples: |
+      - Como crio meu e-mail institucional?
+      - Quais as vantagens do e-mail da UFC?
+      - O que é o @alu.ufc.br?
+      - Posso usar meu e-mail institucional no Canva Pro?

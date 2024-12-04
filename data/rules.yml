@@ -2,18 +2,54 @@ version: "3.1"
 
 rules:
 
-- rule: Say goodbye anytime the user says goodbye
+- rule: Se despede sempre que o usuario se despedir
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: despedida
+  - action: utter_despedida
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: Falar 'Sou um robo!' sempre que o usuario desafiar
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: desafiar_bot
+  - action: utter_soubot
 
-
-- rule: Say 'Is a band' anytime the user ask
+## gerado por sheiely
+- rule: Alocação das salas
   steps:
-  - intent: nirvana
-  - action: utter_nirvana
+    - intent: alocacao_salas
+    - action: utter_alocacao_salas
+
+- rule: Horarios de aulas
+  steps:
+    - intent: horarios_atividades
+    - action: utter_horarios_atividades
+
+- rule: Mapa do campus
+  steps:
+    - intent: mapa_campus
+    - action: utter_mapa_campus
+
+- rule: Informações sobre o restaurante universitário
+  steps:
+    - intent: restaurante_horarios
+    - action: utter_restaurante_horarios
+
+- rule: Horários da secretaria acadêmica
+  steps:
+    - intent: horarios_secretaria_academica
+    - action: utter_horarios_secretaria_academica
+
+- rule: Horários da biblioteca
+  steps:
+    - intent: biblioteca_horarios
+    - action: utter_biblioteca_horarios
+
+- rule: Itinerário dos ônibus
+  steps:
+    - intent: itinerario_onibus
+    - action: utter_itinerario_onibus
+
+- rule: Informações sobre o e-mail institucional
+  steps:
+    - intent: email_institucional
+    - action: utter_email_institucional
+
