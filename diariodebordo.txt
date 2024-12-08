@@ -14,3 +14,21 @@
    - setei configurações para portugues
    - achei um tutorial bem simplificado: https://blog.brq.com/rasa-2-0-criando-um-chatbot-com-uma-poderosa-ferramenta-open-source/
    - gerei algumas perguntas e respostas com base no manual do calouro
+
+08/12/2024
+   - Divisao de trabalho
+      //Henrique 
+      PERGUNTAS SOBRE LOCALIZAÇÂO
+      PERGUNTAS SOBRE O CAMPUS/QUIXADA/MORADIA
+      PERGUNTAS SOBRE OS CURSOS
+
+      //Victor
+      PERGUNTAS SOBRE O RU
+      PERGUNTAS SOBRE OS ONIBUS
+      PERGUNTAS SOBRE A BIBLIOTECA
+
+      //Sheiely
+      PERGUNTAS SOBRE OS PROJETOS
+      PERGUNTAS SOBRE SISTEMAS/SERVIÇOS
+      PERGUNTAS BOLSAS/ASSISTENCIA
+      PERGUNTAS GERAIS

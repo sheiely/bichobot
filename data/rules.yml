@@ -53,3 +53,33 @@ rules:
     - intent: email_institucional
     - action: utter_email_institucional
 
+- rule: O que é o PET
+  steps:
+    - intent: o_que_e_o_pet
+    - action: utter_o_que_e_o_pet
+
+- rule: Qual o site do PET
+  steps:
+    - intent: qual_o_site_do_pet
+    - action: utter_qual_o_site_do_pet
+
+- rule: O que é o INOVE
+  steps:
+    - intent: o_que_e_o_inove
+    - action: utter_o_que_e_o_inove
+
+- rule: O que é o PACCE
+  steps:
+    - intent: o_que_e_o_pacce
+    - action: utter_o_que_e_o_pacce
+
+- rule: O que é o POA
+  steps:
+    - intent: o_que_e_o_poa
+    - action: utter_o_que_e_o_poa
+
+- rule: Quais os projetos da UFC Quixadá
+  steps:
+    - intent: quais_os_projetos_ufc_quixada
+    - action: utter_quais_os_projetos_ufc_quixada
+

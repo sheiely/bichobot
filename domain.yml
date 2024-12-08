@@ -16,6 +16,14 @@ intents:
   - biblioteca_horarios
   - transporte_campus
   - email_institucional
+  ##intents sobre projetos
+  - o_que_e_o_prae
+  - o_que_e_o_pet
+  - qual_o_site_do_pet
+  - o_que_e_o_inove
+  - o_que_e_o_pacce
+  - o_que_e_o_poa
+  - quais_os_projetos_ufc_quixada
 
 responses:
   utter_saudacao:
@@ -60,7 +68,24 @@ responses:
   
   utter_email_institucional:
     - text: "Você pode criar seu e-mail institucional acessando o site do Webmail da UFC. Com esse e-mail, você terá acesso a ferramentas como o Google Drive e o GitHub Student Developer Pack."
-  
+##responses para projetos ->
+  utter_o_que_e_o_pet:
+  - text: "O PET (Programa de Educação Tutorial) é um programa do Ministério da Educação que visa promover a integração entre os estudantes de graduação e os docentes, através de atividades extracurriculares e projetos de ensino, pesquisa e extensão. O objetivo é proporcionar uma formação integral aos alunos, estimulando o desenvolvimento acadêmico e profissional."
+
+  utter_qual_o_site_do_pet:
+  - text: "O site do PET pode ser acessado através do link: [inserir link do site do PET]."
+
+  utter_o_que_e_o_inove:
+  - text: "O INOVE é um programa da UFC que visa fomentar a inovação e o empreendedorismo entre seus estudantes. O objetivo é estimular o desenvolvimento de soluções criativas e empreendedoras, por meio de projetos e eventos que aproximam alunos, professores e empresas."
+
+  utter_o_que_e_o_pacce:
+  - text: "O PACCE (Programa de Apoio à Capacitação de Cursos de Engenharia) tem como objetivo promover a melhoria dos cursos de engenharia da UFC. Ele oferece apoio para a capacitação de alunos e docentes por meio de cursos, workshops e eventos, visando a melhoria contínua da formação acadêmica."
+
+  utter_o_que_e_o_poa:
+  - text: "O POA (Programa de Orientação Acadêmica) tem como objetivo apoiar os estudantes da UFC no seu desenvolvimento acadêmico e pessoal. O programa oferece orientação sobre planejamento de cursos, aproveitamento de créditos e estratégias de estudo para garantir o sucesso acadêmico."
+
+  utter_quais_os_projetos_ufc_quixada:
+  - text: "A UFC Quixadá possui diversos projetos nas áreas de ensino, pesquisa e extensão, voltados para a comunidade acadêmica e local. Entre os principais projetos, estão iniciativas de inovação, cursos de capacitação, programas de apoio à educação e projetos de impacto social. Para mais informações sobre os projetos em andamento, você pode acessar o site oficial da UFC Quixadá ou entrar em contato com a coordenação de projetos da instituição."
 
 session_config:
   session_expiration_time: 60
