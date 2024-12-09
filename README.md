@@ -54,22 +54,23 @@ rasa test
 ## TODO List
 
 - [ ] Fazer o `makefile` das dependências
-- [ ] Separar `nlu.yml`, `rule.yml`, `domain.yml`, em pastas com nomes descritivos.
+- [X] Separar `nlu.yml`, `rule.yml`, `domain.yml`, em pastas com nomes descritivos.
+- [ ] Implementar `chitchat` para não precisar criar os rule do projeto.
 
 ## Divisão da Equipe
 
 **Henrique** 
-- [ ] PERGUNTAS SOBRE LOCALIZAÇÂO
-- [ ] PERGUNTAS SOBRE O CAMPUS/QUIXADA/MORADIA
-- [ ] PERGUNTAS SOBRE OS CURSOS
+-  [ ] Perguntas sobre [localização](./data/nlu/nlu_localizacao.yml)
+-  [ ] Perguntas sobre o [campus][localização](./data/nlu/nlu_campus.yml)/[Quixadá]/moradia\)
+-  [ ] Perguntas sobre os cursos
 
 **Victor**
-- [ ] PERGUNTAS SOBRE O RU
-- [ ] PERGUNTAS SOBRE OS ONIBUS
-- [ ] PERGUNTAS SOBRE A BIBLIOTECA
+-  [ ] Perguntas sobre o RU
+-  [ ] Perguntas sobre os ônibus  
+-  [ ] Perguntas sobre a biblioteca  
 
 **Sheiely**
-- [ ] PERGUNTAS SOBRE OS PROJETOS
-- [ ] PERGUNTAS SOBRE SISTEMAS/SERVIÇOS
-- [ ] PERGUNTAS BOLSAS/ASSISTENCIA
-- [ ] PERGUNTAS GERAIS
+-  [ ] Perguntas sobre os projetos  
+-  [ ] Perguntas sobre sistemas/serviços  
+-  [ ] Perguntas sobre bolsas/assistência  
+-  [ ] Perguntas gerais  
