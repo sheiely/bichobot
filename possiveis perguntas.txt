@@ -1,4 +1,5 @@
 //PERGUNTAS SOBRE LOCALIZAÇÂO---------------------------------------------------------
+
 Onde fica o campus
 
 Onde fica a Area de Convivencia
@@ -72,8 +73,6 @@ O que é horas complementares
 
 //PERGUNTAS SOBRE OS PROJETOS-----------------------------------------------------------
 
-O que é o PRAE
-
 O que é o pet
 
 Qual o site do pet
@@ -105,6 +104,8 @@ O que é o sippa
 O que é o moodle
 
 O que é o pergamum
+
+O que é o PRAE
 
 Qual o site da biblioteca
 
@@ -183,6 +184,25 @@ Como eu pego um livro
 //PERGUNTAS GERAIS------------------------------------------------------------------------
 
 Como eu acho minha sala
+
+
+
+
+//Henrique 
+PERGUNTAS SOBRE LOCALIZAÇÂO
+PERGUNTAS SOBRE O CAMPUS/QUIXADA/MORADIA
+PERGUNTAS SOBRE OS CURSOS
+
+//Victor
+PERGUNTAS SOBRE O RU
+PERGUNTAS SOBRE OS ONIBUS
+PERGUNTAS SOBRE A BIBLIOTECA
+
+//Sheiely
+PERGUNTAS SOBRE OS PROJETOS
+PERGUNTAS SOBRE SISTEMAS/SERVIÇOS
+PERGUNTAS BOLSAS/ASSISTENCIA
+PERGUNTAS GERAIS
 
 
 

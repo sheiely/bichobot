@@ -1,0 +1,15 @@
+version: "3.1"
+
+nlu:
+  - intent: chitchat/ask_name
+    examples: |
+      - What is your name?
+  - intent: chitchat/ask_weather
+    examples: |
+      - What's the weather like today?
+  - intent: faq/ask_name
+    examples: |
+      - water water
+  - intent: faq/ask_weather
+    examples: |
+      - rapaz rapaz

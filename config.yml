@@ -11,12 +11,19 @@ assistant_id: 20241125-183500-oily-rectangle
 language: pt
 
 pipeline:
-- name: ResponseSelector
-  epochs: 100
-  retrieval_intent: faq
-- name: ResponseSelector
-  epochs: 100
-  retrieval_intent: chitchat
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: DIETClassifier
+    epochs: 100
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: faq
+  - name: ResponseSelector
+    epochs: 100
+    retrieval_intent: chitchat
+
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
 # # If you'd like to customize it, uncomment and adjust the pipeline.
 # # See https://rasa.com/docs/rasa/tuning-your-model for more information.
@@ -43,12 +50,6 @@ pipeline:
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: RulePolicy
-  - name: ResponseSelector
-    epochs: 100
-    retrieval_intent: faq
-  - name: ResponseSelector
-    epochs: 100
-    retrieval_intent: chitchat
 # # No configuration for policies was provided. The following default policies were used to train your model.
 # # If you'd like to customize them, uncomment and adjust the policies.
 # # See https://rasa.com/docs/rasa/policies for more information.

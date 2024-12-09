@@ -1,0 +1,19 @@
+version: "3.1"
+
+intents:
+  - chitchat
+  - faq
+
+responses:
+  utter_chitchat/ask_name:
+  - text: I am called Retrieval Bot!
+  utter_chitchat/ask_weather:
+  - text: Oh, it does look sunny right now in Berlin.
+  utter_faq/ask_name:
+  - text: machoo
+  utter_faq/ask_weather:
+  - text: rapazzz
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
