@@ -1,9 +1,5 @@
 version: "3.1"
 
-intents:
-  - chitchat
-  - faq
-
 responses:
   utter_chitchat/ask_name:
   - text: I am called Retrieval Bot!
@@ -13,7 +9,3 @@ responses:
   - text: machoo
   utter_faq/ask_weather:
   - text: rapazzz
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
