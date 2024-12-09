@@ -44,9 +44,9 @@ rasa train
 rasa shell
 ```
 
-## Testes
+### Testes
 
-Para executar os testes:
+1. Para executar os testes:
 ```sh
 rasa test
 ```
