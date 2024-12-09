@@ -56,21 +56,37 @@ rasa test
 - [ ] Fazer o `makefile` das dependências
 - [X] Separar `nlu.yml`, `rule.yml`, `domain.yml`, em pastas com nomes descritivos.
 - [ ] Implementar `chitchat` para não precisar criar os rule do projeto.
+- [ ] Criar testes
+- [ ] Criar FAQ
+    [nlu](./data/nlu/faq.yml)/[response](./domain/chitchat/faq.yml)
 
 ## Divisão da Equipe
 
 **Henrique** 
--  [ ] Perguntas sobre [localização](./data/nlu/nlu_localizacao.yml)
--  [ ] Perguntas sobre o [campus][localização](./data/nlu/nlu_campus.yml)/[Quixadá]/moradia\)
+-  [ ] Perguntas sobre localização
+        [nlu](./data/nlu/localizacao.yml)/[response](./domain/chitchat/localizacao.yml)
+-  [ ] Perguntas sobre o \(campus/Quixadá/moradia\)
+        [nlu](./data/nlu/campus.yml)/[response](./domain/chitchat/campus.yml)
+        [nlu](./data/nlu/quixada.yml)/[response](./domain/chitchat/quixada.yml)
+        [nlu](./data/nlu/moradia.yml)/[response](./domain/chitchat/moradia.yml)
 -  [ ] Perguntas sobre os cursos
+        [nlu](./data/nlu/cursos.yml)/[response](./domain/chitchat/cursos.yml)
 
 **Victor**
 -  [ ] Perguntas sobre o RU
+        [nlu](./data/nlu/ru.yml)/[response](./domain/chitchat/ru.yml)
 -  [ ] Perguntas sobre os ônibus  
--  [ ] Perguntas sobre a biblioteca  
+        [nlu](./data/nlu/onibus.yml)/[response](./domain/chitchat/onibus.yml)
+-  [ ] Perguntas sobre a biblioteca
+        [nlu](./data/nlu/biblioteca.yml)/[response](./domain/chitchat/biblioteca.yml)
 
 **Sheiely**
--  [ ] Perguntas sobre os projetos  
--  [ ] Perguntas sobre sistemas/serviços  
--  [ ] Perguntas sobre bolsas/assistência  
--  [ ] Perguntas gerais  
+-  [ ] Perguntas sobre os projetos
+        [nlu](./data/nlu/projetos.yml)/[response](./domain/chitchat/projetos.yml)
+-  [ ] Perguntas sobre sistemas/serviços
+        [nlu](./data/nlu/sistemas.yml)/[response](./domain/chitchat/sistemas.yml)
+-  [ ] Perguntas sobre bolsas/assistência
+        [nlu](./data/nlu/bolsas.yml)/[response](./domain/chitchat/bolsas.yml)
+        [nlu](./data/nlu/assistencia.yml)/[response](./domain/chitchat/assistencia.yml)
+-  [ ] Perguntas gerais
+        [nlu](./data/nlu/geral.yml)/[response](./domain/chitchat/geral.yml)
