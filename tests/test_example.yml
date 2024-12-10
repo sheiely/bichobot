@@ -1,0 +1,28 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: Ajuda
+  steps:
+  - user: |
+      me ajuda!
+    intent: faq/ajuda
+  - action: utter_faq/ajuda
+- story: Saudacao
+  steps:
+  - user: |
+      me ajuda!
+    intent: chitchat/saudacao
+  - action: utter_chitchat/saudacao
+- story: Como esta o tempo
+  steps:
+  - user: |
+      como tá o clima?
+    intent: chitchat/como_esta_o_tempo
+  - action: utter_chitchat/como_esta_o_tempo
+- story: Nome do bot
+  steps:
+  - user: |
+      qual o nome de vc?
+    intent: chitchat/qual_o_nome
+  - action: utter_chitchat/qual_o_nome

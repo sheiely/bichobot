@@ -1,0 +1,26 @@
+version: "3.1"
+
+responses:
+  utter_chitchat/qual_o_nome:
+  - text: "Eu sou o CalouroBot, fui desenvolvido com o objetivo de ajudar os alunos ingressantes da UFC com informações úteis e orientações."
+  utter_chitchat/como_esta_o_tempo:
+  - text: "Hmm... boa pergunta! Infelizmente, não posso prever o clima, mas recomendo conferir um site de previsão do tempo para obter informações atualizadas."
+  utter_chitchat/saudacao:
+  - text: "Olá, como posso ajudar?"
+  utter_faq/ajuda:
+  - text: |
+        Olá! Eu sou o CalouroBot, e posso ajudar você com diversas informações para facilitar sua vida na UFC! Veja os tópicos com os quais posso ajudar:
+        - **Localização:** Informações sobre onde fica cada local importante no campus e opções para se deslocar.
+        - **Campus/Quixadá/Moradia:** Detalhes sobre os campi da UFC, opções de moradia e informações sobre a cidade de Quixadá.
+        - **Cursos:** Informações sobre os cursos disponíveis, como matrícula, grade curricular e estrutura acadêmica.
+        - **Restaurante Universitário (RU):** Informações sobre funcionamento, horários e opções de refeições.
+        - **Transporte e Ônibus:** Informações sobre linhas, rotas e horários de ônibus para facilitar sua locomoção.
+        - **Biblioteca:** Detalhes sobre como acessar, reservar livros e horários de funcionamento.
+        - **Projetos Acadêmicos:** Conheça os projetos de extensão e grupos de pesquisa na UFC.
+        - **Sistemas e Serviços:** Informações sobre como acessar serviços online da universidade e soluções para dúvidas técnicas.
+        - **Bolsas e Assistências:** Informações sobre opções de financiamento, bolsas de estudo e auxílios disponíveis.
+        - **Dúvidas Gerais:** Caso você tenha qualquer outra questão, estou aqui para ajudar!
+
+        Se tiver alguma dúvida específica sobre esses tópicos ou algo relacionado, basta perguntar!"
+  utter_faq/ping:
+  - text: pong
