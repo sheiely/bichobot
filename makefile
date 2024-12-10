@@ -5,3 +5,5 @@ shell:
 start:
 	rasa train --domain domain
 	rasa shell
+install:
+	pip install rasa
