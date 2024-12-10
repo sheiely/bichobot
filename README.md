@@ -61,7 +61,7 @@ rasa test
 ## Divisão da Equipe
 
 - [X] Exemplo
-    - [nlu](./data/nlu/exemplo.yml)/[response](./domain/exemplo.yml)
+    - [nlu](./data/nlu/__exemplo__.yml)/[response](./domain/__exemplo__.yml)
 
 **Henrique** 
 -  [ ] Perguntas sobre localização
