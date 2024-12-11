@@ -8,14 +8,6 @@ intents:
   - bom_humor
   - mal_humor
   - desafiar_bot
-  - alocacao_salas
-  - horarios_atividades
-  - mapa_campus
-  - restaurante_horarios
-  - secretaria_academica
-  - biblioteca_horarios
-  - transporte_campus
-  - email_institucional
   ##intents sobre projetos
   - o_que_e_o_prae
   - o_que_e_o_pet
