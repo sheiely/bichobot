@@ -1,1 +1,30 @@
 version: "3.1"
+
+nlu:
+  - intent: faq/biblioteca
+    examples: |
+      - biblioteca
+  - intent: faq/biblioteca_horarios
+    examples: |
+      - horarios de funcionamento
+  - intent: faq/biblioteca_site
+    examples: |
+      - Qual o site da biblioteca?
+  - intent: faq/pergamum
+    examples: |
+      - O que é o pergamum?
+  - intent: faq/minhabiblioteca
+    examples: |
+      - O que é a minha biblioteca?
+  - intent: faq/cadastro
+    examples: |
+      - Como me cadastro na biblioteca?
+  - intent: faq/multa
+    examples: |
+      - Como funciona a multa da biblioteca?
+  - intent: faq/reservar
+    examples: |
+      - Meu livro foi reservado
+  - intent: faq/achar_livro
+    examples: |
+      - Como acho um livro na biblioteca?

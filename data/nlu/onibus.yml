@@ -1,9 +1,24 @@
 version: "3.1"
 
 nlu:
-  - intent: faq/quando_passa_o_onibus
+  - intent: faq/onibus
     examples: |
+      - ônibus
       - Quais os horários dos ônibus da UFC
   - intent: faq/quando_passa_os_onibus_do_ifce
     examples: |
-      - Quais os horários dos ônibus da UFC
+      - Quais os horários dos ônibus do IFCE
+  - intent: faq/onibus_ifce
+    examples: |
+      - Posso ir no ônibus do IFCE?
+  - intent: faq/qual_o_onibus_roxo
+    examples: |
+      - Qual é o ônibus roxo?
+  - intent: faq/qual_o_onibus_cinza
+    examples: |
+      - Qual é o ônibus cinza?
+  - intent: faq/qual_o_onibus_do_ifce
+    examples: |
+      - Qual o ônibus do IFCE?
+  - intent: faq/onibus_quebra
+      - O que acontece se o ônibus quebra?
