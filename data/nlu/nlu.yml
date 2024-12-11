@@ -38,4 +38,20 @@ nlu:
     - voce é um bot?
     - voce é humano?
 
+- intent: qual_contato
+  examples: |
+    - Qual o contato?
+    - Como posso entrar em contato?
+    - Qual é o número de contato?
+    - Onde encontro o contato?
+    - Qual o telefone de contato?
+    - Como faço para falar com alguém?
+    - Qual o endereço de contato?
+    - Onde posso encontrar o contato?
+    - Como posso me comunicar?
+    - Qual o email de contato?
+    - Qual o endereço de email para contato?
+    - Como faço para enviar um email?
+    - Qual é o email para falar com o setor?
+
 

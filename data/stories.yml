@@ -1,6 +1,22 @@
 version: "3.1"
 
 stories:
+  - story: Serviço de Nutrição
+    steps:
+      - intent: na_ufc_tem_nutricionista
+      - action: utter_na_ufc_tem_nutricionista
+      - intent: qual_contato
+      - action: utter_qual_contato_nutricao
+
+  - story: Serviço de Psicologia
+    steps:
+      - intent: na_ufc_tem_psicologa
+      - action: utter_na_ufc_tem_psicologa
+      - intent: qual_contato
+      - action: utter_qual_contato_psicologa
+
+
+
 
 
 

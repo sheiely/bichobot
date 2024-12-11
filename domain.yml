@@ -8,6 +8,7 @@ intents:
   - bom_humor
   - mal_humor
   - desafiar_bot
+  - qual_contato
   ##intents sobre projetos
   - o_que_e_o_prae
   - o_que_e_o_pet
@@ -16,6 +17,32 @@ intents:
   - o_que_e_o_pacce
   - o_que_e_o_poa
   - quais_os_projetos_ufc_quixada
+  ##intents sobre sistemas-servicos
+  - quais_sistemas_ufc
+  - saber_matricula
+  - quais_disciplinas_matriculado
+  - como_cadastrar_horas_complementares
+  - oque_e_sigaa
+  - oque_e_sippa
+  - oque_e_moodle
+  - oque_e_pergamum
+  - oque_e_prae
+  - qual_site_biblioteca
+  - como_reserva_sala
+  - como_cria_email_institucional
+  - qual_site_sigaa
+  - qual_site_sippa
+  - qual_site_moodle
+  - qual_site_pergamum
+  - qual_site_prae
+  - quais_servicos_ufc
+  - qual_contato_nutricao
+  - na_ufc_tem_nutricionista
+  - qual_contato_psicologa
+  - na_ufc_tem_psicologa
+  - qual_contato_servico_social
+  - a_quem_buscar_ajuda
+  - qual_contato_secretaria_academica
 
 responses:
   utter_saudacao:
@@ -78,6 +105,117 @@ responses:
 
   utter_quais_os_projetos_ufc_quixada:
   - text: "A UFC Quixadá possui diversos projetos nas áreas de ensino, pesquisa e extensão, voltados para a comunidade acadêmica e local. Entre os principais projetos, estão iniciativas de inovação, cursos de capacitação, programas de apoio à educação e projetos de impacto social. Para mais informações sobre os projetos em andamento, você pode acessar o site oficial da UFC Quixadá ou entrar em contato com a coordenação de projetos da instituição."
+
+##response para sistema-servicos ->
+
+  utter_quais_sistemas_ufc:
+    - text: "A UFC Quixadá utiliza os seguintes sistemas: SIGAA, SIPPA, Moodle, Pergamum, entre outros."
+
+  utter_saber_matricula:
+    - text: "Você pode acessar sua matrícula diretamente no SIGAA -> https://si3.ufc.br."
+
+  utter_quais_disciplinas_matriculado:
+    - text: "Você pode ver as disciplinas que está matriculado no SIGAA -> https://si3.ufc.br/sigaa/portais/discente/discente.jsf."
+
+  utter_como_cadastrar_horas_complementares:
+    - text: "Para cadastrar horas complementares, acesse o SIGAA no portal do discente, siga para o menu Ensino -> Atividades Complementares e Extensão -> Solicitação de creditação de horas"
+
+  utter_oque_e_sigaa:
+    - text: "O Sistema Integrado de Gestão de Atividades Acadêmicas
+(SIGAA) é o espaço para gerenciamento de disciplinas e de
+todas as informações relativas à vida acadêmica do aluno. O
+SIGAA agrupa todas as informações de ensino, pesquisa e
+extensão."
+
+  utter_oque_e_sippa:
+    - text: "O Sistema de Presenças e Planos de aula (SIPPA) é utilizado
+por alunos e professores, nele o aluno pode verificar notas,
+arquivos submetido pelos professores e também a
+porcentagem de presenças em cada disciplina. O SIPPA é um
+sistema criado pelo nosso campus, o acesso é através de login
+e senha cadastrado pela secretaria."
+
+  utter_oque_e_moodle:
+    - text: "MOODLE é o acrônimo de “Modular Object-Oriented Dynamic
+Learning Environment”, um software livre, de apoio à
+aprendizagem, executado num ambiente virtual. É este
+ambiente o mais utilizado para as aulas. Especialmente em
+nosso Campus tem o Moodle2, feito para a dinâmica remota e
+que provavelmente irá continuar para os próximos semestres"
+
+  utter_oque_e_pergamum:
+    - text: "Meu Pergamum é a área de cadastro do usuário na Biblioteca,
+com acesso através de login (cpf) e senha (cadastrada na
+biblioteca). Essa área de cadastro disponibiliza a renovação
+online, histórico de livros emprestados, suspensão
+(afastamento), lista de reserva, cadastro de assuntos de
+interesse, dentre outros."
+
+  utter_oque_e_prae:
+    - text: "A Pró-Reitoria de Assuntos Estudantis (PRAE) é a unidade
+gestora de políticas para a promoção e apoio ao estudante de
+graduação da Universidade Federal do Ceará (UFC),
+consolidando o amplo objetivo de construção da cidadania
+nos diversos segmentos acadêmicos que compõem a
+comunidade universitária. Link para acesso: https://prae.ufc.br/pt/"
+
+  utter_qual_site_biblioteca:
+    - text: "O site da biblioteca da UFC pode ser acessado no endereço: https://www.quixada.ufc.br/biblioteca/"
+
+  utter_como_reservar_sala:
+    - text: "Para reservar alguma sala é
+necessário falar com alguém da
+secretaria acadêmica, explicar o
+motivo da solicitação e será realizado
+os procedimentos."
+
+  utter_qual_site_sigaa:
+    - text: "O site do SIGAA pode ser acessado em: https://si3.ufc.br."
+
+  utter_qual_site_sippa:
+    - text: "O site do SIPPA pode ser acessado em: https://sistemas.quixada.ufc.br/sippa/."
+
+  utter_qual_site_moodle:
+    - text: "O site do Moodle pode ser acessado em: http://moodle2.quixada.ufc.br/."
+
+  utter_qual_site_pergamum:
+    - text: "O site do Pergamum pode ser acessado em: https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php."
+
+  utter_qual_site_prae:
+    - text: "O site do PRAE pode ser acessado em: https://prae.ufc.br/pt/."
+
+  utter_como_criar_email_institucional:
+    - text: "Você pode criar seu e-mail institucional acessando o portal da UFC e seguindo o processo de cadastro de e-mail."
+
+  utter_quais_servicos_ufc:
+    - text: "A UFC oferece diversos serviços aos alunos, como atendimento psicológico, nutricional, apoio acadêmico, entre outros. Precisa de mais informações sobre algum serviço específico?"
+  utter_qual_contato_nutricao:
+    - text: "Você pode entrar em contato com o setor de nutrição pelo email nutricao@quixada.ufc.br."
+  utter_na_ufc_tem_nutricionista:
+    - text: "Sim, a UFC oferece atendimento com nutricionista para os alunos."
+  utter_qual_contato_psicologa:
+    - text: "Você pode entrar em contato com o setor de psicologia pelo email psicologia@quixada.ufc.br."
+  utter_na_ufc_tem_psicologa:
+    - text: "Sim, a UFC tem psicóloga disponível para atender os alunos."
+  utter_qual_contato_servico_social:
+    - text: "Você pode entrar em contato com o serviço social pelo email servicosocial@quixada.ufc.br."
+  utter_a_quem_buscar_ajuda:
+    - text: "Na UFC Quixadá, você pode contar com vários serviços de apoio, como:
+
+        - **Apoio Acadêmico**: Caso tenha dificuldades com sua vida acadêmica, como disciplinas ou estágios, você pode procurar a **Coordenação de Cursos** ou a **Secretaria Acadêmica**.
+        
+        - **Serviço de Psicologia**: Se precisar de apoio psicológico, a UFC Quixadá oferece atendimento psicológico gratuito para alunos, com a psicóloga responsável pela área.
+
+        - **Nutrição**: Se tiver dúvidas sobre alimentação saudável ou quiser agendar uma consulta, o setor de **Nutrição** da UFC Quixadá está à disposição.
+
+        - **Serviço Social**: Para orientação sobre questões sociais, como auxílio emergencial, matrícula e outros serviços, o **Serviço Social** está disponível para dar suporte.
+
+        - **Biblioteca**: Caso precise de ajuda com materiais acadêmicos, a **Biblioteca** oferece suporte para os alunos.
+
+        Se precisar de mais informações sobre qualquer um desses serviços ou orientações sobre como acessá-los, fique à vontade para perguntar!"
+  utter_qual_contato_secretaria_academica:
+    - text: "Você pode entrar em contato com a Secretaria Acadêmica (SA) pelo email secretariaacademica@quixada.ufc.br. Precisa de mais alguma informação?"
+  
 
 session_config:
   session_expiration_time: 60

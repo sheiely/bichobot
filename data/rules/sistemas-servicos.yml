@@ -1,0 +1,128 @@
+version: "3.0"
+rules:
+  - rule: Exibir sistemas da UFC
+    steps:
+      - intent: quais_sistemas_ufc
+      - action: utter_quais_sistemas_ufc
+
+  - rule: Consultar matrícula
+    steps:
+      - intent: saber_matricula
+      - action: utter_saber_matricula
+
+  - rule: Ver disciplinas matriculadas
+    steps:
+      - intent: quais_disciplinas_matriculado
+      - action: utter_quais_disciplinas_matriculado
+
+  - rule: Cadastro de horas complementares
+    steps:
+      - intent: como_cadastrar_horas_complementares
+      - action: utter_como_cadastrar_horas_complementares
+
+  - rule: Explicar sobre o SIGAA
+    steps:
+      - intent: oque_e_sigaa
+      - action: utter_oque_e_sigaa
+
+  - rule: Explicar sobre o SIPPA
+    steps:
+      - intent: oque_e_sippa
+      - action: utter_oque_e_sippa
+
+  - rule: Explicar sobre o Moodle
+    steps:
+      - intent: oque_e_moodle
+      - action: utter_oque_e_moodle
+
+  - rule: Explicar sobre o Pergamum
+    steps:
+      - intent: oque_e_pergamum
+      - action: utter_oque_e_pergamum
+
+  - rule: Explicar sobre o PRAE
+    steps:
+      - intent: oque_e_prae
+      - action: utter_oque_e_prae
+
+  - rule: Consultar site da biblioteca
+    steps:
+      - intent: qual_site_biblioteca
+      - action: utter_qual_site_biblioteca
+
+  - rule: Reservar sala
+    steps:
+      - intent: como_reserva_sala
+      - action: utter_como_reservar_sala
+
+  - rule: Criar email institucional
+    steps:
+      - intent: como_cria_email_institucional
+      - action: utter_como_criar_email_institucional
+
+  - rule: Qual o site do SIGAA
+    steps:
+      - intent: qual_site_sigaa
+      - action: utter_qual_site_sigaa
+
+  - rule: Qual o site do SIPPA
+    steps:
+      - intent: qual_site_sippa
+      - action: utter_qual_site_sippa
+
+  - rule: Qual o site do Moodle
+    steps:
+      - intent: qual_site_moodle
+      - action: utter_qual_site_moodle
+
+  - rule: Qual o site do Pergamum
+    steps:
+      - intent: qual_site_pergamum
+      - action: utter_qual_site_pergamum
+
+  - rule: Qual o site do PRAE
+    steps:
+      - intent: qual_site_prae
+      - action: utter_qual_site_prae
+
+  - rule: Quais serviços da UFC
+    steps:
+      - intent: quais_servicos_ufc
+      - action: utter_quais_servicos_ufc
+
+  - rule: Qual contato da nutrição
+    steps:
+      - intent: qual_contato_nutricao
+      - action: utter_qual_contato_nutricao
+
+  - rule: Na UFC tem nutricionista
+    steps:
+      - intent: na_ufc_tem_nutricionista
+      - action: utter_na_ufc_tem_nutricionista
+
+  - rule: Qual contato da psicóloga
+    steps:
+      - intent: qual_contato_psicologa
+      - action: utter_qual_contato_psicologa
+
+  - rule: Na UFC tem psicóloga
+    steps:
+      - intent: na_ufc_tem_psicologa
+      - action: utter_na_ufc_tem_psicologa
+
+  - rule: Qual contato do serviço social
+    steps:
+      - intent: qual_contato_servico_social
+      - action: utter_qual_contato_servico_social
+
+  - rule: A quem buscar ajuda
+    steps:
+      - intent: a_quem_buscar_ajuda
+      - action: utter_a_quem_buscar_ajuda
+
+  - rule: Qual contato da secretaria acadêmica
+    steps:
+      - intent: qual_contato_secretaria_academica
+      - action: utter_qual_contato_secretaria_academica
+  
+  
