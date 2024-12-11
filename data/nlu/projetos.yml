@@ -1,0 +1,102 @@
+version: "3.1"
+
+nlu:   
+##PERGUNTAS DE PROJETOS-----------------------------------------------------------------------
+
+- intent: o_que_e_o_pet
+  examples: |
+      - o que significa PET
+      - pode explicar o que é o PET
+      - qual é o objetivo do PET
+      - qual a função do PET
+      - pode me dizer o que é o PET
+      - para que existe o PET
+      - PET serve para quê
+      - o que é o programa PET
+      - como funciona o PET
+      - qual é o propósito do PET
+      - me explique o que é o PET
+      - PET é o que
+      - para que o PET foi criado
+      - qual o significado de PET
+      - PET, o que é isso
+
+- intent: qual_o_site_do_pet
+  examples: |
+      - qual é o site do PET
+      - pode me passar o site do PET
+      - qual o endereço do site do PET
+      - onde encontro o site do PET
+      - qual o link do site do PET
+      - tem um site do PET
+      - como acessar o site do PET
+      - pode informar o site do PET
+      - qual é o site oficial do PET
+      - onde fica o site do PET
+
+- intent: o_que_e_o_inove
+  examples: |
+      - o que é o INOVE
+      - pode explicar o que é o INOVE
+      - qual é o objetivo do INOVE
+      - qual a função do INOVE
+      - pode me dizer o que é o INOVE
+      - para que existe o INOVE
+      - INOVE serve para quê
+      - o que é o programa INOVE
+      - como funciona o INOVE
+      - qual é o propósito do INOVE
+      - me explique o que é o INOVE
+      - INOVE é o que
+      - para que o INOVE foi criado
+      - qual o significado de INOVE
+      - INOVE, o que é isso
+
+- intent: o_que_e_o_pacce
+  examples: |
+      - o que é o PACCE
+      - pode explicar o que é o PACCE
+      - qual é o objetivo do PACCE
+      - qual a função do PACCE
+      - pode me dizer o que é o PACCE
+      - para que existe o PACCE
+      - PACCE serve para quê
+      - o que é o programa PACCE
+      - como funciona o PACCE
+      - qual é o propósito do PACCE
+      - me explique o que é o PACCE
+      - PACCE é o que
+      - para que o PACCE foi criado
+      - qual o significado de PACCE
+      - PACCE, o que é isso
+
+- intent: o_que_e_o_poa
+  examples: |
+      - o que é o POA
+      - pode explicar o que é o POA
+      - qual é o objetivo do POA
+      - qual a função do POA
+      - pode me dizer o que é o POA
+      - para que existe o POA
+      - POA serve para quê
+      - o que é o programa POA
+      - como funciona o POA
+      - qual é o propósito do POA
+      - me explique o que é o POA
+      - POA é o que
+      - para que o POA foi criado
+      - qual o significado de POA
+      - POA, o que é isso
+
+- intent: quais_os_projetos_ufc_quixada
+  examples: |
+      - quais são os projetos da UFC Quixadá
+      - me fale sobre os projetos da UFC Quixadá
+      - quais projetos existem na UFC Quixadá
+      - o que a UFC Quixadá oferece em termos de projetos
+      - pode listar os projetos da UFC Quixadá
+      - quais projetos estão disponíveis na UFC Quixadá
+      - tem algum projeto na UFC Quixadá
+      - quais iniciativas existem na UFC Quixadá
+      - pode me dizer os projetos da UFC Quixadá
+      - que projetos estão ativos na UFC Quixadá
