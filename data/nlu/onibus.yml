@@ -1,1 +1,9 @@
 version: "3.1"
+
+nlu:
+  - intent: faq/quando_passa_o_onibus
+    examples: |
+      - Quais os horários dos ônibus da UFC
+  - intent: faq/quando_passa_os_onibus_do_ifce
+    examples: |
+      - Quais os horários dos ônibus da UFC

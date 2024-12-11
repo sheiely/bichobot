@@ -75,11 +75,11 @@ rasa test
 
 **Victor**
 -  [ ] Perguntas sobre o RU
-    - [nlu](./data/nlu/ru.yml)/[response](./domain/ru.yml) (ru)
+    - [nlu](./data/nlu/ru.yml)/[response](./domain/ru.yml) (ru) fonte: [ru](https://www.quixada.ufc.br/restaurante-universitario/), [ru/regulamento](https://www.ufc.br/restaurante/regulamento)
 -  [ ] Perguntas sobre os ônibus  
-    - [nlu](./data/nlu/onibus.yml)/[response](./domain/onibus.yml) (onibus)
+    - [nlu](./data/nlu/onibus.yml)/[response](./domain/onibus.yml) (onibus) fonte: [onibus](https://www.quixada.ufc.br/itinerario-dos-onibus/) [ifce/onibus](https://ifce.edu.br/quixada/campus_quixada/como-chegar)
 -  [ ] Perguntas sobre a biblioteca
-    - [nlu](./data/nlu/biblioteca.yml)/[response](./domain/biblioteca.yml) (biblioteca)
+    - [nlu](./data/nlu/biblioteca.yml)/[response](./domain/biblioteca.yml) (biblioteca) fonte: [biblioteca](https://www.quixada.ufc.br/biblioteca/)
 
 **Sheiely**
 -  [ ] Perguntas sobre os projetos
