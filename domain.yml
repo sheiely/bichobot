@@ -1,18 +1,91 @@
 version: "3.1"
 
 intents:
-  - chitchat
-  - faq
+  - saudacao
+  - despedida
+  - afirmacao
+  - negacao
+  - bom_humor
+  - mal_humor
+  - desafiar_bot
+  - alocacao_salas
+  - horarios_atividades
+  - mapa_campus
+  - restaurante_horarios
+  - secretaria_academica
+  - biblioteca_horarios
+  - transporte_campus
+  - email_institucional
+  ##intents sobre projetos
+  - o_que_e_o_prae
+  - o_que_e_o_pet
+  - qual_o_site_do_pet
+  - o_que_e_o_inove
+  - o_que_e_o_pacce
+  - o_que_e_o_poa
+  - quais_os_projetos_ufc_quixada
 
 responses:
-  utter_chitchat/ask_name:
-  - text: I am called Retrieval Bot!
-  utter_chitchat/ask_weather:
-  - text: Oh, it does look sunny right now in Berlin.
-  utter_faq/ask_name:
-  - text: machoo
-  utter_faq/ask_weather:
-  - text: rapazzz
+  utter_saudacao:
+  - text: "Oi! Sou um chatbot feito para tirar duvida dos calouros, como posso te ajudar?"
+
+  utter_alegrar:
+  - text: "Há algo que eu quero te mostrar:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_isso_ajudou:
+  - text: "Isso ajuda vc?"
+
+  utter_feliz:
+  - text: "Boa!"
+
+  utter_despedida:
+  - text: "Tchau!"
+
+  utter_soubot:
+  - text: "Sou um bot"
+
+  utter_alocacao_salas:
+  - text: "As alocações das salas são publicadas no site do campus e também estão disponíveis no mural de informações no Bloco 01. Além disso, você pode verificar as atualizações durante o semestre."
+
+  utter_horarios_atividades:
+  - text: "Os horários de atividades são divididos em turnos AB e CD, cada um com 4 horas de atividades. Para organizar seus horários, recomendamos o uso de ferramentas como o Google Agenda."
+  
+  utter_mapa_campus:
+  - text: "Você pode acessar o mapa do campus no site oficial. Ele mostra a localização de cada bloco e sala. Aqui está o link: quixada.ufc.br/mapa-do-campus-da-ufc-em-quixada/"
+  
+  utter_restaurante_horarios:
+    - text: "O Restaurante Universitário funciona de segunda a sexta-feira, das 11h às 14h para o almoço e das 17h às 18h45 para o jantar."
+  
+  utter_horarios_secretaria_academica:
+    - text: "A Secretaria Acadêmica está aberta de segunda a sexta-feira, das 7h30 às 22h durante o período letivo, e das 8h às 17h no recesso escolar."
+  
+  utter_biblioteca_horarios:
+    - text: "A Biblioteca funciona das 7h30 às 22h de segunda a sexta-feira durante o período letivo e das 8h às 12h e das 13h às 17h no recesso escolar."
+  
+  utter_itinerario_onibus:
+    - text: "A Prefeitura de Quixadá oferece transporte gratuito para o campus. O micro-ônibus faz o trajeto entre o Centro e o Campus, com horários fixos. Você pode conferir os horários completos no site da UFC."
+  
+  utter_email_institucional:
+    - text: "Você pode criar seu e-mail institucional acessando o site do Webmail da UFC. Com esse e-mail, você terá acesso a ferramentas como o Google Drive e o GitHub Student Developer Pack."
+##responses para projetos ->
+  utter_o_que_e_o_pet:
+  - text: "O PET (Programa de Educação Tutorial) é um programa do Ministério da Educação que visa promover a integração entre os estudantes de graduação e os docentes, através de atividades extracurriculares e projetos de ensino, pesquisa e extensão. O objetivo é proporcionar uma formação integral aos alunos, estimulando o desenvolvimento acadêmico e profissional."
+
+  utter_qual_o_site_do_pet:
+  - text: "O site do PET pode ser acessado através do link: [inserir link do site do PET]."
+
+  utter_o_que_e_o_inove:
+  - text: "O INOVE é um programa da UFC que visa fomentar a inovação e o empreendedorismo entre seus estudantes. O objetivo é estimular o desenvolvimento de soluções criativas e empreendedoras, por meio de projetos e eventos que aproximam alunos, professores e empresas."
+
+  utter_o_que_e_o_pacce:
+  - text: "O PACCE (Programa de Apoio à Capacitação de Cursos de Engenharia) tem como objetivo promover a melhoria dos cursos de engenharia da UFC. Ele oferece apoio para a capacitação de alunos e docentes por meio de cursos, workshops e eventos, visando a melhoria contínua da formação acadêmica."
+
+  utter_o_que_e_o_poa:
+  - text: "O POA (Programa de Orientação Acadêmica) tem como objetivo apoiar os estudantes da UFC no seu desenvolvimento acadêmico e pessoal. O programa oferece orientação sobre planejamento de cursos, aproveitamento de créditos e estratégias de estudo para garantir o sucesso acadêmico."
+
+  utter_quais_os_projetos_ufc_quixada:
+  - text: "A UFC Quixadá possui diversos projetos nas áreas de ensino, pesquisa e extensão, voltados para a comunidade acadêmica e local. Entre os principais projetos, estão iniciativas de inovação, cursos de capacitação, programas de apoio à educação e projetos de impacto social. Para mais informações sobre os projetos em andamento, você pode acessar o site oficial da UFC Quixadá ou entrar em contato com a coordenação de projetos da instituição."
 
 session_config:
   session_expiration_time: 60

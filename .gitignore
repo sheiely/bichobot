@@ -1,4 +1,3 @@
-venv2/*
 venv/*
 models/*
 .rasa/*
