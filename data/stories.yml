@@ -2,32 +2,6 @@ version: "3.1"
 
 stories:
 
-- story: caminho feliz
-  steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: bom_humor
-  - action: utter_feliz
-
-- story: caminho triste 1
-  steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: mal_humor
-  - action: utter_alegrar
-  - action: utter_isso_ajudou
-  - intent: afirmacao
-  - action: utter_feliz
-
-- story: caminho triste 2
-  steps:
-  - intent: saudacao
-  - action: utter_saudacao
-  - intent: mal_humor
-  - action: utter_alegrar
-  - action: utter_isso_ajudou
-  - intent: negacao
-  - action: utter_despedida
 
 
 

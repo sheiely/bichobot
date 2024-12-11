@@ -73,7 +73,7 @@ responses:
   - text: "O PET (Programa de Educação Tutorial) é um programa do Ministério da Educação que visa promover a integração entre os estudantes de graduação e os docentes, através de atividades extracurriculares e projetos de ensino, pesquisa e extensão. O objetivo é proporcionar uma formação integral aos alunos, estimulando o desenvolvimento acadêmico e profissional."
 
   utter_qual_o_site_do_pet:
-  - text: "O site do PET pode ser acessado através do link: [inserir link do site do PET]."
+  - text: "O site do PET pode ser acessado através do link: https://www.instagram.com/pettiqx."
 
   utter_o_que_e_o_inove:
   - text: "O INOVE é um programa da UFC que visa fomentar a inovação e o empreendedorismo entre seus estudantes. O objetivo é estimular o desenvolvimento de soluções criativas e empreendedoras, por meio de projetos e eventos que aproximam alunos, professores e empresas."
