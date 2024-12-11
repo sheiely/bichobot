@@ -32,17 +32,6 @@ nlu:
     - jamais
     - n
 
-- intent: bom_humor
-  examples: |
-    - perfeito
-    - bom
-    - incrivel
-
-- intent: mal_humor
-  examples: |
-    - meu dia foi terrivel
-    - estou triste
-
 - intent: desafiar_bot
   examples: |
     - voce é um robo?
