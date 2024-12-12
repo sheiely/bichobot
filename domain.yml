@@ -36,6 +36,7 @@ intents:
   - qual_site_pergamum
   - qual_site_prae
   - quais_servicos_ufc
+  ##intents de bolsas-assistencias
   - qual_contato_nutricao
   - na_ufc_tem_nutricionista
   - qual_contato_psicologa
@@ -43,6 +44,16 @@ intents:
   - qual_contato_servico_social
   - a_quem_buscar_ajuda
   - qual_contato_secretaria_academica
+  - como_funciona_aux_moradia
+  - como_funciona_aux_emergencial
+  - como_funciona_aux_creche
+  - como_conseguir_bolsa
+  - como_funciona_bia
+  - como_conseguir_isencao_ru
+  - como_funciona_pibic
+  - como_funciona_pibit
+  - como_funciona_pid
+  
 
 responses:
   utter_saudacao:
@@ -189,8 +200,13 @@ os procedimentos."
 
   utter_quais_servicos_ufc:
     - text: "A UFC oferece diversos serviços aos alunos, como atendimento psicológico, nutricional, apoio acadêmico, entre outros. Precisa de mais informações sobre algum serviço específico?"
+  
+##response para bolsas-assistencia ->
+  
+  
   utter_qual_contato_nutricao:
     - text: "Você pode entrar em contato com o setor de nutrição pelo email nutricao@quixada.ufc.br."
+
   utter_na_ufc_tem_nutricionista:
     - text: "Sim, a UFC oferece atendimento com nutricionista para os alunos."
   utter_qual_contato_psicologa:
@@ -215,7 +231,90 @@ os procedimentos."
         Se precisar de mais informações sobre qualquer um desses serviços ou orientações sobre como acessá-los, fique à vontade para perguntar!"
   utter_qual_contato_secretaria_academica:
     - text: "Você pode entrar em contato com a Secretaria Acadêmica (SA) pelo email secretariaacademica@quixada.ufc.br. Precisa de mais alguma informação?"
-  
+  utter_como_funciona_aux_moradia:
+    - text: "O Programa Auxílio Moradia tem por objetivo viabilizar a
+permanência de estudantes matriculados nos Cursos de
+Graduação dos Campi da Universidade Federal do Ceará (UFC)
+em comprovada situação de vulnerabilidade econômica,
+assegurando-lhes auxílio institucional para complementação
+de despesas com moradia e alimentação durante todo o
+período do curso ou enquanto persistir a mesma situação."
+
+  utter_como_funciona_aux_emergencial:
+    - text: "O Auxílio Emergencial surgiu com o intuito de assistir
+estudantes em situação de vulnerabilidade socioeconômica,
+que ingressam na universidade em listas de espera do SISU, e
+que portanto, adentram após os processos seletivos da PRAE."
+
+  utter_como_funciona_aux_creche:
+    - text: "Para acessar a este benefício, a/o discente deve estar
+matriculada(o) em um dos cursos de graduação da UFC, na
+carga horário mínima exigida no edital correspondente;
+apresentar situação de vulnerabilidade socioeconômica com
+base nos parâmetros estabelecidos no PNAES, e ter filho(a)
+com idade entre 6 meses e 4 anos incompletos, que esteja sob
+sua guarda e que coabite com a(o) mesma(o)."
+
+  utter_como_conseguir_bolsa:
+    - text: "Fique atento aos editais, redes sociais e prazos, https://www.quixada.ufc.br/bolsas/ "
+
+  utter_como_funciona_bia:
+    - text: "aos estudantes de Cursos de GRaduação Presenciais da
+Universidade Federal (UFC) - em situação de vulnerabilidade
+socioeconômica comprovada - especialmente os de semestres
+iniciais, condições financeiras para sua permanência e
+desempenho acadêmico satisfatório, mediante atuação, em
+caráter de iniciação acadêmica, nas diversas unidades da
+Instituição."
+
+  utter_como_conseguir_isencao_ru:
+    - text: "Para ser contemplado com a isenção, é preciso estar
+regularmente matriculado em um curso de graduação
+presencial da UFC. Têm o direito de solicitar tanto os
+estudantes que nunca requereram o benefício quanto os que
+já foram beneficiários dele em algum semestre letivo anterior
+(renovação). Com a isenção você fica livre da taxa do
+Restaurante Universitário."
+
+  utter_como_funciona_pibic:
+    - text: "O Programa Institucional de Bolsas de Iniciação Científica -
+PIBIC - compreende a realização de projetos de pesquisa por
+alunos (as) de graduação com apoio de um professor
+orientador. A seleção na bolsa se dá por meio de requisitos
+determinados pelo professor orientador. Para mais
+informações sobre a bolsa acesse: http://www.inpe.br/bolsas/."
+
+  utter_como_funciona_pibit:
+    - text: "O Programa Institucional de Bolsas de Iniciação em
+Desenvolvimento Tecnológico e Inovação - PIBITI - visa
+proporcionar ao bolsista, orientado por pesquisador
+qualificado, a aprendizagem de técnicas e métodos de
+pesquisa tecnológica, bem como estimular o desenvolvimento
+do pensar tecnológico e da criatividade, decorrentes das
+condições criadas pelo confronto direto com os problemas de
+pesquisa. Para mais informações sobre a bolsa acesse: http://
+www.inpe.br/bolsas/."
+
+  utter_como_funciona_pid:
+    - text: "O Programa de Iniciação à Docência - PID - Vinculado à
+Coordenadoria de Acompanhamento Discente da Pró-Reitoria
+de Graduação (Prograd), é um sistema de monitoria de
+disciplinas que inclui o estudante em atividades docentes e de
+
+ensino associado à pesquisa, sob a tutela de um professor-
+orientador. Tem como objetivo fomentar o interesse dos
+
+estudantes de graduação pela carreira docente e melhorar seu
+desempenho na vida acadêmica. Para mais informações sobre
+
+a bolsa acesse: https://prograd.ufc.br/pt/bolsas/bolsas-do-pid-
+programa-de-iniciacao-a-docencia/."
+
+
+entities:
+  - bolsa
+  - curso
+  - servico
 
 session_config:
   session_expiration_time: 60
