@@ -3,16 +3,162 @@ version: "3.1"
 intents:
   - chitchat
   - faq
+  ## INTENTS SOBRE LOCALIZAÇÃO---------------------------------------------------------
+  - localidade_campus
+  - localidade_convivencia
+  - localidade_biblioteca
+  - localidade_restaurante
+  - localidade_blocos
+  ## INTENTS SOBRE OS CURSOS-------------------------------------------------------------
+  - cursos_ufc
+  - cursos_rep_dd
+  - cursos_rep_es
+  - cursos_rep_cc
+  - cursos_rep_ec
+  - cursos_rep_si
+  - cursos_rep_redes
+  - cursos_sites_dd
+  - cursos_sites_es
+  - cursos_sites_cc
+  - cursos_sites_ec
+  - cursos_sites_si
+  - cursos_sites_redes
+  - cursos_horas_complementares
+
 
 responses:
   utter_chitchat/ask_name:
   - text: I am called Retrieval Bot!
+
   utter_chitchat/ask_weather:
   - text: Oh, it does look sunny right now in Berlin.
+
   utter_faq/ask_name:
   - text: machoo
+
   utter_faq/ask_weather:
   - text: rapazzz
+
+## UTTERS SOBRE LOCALIZAÇÃO---------------------------------------------------------
+
+  utter_localidade_campus:
+  - text: "O Campus da Universidade Federal do Ceará em Quixadá 
+          está localizado em um dos pontos turísticos 
+          mais visitados do município: A região do açude do Cedro. \n
+          Para mais informações sobre o campus, acesse: https://www.quixada.ufc.br/campus/"
+
+  utter_localidade_convivencia:
+  - text: "A localização de locais do Campus como a Area de Convivência podem ser vistos 
+          através do Mapa do Campus, disponível em: https://www.quixada.ufc.br/mapa-do-campus-da-ufc-em-quixada/"
+
+  utter_localidade_restaurante:
+  - text: "O Restaurante Universitário da UFC de Quixadá está localizado junto ao bloco administrativo. \n
+          Para mais informações acesse o Mapa do Campus, disponível em: https://www.quixada.ufc.br/mapa-do-campus-da-ufc-em-quixada/"
+
+  utter_localidade_blocos:
+  - text: "Os blocos do Campus da UFC de Quixadá podem ser vistos com mais detalhes através do Mapa do Campus, 
+          disponível em: https://www.quixada.ufc.br/mapa-do-campus-da-ufc-em-quixada/"
+
+  utter_localidade_biblioteca:
+  - text: "A Biblioteca da UFC de Quixadá está localizada no Bloco 4. \n
+          Para mais informações acesse o Mapa do Campus, disponível em: https://www.quixada.ufc.br/mapa-do-campus-da-ufc-em-quixada/"
+
+## UTTERS SOBRE OS CURSOS-------------------------------------------------------------
+
+  utter_cursos_ufc:
+  - text: "Os cursos oferecidos pela UFC de Quixadá são: \n
+          - Ciência da Computação \n
+          - Engenharia de Computação \n
+          - Engenharia de Software \n
+          - Redes de Computadores \n
+          - Sistemas de Informação"
+
+  utter_cursos_rep_dd:
+  - text: "No primeiro semestre do curso
+          de Design Digital das 5
+          disciplinas do semestre as que
+          você deve focar são:
+          Fundamentos de Programação
+          (FUP) e Desenho."
+
+  utter_cursos_rep_es:
+  - text: "No primeiro semestre do curso
+        de Engenharia de software
+        entre as 5 disciplinas do
+        semestre você deve focar em:
+        Fundamentos de Programação
+        (FUP), Matemática Básica,
+        Introdução a Computação e
+        Engenharia de Software,
+        principalmente essa última,
+        pois é uma cadeira anual
+        muito importante."
+
+  utter_cursos_rep_cc:
+  - text: "No primeiro semestre do curso
+        de Ciências da Computação
+        entre as 6 disciplinas do
+        semestre você deve focar em:
+        Fundamentos de Programação
+        (FUP) e Matemática Básica."
+
+  utter_cursos_rep_ec:
+  - text: "No primeiro semestre do curso
+        de Engenharia da Computação
+        das 6 disciplinas do semestre
+        as que você deve focar são:
+        Circuitos Digitais, Pré Cálculo
+        e Fundamentos de
+        Programação."
+
+  utter_cursos_rep_si:
+  - text: "No primeiro semestre do curso
+        de Sistemas de Informação
+        entre as 5 disciplinas do
+        semestre você deve focar em:
+        Fundamentos de Programação
+        (FUP), Matemática Básica e
+        Introdução á Administração."
+
+  utter_cursos_rep_redes:
+  - text: "Em redes de computadores
+        a cadeira mais crítica está no
+        segundo semestres, que é de
+        Redes de Computadores. No
+        primeiro semestre você deve
+        focar em: Fundamentos de
+        Programação (FUP) e
+        Matemática Básica."
+
+  utter_cursos_site_dd:
+  - text: "O site oficial do curso de Design Digital
+        da UFC de Quixadá pode ser acessado em: https://dd.quixada.ufc.br"
+
+  utter_cursos_site_es:
+  - text: "O site oficial do curso de Engenharia de Software
+        da UFC de Quixadá pode ser acessado em: https://es.quixada.ufc.br"
+
+  utter_cursos_site_cc:
+  - text: "O site oficial do curso de Ciências da Computação
+        da UFC de Quixadá pode ser acessado em: https://cc.quixada.ufc.br"
+
+  utter_cursos_site_ec:
+  - text: "O site oficial do curso de Engenharia da Computação
+        da UFC de Quixadá pode ser acessado em: https://ec.quixada.ufc.br"
+
+  utter_cursos_site_si:
+  - text: "O site oficial do curso de Sistemas de Informação
+        da UFC de Quixadá pode ser acessado em: https://si.quixada.ufc.br"
+
+  utter_cursos_site_redes:
+  - text: "O site oficial do curso de Redes de Computadores
+        da UFC de Quixadá pode ser acessado em: https://redes.quixada.ufc.br"
+
+  utter_horas_complementares:
+  - text: "Objetivando a formação de profissionais qualificados, as atividades complementares proporcionam 
+        ao aluno oportunidades para auxilia-lo no desenvolvimento pessoal, social e de competências necessárias no mercado de trabalho, 
+        tais como perfil empreendedor, iniciativa, liderança, autoconhecimento, perseverança e habilidade em lidar com obstáculos, mudanças e transformações, 
+        além de prestar serviços a comunidade. Cada curso possui uma quantidade obrigatória de horas em atividades complementares, que podem ser consultadas nos sites de cada curso."
 
 session_config:
   session_expiration_time: 60
