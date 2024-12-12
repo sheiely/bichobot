@@ -3,101 +3,101 @@ version: "3.1"
   ## PERGUNTAS SOBRE OS CURSOS---------------------------------------------------------
 
 nlu:
-  - intent: cursos_ufc
-    examples: |
-      - Quais cursos tem na UFC
-      - Quais cursos tem na UFC de Quixadá
-      - Quais são os cursos da UFC
-      - Quais são os cursos da UFC de Quixadá
-      - Quais os cursos da UFC
-      - Quais os cursos da UFC de Quixadá
-      - Como encontrar os cursos da UFC de Quixadá
-      - Como encontrar os cursos da UFC
-      - Que cursos são disponibilizados pela UFC de Quixadá
-      - Quais opções de cursos tem na UFC em Quixadá
-      - Que cursos posso encontrar na UFC de Quixadá
-      - Quais cursos a UFC de Quixadá oferece
-      - Que cursos oferece a UFC de Quixadá
-      - Quais os cursos disponíveis na UFC de Quixadá
-      - Quais os cursos oferecidos pela UFC de Quixadá
-      - Quais cursos são ofertados pela UFC de Quixadá
-      
-  - intent: cursos_rep_dd
-    examples: |
-      - Quais disciplinas não devo reprovar em DD
-      - Quais disciplinas não devo tirar nota baixa em DD
-      - Quais matérias não posso reprovar em DD
-      - Quais matérias não posso tirar nota baixa em DD
-      - Quais cadeiras não posso reprovar em DD
-      - Quais cadeiras não posso tirar nota baixa em DD
-      - Quais matérias não devo deixar de passar em DD
-      - Quais cadeiras não devo deixar de passar em DD
-      - Quais discplinas não devo deixar de passar em DD
-      - Quais cadeiras não devo tirar nota baixa em DD
-      - Quais cadeiras não posso tirar nota baixa em DD
-      - Quais disciplinas não posso tirar nota baixa em DD
-      - Quais disciplinas não devo tirar nota baixa em DD
-      - Quais matérias não devo tirar nota baixa em DD
-      - Quais materias não posso tirar nota baixa em DD
-      - O que não reprovar em DD
-      - O que tirar nota baixa em DD
-      - Quais disciplinas não devo reprovar em Design Digital
-      - Quais disciplinas não devo tirar nota baixa em Design Digital
-      - Quais matérias não posso reprovar em Design Digital
-      - Quais matérias não posso tirar nota baixa em Design Digital
-      - Quais cadeiras não posso reprovar em Design Digital
-      - Quais cadeiras não posso tirar nota baixa em Design Digital
-      - Quais matérias não devo deixar de passar em Design Digital
-      - Quais cadeiras não devo deixar de passar em Design Digital
-      - Quais discplinas não devo deixar de passar em Design Digital
-      - Quais cadeiras não devo tirar nota baixa em Design Digital
-      - Quais cadeiras não posso tirar nota baixa em Design Digital
-      - Quais disciplinas não posso tirar nota baixa em Design Digital
-      - Quais disciplinas não devo tirar nota baixa em Design Digital
-      - Quais matérias não devo tirar nota baixa em Design Digital
-      - Quais materias não posso tirar nota baixa em Design Digital
-      - O que não reprovar em Design Digital
-      - O que não tirar nota baixa em Design Digital
+- intent: cursos_ufc
+  examples: |
+    - Quais cursos tem na UFC
+    - Quais cursos tem na UFC de Quixadá
+    - Quais são os cursos da UFC
+    - Quais são os cursos da UFC de Quixadá
+    - Quais os cursos da UFC
+    - Quais os cursos da UFC de Quixadá
+    - Como encontrar os cursos da UFC de Quixadá
+    - Como encontrar os cursos da UFC
+    - Que cursos são disponibilizados pela UFC de Quixadá
+    - Quais opções de cursos tem na UFC em Quixadá
+    - Que cursos posso encontrar na UFC de Quixadá
+    - Quais cursos a UFC de Quixadá oferece
+    - Que cursos oferece a UFC de Quixadá
+    - Quais os cursos disponíveis na UFC de Quixadá
+    - Quais os cursos oferecidos pela UFC de Quixadá
+    - Quais cursos são ofertados pela UFC de Quixadá
+    
+- intent: cursos_rep_dd
+  examples: |
+    - Quais disciplinas não devo reprovar em DD
+    - Quais disciplinas não devo tirar nota baixa em DD
+    - Quais matérias não posso reprovar em DD
+    - Quais matérias não posso tirar nota baixa em DD
+    - Quais cadeiras não posso reprovar em DD
+    - Quais cadeiras não posso tirar nota baixa em DD
+    - Quais matérias não devo deixar de passar em DD
+    - Quais cadeiras não devo deixar de passar em DD
+    - Quais discplinas não devo deixar de passar em DD
+    - Quais cadeiras não devo tirar nota baixa em DD
+    - Quais cadeiras não posso tirar nota baixa em DD
+    - Quais disciplinas não posso tirar nota baixa em DD
+    - Quais disciplinas não devo tirar nota baixa em DD
+    - Quais matérias não devo tirar nota baixa em DD
+    - Quais materias não posso tirar nota baixa em DD
+    - O que não reprovar em DD
+    - O que tirar nota baixa em DD
+    - Quais disciplinas não devo reprovar em Design Digital
+    - Quais disciplinas não devo tirar nota baixa em Design Digital
+    - Quais matérias não posso reprovar em Design Digital
+    - Quais matérias não posso tirar nota baixa em Design Digital
+    - Quais cadeiras não posso reprovar em Design Digital
+    - Quais cadeiras não posso tirar nota baixa em Design Digital
+    - Quais matérias não devo deixar de passar em Design Digital
+    - Quais cadeiras não devo deixar de passar em Design Digital
+    - Quais discplinas não devo deixar de passar em Design Digital
+    - Quais cadeiras não devo tirar nota baixa em Design Digital
+    - Quais cadeiras não posso tirar nota baixa em Design Digital
+    - Quais disciplinas não posso tirar nota baixa em Design Digital
+    - Quais disciplinas não devo tirar nota baixa em Design Digital
+    - Quais matérias não devo tirar nota baixa em Design Digital
+    - Quais materias não posso tirar nota baixa em Design Digital
+    - O que não reprovar em Design Digital
+    - O que não tirar nota baixa em Design Digital
 
-  - intent: cursos_rep_es
-    examples: |
-      - Quais disciplinas não devo reprovar em ES
-      - Quais disciplinas não devo tirar nota baixa em ES
-      - Quais matérias não posso reprovar em ES
-      - Quais matérias não posso tirar nota baixa em ES
-      - Quais cadeiras não posso reprovar em ES
-      - Quais cadeiras não posso tirar nota baixa em ES
-      - Quais matérias não devo deixar de passar em ES
-      - Quais cadeiras não devo deixar de passar em ES
-      - Quais discplinas não devo deixar de passar em ES
-      - Quais cadeiras não devo tirar nota baixa em ES
-      - Quais cadeiras não posso tirar nota baixa em ES
-      - Quais disciplinas não posso tirar nota baixa em ES
-      - Quais disciplinas não devo tirar nota baixa em ES
-      - Quais matérias não devo tirar nota baixa em ES
-      - Quais materias não posso tirar nota baixa em ES
-      - O que não reprovar em ES
-      - O que não tirar nota baixa em ES
-      - Quais disciplinas não devo reprovar em Engenharia de Software
-      - Quais disciplinas não devo tirar nota baixa em Engenharia de Software
-      - Quais matérias não posso reprovar em Engenharia de Software
-      - Quais matérias não posso tirar nota baixa em Engenharia de Software
-      - Quais cadeiras não posso reprovar em Engenharia de Software
-      - Quais cadeiras não posso tirar nota baixa em Engenharia de Software
-      - Quais matérias não devo deixar de passar em Engenharia de Software
-      - Quais cadeiras não devo deixar de passar em Engenharia de Software
-      - Quais discplinas não devo deixar de passar em Engenharia de Software
-      - Quais cadeiras não devo tirar nota baixa em Engenharia de Software
-      - Quais cadeiras não posso tirar nota baixa em Engenharia de Software
-      - Quais disciplinas não posso tirar nota baixa em Engenharia de Software
-      - Quais disciplinas não devo tirar nota baixa em Engenharia de Software
-      - Quais matérias não devo tirar nota baixa em Engenharia de Software
-      - Quais materias não posso tirar nota baixa em Engenharia de Software
-      - O que não reprovar em Engenharia de Software
-      - O que não tirar nota baixa em Engenharia de Software
+- intent: cursos_rep_es
+  examples: |
+    - Quais disciplinas não devo reprovar em ES
+    - Quais disciplinas não devo tirar nota baixa em ES
+    - Quais matérias não posso reprovar em ES
+    - Quais matérias não posso tirar nota baixa em ES
+    - Quais cadeiras não posso reprovar em ES
+    - Quais cadeiras não posso tirar nota baixa em ES
+    - Quais matérias não devo deixar de passar em ES
+    - Quais cadeiras não devo deixar de passar em ES
+    - Quais discplinas não devo deixar de passar em ES
+    - Quais cadeiras não devo tirar nota baixa em ES
+    - Quais cadeiras não posso tirar nota baixa em ES
+    - Quais disciplinas não posso tirar nota baixa em ES
+    - Quais disciplinas não devo tirar nota baixa em ES
+    - Quais matérias não devo tirar nota baixa em ES
+    - Quais materias não posso tirar nota baixa em ES
+    - O que não reprovar em ES
+    - O que não tirar nota baixa em ES
+    - Quais disciplinas não devo reprovar em Engenharia de Software
+    - Quais disciplinas não devo tirar nota baixa em Engenharia de Software
+    - Quais matérias não posso reprovar em Engenharia de Software
+    - Quais matérias não posso tirar nota baixa em Engenharia de Software
+    - Quais cadeiras não posso reprovar em Engenharia de Software
+    - Quais cadeiras não posso tirar nota baixa em Engenharia de Software
+    - Quais matérias não devo deixar de passar em Engenharia de Software
+    - Quais cadeiras não devo deixar de passar em Engenharia de Software
+    - Quais discplinas não devo deixar de passar em Engenharia de Software
+    - Quais cadeiras não devo tirar nota baixa em Engenharia de Software
+    - Quais cadeiras não posso tirar nota baixa em Engenharia de Software
+    - Quais disciplinas não posso tirar nota baixa em Engenharia de Software
+    - Quais disciplinas não devo tirar nota baixa em Engenharia de Software
+    - Quais matérias não devo tirar nota baixa em Engenharia de Software
+    - Quais materias não posso tirar nota baixa em Engenharia de Software
+    - O que não reprovar em Engenharia de Software
+    - O que não tirar nota baixa em Engenharia de Software
 
-  - intent: cursos_rep_cc
-    examples: |
+- intent: cursos_rep_cc
+  examples: |
     - Quais disciplinas não devo reprovar em CC
     - Quais disciplinas não devo tirar nota baixa em CC
     - Quais matérias não posso reprovar em CC
@@ -133,284 +133,285 @@ nlu:
     - O que não reprovar em Ciência da Computação
     - O que não tirar nota baixa em Ciência da Computação
 
-  - intent: cursos_rep_ec
-    examples: |
-      - Quais disciplinas não devo reprovar em EC
-      - Quais disciplinas não devo tirar nota baixa em EC
-      - Quais matérias não posso reprovar em EC
-      - Quais matérias não posso tirar nota baixa em EC
-      - Quais cadeiras não posso reprovar em EC
-      - Quais cadeiras não posso tirar nota baixa em EC
-      - Quais matérias não devo deixar de passar em EC
-      - Quais cadeiras não devo deixar de passar em EC
-      - Quais discplinas não devo deixar de passar em EC
-      - Quais cadeiras não devo tirar nota baixa em EC
-      - Quais cadeiras não posso tirar nota baixa em EC
-      - Quais disciplinas não posso tirar nota baixa em EC
-      - Quais disciplinas não devo tirar nota baixa em EC
-      - Quais matérias não devo tirar nota baixa em EC
-      - Quais materias não posso tirar nota baixa em EC
-      - O que não reprovar em EC
-      - O que não tirar nota baixa em EC
-      - Quais disciplinas não devo reprovar em Engenharia de Computação
-      - Quais disciplinas não devo tirar nota baixa em Engenharia de Computação
-      - Quais matérias não posso reprovar em Engenharia de Computação
-      - Quais matérias não posso tirar nota baixa em Engenharia de Computação
-      - Quais cadeiras não posso reprovar em Engenharia de Computação
-      - Quais cadeiras não posso tirar nota baixa em Engenharia de Computação
-      - Quais matérias não devo deixar de passar em Engenharia de Computação
-      - Quais cadeiras não devo deixar de passar em Engenharia de Computação
-      - Quais discplinas não devo deixar de passar em Engenharia de Computação
-      - Quais cadeiras não devo tirar nota baixa em Engenharia de Computação
-      - Quais cadeiras não posso tirar nota baixa em Engenharia de Computação
-      - Quais disciplinas não posso tirar nota baixa em Engenharia de Computação
-      - Quais disciplinas não devo tirar nota baixa em Engenharia de Computação
-      - Quais matérias não devo tirar nota baixa em Engenharia de Computação
-      - Quais materias não posso tirar nota baixa em Engenharia de Computação
-      - O que não reprovar em Engenharia de Computação
-      - O que não tirar nota baixa em Engenharia de Computação
+- intent: cursos_rep_ec
+  examples: |
+    - Quais disciplinas não devo reprovar em EC
+    - Quais disciplinas não devo tirar nota baixa em EC
+    - Quais matérias não posso reprovar em EC
+    - Quais matérias não posso tirar nota baixa em EC
+    - Quais cadeiras não posso reprovar em EC
+    - Quais cadeiras não posso tirar nota baixa em EC
+    - Quais matérias não devo deixar de passar em EC
+    - Quais cadeiras não devo deixar de passar em EC
+    - Quais discplinas não devo deixar de passar em EC
+    - Quais cadeiras não devo tirar nota baixa em EC
+    - Quais cadeiras não posso tirar nota baixa em EC
+    - Quais disciplinas não posso tirar nota baixa em EC
+    - Quais disciplinas não devo tirar nota baixa em EC
+    - Quais matérias não devo tirar nota baixa em EC
+    - Quais materias não posso tirar nota baixa em EC
+    - O que não reprovar em EC
+    - O que não tirar nota baixa em EC
+    - Quais disciplinas não devo reprovar em Engenharia de Computação
+    - Quais disciplinas não devo tirar nota baixa em Engenharia de Computação
+    - Quais matérias não posso reprovar em Engenharia de Computação
+    - Quais matérias não posso tirar nota baixa em Engenharia de Computação
+    - Quais cadeiras não posso reprovar em Engenharia de Computação
+    - Quais cadeiras não posso tirar nota baixa em Engenharia de Computação
+    - Quais matérias não devo deixar de passar em Engenharia de Computação
+    - Quais cadeiras não devo deixar de passar em Engenharia de Computação
+    - Quais discplinas não devo deixar de passar em Engenharia de Computação
+    - Quais cadeiras não devo tirar nota baixa em Engenharia de Computação
+    - Quais cadeiras não posso tirar nota baixa em Engenharia de Computação
+    - Quais disciplinas não posso tirar nota baixa em Engenharia de Computação
+    - Quais disciplinas não devo tirar nota baixa em Engenharia de Computação
+    - Quais matérias não devo tirar nota baixa em Engenharia de Computação
+    - Quais materias não posso tirar nota baixa em Engenharia de Computação
+    - O que não reprovar em Engenharia de Computação
+    - O que não tirar nota baixa em Engenharia de Computação
 
-  - intent: cursos_rep_si
-    examples: |
-      - Quais disciplinas não devo reprovar em SI
-      - Quais disciplinas não devo tirar nota baixa em SI
-      - Quais matérias não posso reprovar em SI
-      - Quais matérias não posso tirar nota baixa em SI
-      - Quais cadeiras não posso reprovar em SI
-      - Quais cadeiras não posso tirar nota baixa em SI
-      - Quais matérias não devo deixar de passar em SI
-      - Quais cadeiras não devo deixar de passar em SI
-      - Quais discplinas não devo deixar de passar em SI
-      - Quais cadeiras não devo tirar nota baixa em SI
-      - Quais cadeiras não posso tirar nota baixa em SI
-      - Quais disciplinas não posso tirar nota baixa em SI
-      - Quais disciplinas não devo tirar nota baixa em SI
-      - Quais matérias não devo tirar nota baixa em SI
-      - Quais materias não posso tirar nota baixa em SI
-      - O que não reprovar em SI
-      - O que não tirar nota baixa em SI
-      - Quais disciplinas não devo reprovar em Sistemas de Informação
-      - Quais disciplinas não devo tirar nota baixa em Sistemas de Informação
-      - Quais matérias não posso reprovar em Sistemas de Informação
-      - Quais matérias não posso tirar nota baixa em Sistemas de Informação
-      - Quais cadeiras não posso reprovar em Sistemas de Informação
-      - Quais cadeiras não posso tirar nota baixa em Sistemas de Informação
-      - Quais matérias não devo deixar de passar em Sistemas de Informação
-      - Quais cadeiras não devo deixar de passar em Sistemas de Informação
-      - Quais discplinas não devo deixar de passar em Sistemas de Informação
-      - Quais cadeiras não devo tirar nota baixa em Sistemas de Informação
-      - Quais cadeiras não posso tirar nota baixa em Sistemas de Informação
-      - Quais disciplinas não posso tirar nota baixa em Sistemas de Informação
-      - Quais disciplinas não devo tirar nota baixa em Sistemas de Informação
-      - Quais matérias não devo tirar nota baixa em Sistemas de Informação
-      - Quais materias não posso tirar nota baixa em Sistemas de Informação
-      - O que não reprovar em Sistemas de Informação
-      - O que não tirar nota baixa em Sistemas de Informação
+- intent: cursos_rep_si
+  examples: |
+    - Quais disciplinas não devo reprovar em SI
+    - Quais disciplinas não devo tirar nota baixa em SI
+    - Quais matérias não posso reprovar em SI
+    - Quais matérias não posso tirar nota baixa em SI
+    - Quais cadeiras não posso reprovar em SI
+    - Quais cadeiras não posso tirar nota baixa em SI
+    - Quais matérias não devo deixar de passar em SI
+    - Quais cadeiras não devo deixar de passar em SI
+    - Quais discplinas não devo deixar de passar em SI
+    - Quais cadeiras não devo tirar nota baixa em SI
+    - Quais cadeiras não posso tirar nota baixa em SI
+    - Quais disciplinas não posso tirar nota baixa em SI
+    - Quais disciplinas não devo tirar nota baixa em SI
+    - Quais matérias não devo tirar nota baixa em SI
+    - Quais materias não posso tirar nota baixa em SI
+    - O que não reprovar em SI
+    - O que não tirar nota baixa em SI
+    - Quais disciplinas não devo reprovar em Sistemas de Informação
+    - Quais disciplinas não devo tirar nota baixa em Sistemas de Informação
+    - Quais matérias não posso reprovar em Sistemas de Informação
+    - Quais matérias não posso tirar nota baixa em Sistemas de Informação
+    - Quais cadeiras não posso reprovar em Sistemas de Informação
+    - Quais cadeiras não posso tirar nota baixa em Sistemas de Informação
+    - Quais matérias não devo deixar de passar em Sistemas de Informação
+    - Quais cadeiras não devo deixar de passar em Sistemas de Informação
+    - Quais discplinas não devo deixar de passar em Sistemas de Informação
+    - Quais cadeiras não devo tirar nota baixa em Sistemas de Informação
+    - Quais cadeiras não posso tirar nota baixa em Sistemas de Informação
+    - Quais disciplinas não posso tirar nota baixa em Sistemas de Informação
+    - Quais disciplinas não devo tirar nota baixa em Sistemas de Informação
+    - Quais matérias não devo tirar nota baixa em Sistemas de Informação
+    - Quais materias não posso tirar nota baixa em Sistemas de Informação
+    - O que não reprovar em Sistemas de Informação
+    - O que não tirar nota baixa em Sistemas de Informação
 
-  - intent: cursos_rep_redes
-    examples: |
-      - Quais disciplinas não devo reprovar em redes
-      - Quais disciplinas não devo tirar nota baixa em redes
-      - Quais matérias não posso reprovar em redes
-      - Quais matérias não posso tirar nota baixa em redes
-      - Quais cadeiras não posso reprovar em redes
-      - Quais cadeiras não posso tirar nota baixa em redes
-      - Quais matérias não devo deixar de passar em redes
-      - Quais cadeiras não devo deixar de passar em redes
-      - Quais discplinas não devo deixar de passar em redes
-      - Quais cadeiras não devo tirar nota baixa em redes
-      - Quais cadeiras não posso tirar nota baixa em redes
-      - Quais disciplinas não posso tirar nota baixa em redes
-      - Quais disciplinas não devo tirar nota baixa em redes
-      - Quais matérias não devo tirar nota baixa em redes
-      - Quais materias não posso tirar nota baixa em redes
-      - O que não reprovar em redes
-      - O que não tirar nota baixa em redes
+- intent: cursos_rep_redes
+  examples: |
+    - Quais disciplinas não devo reprovar em redes
+    - Quais disciplinas não devo tirar nota baixa em redes
+    - Quais matérias não posso reprovar em redes
+    - Quais matérias não posso tirar nota baixa em redes
+    - Quais cadeiras não posso reprovar em redes
+    - Quais cadeiras não posso tirar nota baixa em redes
+    - Quais matérias não devo deixar de passar em redes
+    - Quais cadeiras não devo deixar de passar em redes
+    - Quais discplinas não devo deixar de passar em redes
+    - Quais cadeiras não devo tirar nota baixa em redes
+    - Quais cadeiras não posso tirar nota baixa em redes
+    - Quais disciplinas não posso tirar nota baixa em redes
+    - Quais disciplinas não devo tirar nota baixa em redes
+    - Quais matérias não devo tirar nota baixa em redes
+    - Quais materias não posso tirar nota baixa em redes
+    - O que não reprovar em redes
+    - O que não tirar nota baixa em redes
 
-  - intent: cursos_site_dd
-    examples: |
-      - Qual é o site do curso de DD
-      - Onde posso acessar o site do curso de DD
-      - Qual endereço do site do curso de DD
-      - Você sabe qual é o site do curso de DD
-      - Pode me informar o site do curso de DD
-      - Onde encontro o site do curso de DD
-      - Qual é o link do site do curso de DD
-      - Onde posso encontrar informações sobre o curso de DD online
-      - Qual o site oficial do curso de DD
-      - Onde está disponível o site do curso de DD
-      - Existe um site do curso de DD
-      - Qual é o site oficial do curso de DD
-      - O curso de DD tem um site oficial
-      - Onde é o site oficial do curso de DD
-      - Qual é o site do curso de Design Digital
-      - Onde posso acessar o site do curso de Design Digital
-      - Qual endereço do site do curso de Design Digital
-      - Você sabe qual é o site do curso de Design Digital
-      - Pode me informar o site do curso de Design Digital
-      - Onde encontro o site do curso de Design Digital
-      - Qual é o link do site do curso de Design Digital
-      - Onde posso encontrar informações sobre o curso de Design Digital online
-      - Qual o site oficial do curso de Design Digital
-      - Onde está disponível o site do curso de Design Digital
-      - Existe um site do curso de Design Digital
-      - Qual é o site oficial do curso de Design Digital
-      - O curso de Design Digital tem um site oficial
-      - Onde é o site oficial do curso de Design Digital
+- intent: cursos_site_dd
+  examples: |
+    - Qual é o site do curso de DD
+    - Onde posso acessar o site do curso de DD
+    - Qual endereço do site do curso de DD
+    - Você sabe qual é o site do curso de DD
+    - Pode me informar o site do curso de DD
+    - Onde encontro o site do curso de DD
+    - Qual é o link do site do curso de DD
+    - Onde posso encontrar informações sobre o curso de DD online
+    - Qual o site oficial do curso de DD
+    - Onde está disponível o site do curso de DD
+    - Existe um site do curso de DD
+    - Qual é o site oficial do curso de DD
+    - O curso de DD tem um site oficial
+    - Onde é o site oficial do curso de DD
+    - Qual é o site do curso de Design Digital
+    - Onde posso acessar o site do curso de Design Digital
+    - Qual endereço do site do curso de Design Digital
+    - Você sabe qual é o site do curso de Design Digital
+    - Pode me informar o site do curso de Design Digital
+    - Onde encontro o site do curso de Design Digital
+    - Qual é o link do site do curso de Design Digital
+    - Onde posso encontrar informações sobre o curso de Design Digital online
+    - Qual o site oficial do curso de Design Digital
+    - Onde está disponível o site do curso de Design Digital
+    - Existe um site do curso de Design Digital
+    - Qual é o site oficial do curso de Design Digital
+    - O curso de Design Digital tem um site oficial
+    - Onde é o site oficial do curso de Design Digital
 
-  - intent: cursos_site_es
-    examples: |
-      - Qual é o site do curso de ES
-      - Onde posso acessar o site do curso de ES
-      - Qual endereço do site do curso de ES
-      - Você sabe qual é o site do curso de ES
-      - Pode me informar o site do curso de ES
-      - Onde encontro o site do curso de ES
-      - Qual é o link do site do curso de ES
-      - Onde posso encontrar informações sobre o curso de ES online
-      - Qual o site oficial do curso de ES
-      - Onde está disponível o site do curso de ES
-      - Existe um site do curso de ES
-      - Qual é o site oficial do curso de ES
-      - O curso de ES tem um site oficial
-      - Onde é o site oficial do curso de ES
-      - Qual é o site do curso de Engenharia de Software
-      - Onde posso acessar o site do curso de Engenharia de Software
-      - Qual endereço do site do curso de Engenharia de Software
-      - Você sabe qual é o site do curso de Engenharia de Software
-      - Pode me informar o site do curso de Engenharia de Software
-      - Onde encontro o site do curso de Engenharia de Software
-      - Qual é o link do site do curso de Engenharia de Software
-      - Onde posso encontrar informações sobre o curso de Engenharia de Software online
-      - Qual o site oficial do curso de Engenharia de Software
-      - Onde está disponível o site do curso de Engenharia de Software
-      - Existe um site do curso de Engenharia de Software
-      - Qual é o site oficial do curso de Engenharia de Software
-      - O curso de Engenharia de Software tem um site oficial
-      - Onde é o site oficial do curso de Engenharia de Software
+- intent: cursos_site_es
+  examples: |
+    - Qual é o site do curso de ES
+    - Onde posso acessar o site do curso de ES
+    - Qual endereço do site do curso de ES
+    - Você sabe qual é o site do curso de ES
+    - Pode me informar o site do curso de ES
+    - Onde encontro o site do curso de ES
+    - Qual é o link do site do curso de ES
+    - Onde posso encontrar informações sobre o curso de ES online
+    - Qual o site oficial do curso de ES
+    - Onde está disponível o site do curso de ES
+    - Existe um site do curso de ES
+    - Qual é o site oficial do curso de ES
+    - O curso de ES tem um site oficial
+    - Onde é o site oficial do curso de ES
+    - Qual é o site do curso de Engenharia de Software
+    - Onde posso acessar o site do curso de Engenharia de Software
+    - Qual endereço do site do curso de Engenharia de Software
+    - Você sabe qual é o site do curso de Engenharia de Software
+    - Pode me informar o site do curso de Engenharia de Software
+    - Onde encontro o site do curso de Engenharia de Software
+    - Qual é o link do site do curso de Engenharia de Software
+    - Onde posso encontrar informações sobre o curso de Engenharia de Software online
+    - Qual o site oficial do curso de Engenharia de Software
+    - Onde está disponível o site do curso de Engenharia de Software
+    - Existe um site do curso de Engenharia de Software
+    - Qual é o site oficial do curso de Engenharia de Software
+    - O curso de Engenharia de Software tem um site oficial
+    - Onde é o site oficial do curso de Engenharia de Software
 
-  - intent: cursos_site_cc
-    examples: | 
-      - Qual é o site do curso de CC
-      - Onde posso acessar o site do curso de CC
-      - Qual endereço do site do curso de CC
-      - Você sabe qual é o site do curso de CC
-      - Pode me informar o site do curso de CC
-      - Onde encontro o site do curso de CC
-      - Qual é o link do site do curso de CC
-      - Onde posso encontrar informações sobre o curso de CC online
-      - Qual o site oficial do curso de CC
-      - Onde está disponível o site do curso de CC
-      - Existe um site do curso de CC
-      - Qual é o site oficial do curso de CC
-      - O curso de CC tem um site oficial
-      - Onde é o site oficial do curso de CC
-      - Qual é o site do curso de Ciência da Computação
-      - Onde posso acessar o site do curso de Ciência da Computação
-      - Qual endereço do site do curso de Ciência da Computação
-      - Você sabe qual é o site do curso de Ciência da Computação
-      - Pode me informar o site do curso de Ciência da Computação
-      - Onde encontro o site do curso de Ciência da Computação
-      - Qual é o link do site do curso de Ciência da Computação
-      - Onde posso encontrar informações sobre o curso de Ciência da Computação online
-      - Qual o site oficial do curso de Ciência da Computação
-      - Onde está disponível o site do curso de Ciência da Computação
-      - Existe um site do curso de Ciência da Computação
-      - Qual é o site oficial do curso de Ciência da Computação
-      - O curso de Ciência da Computação tem um site oficial
-      - Onde é o site oficial do curso de Ciência da Computação
+- intent: cursos_site_cc
+  examples: | 
+    - Qual é o site do curso de CC
+    - Onde posso acessar o site do curso de CC
+    - Qual endereço do site do curso de CC
+    - Você sabe qual é o site do curso de CC
+    - Pode me informar o site do curso de CC
+    - Onde encontro o site do curso de CC
+    - Qual é o link do site do curso de CC
+    - Onde posso encontrar informações sobre o curso de CC online
+    - Qual o site oficial do curso de CC
+    - Onde está disponível o site do curso de CC
+    - Existe um site do curso de CC
+    - Qual é o site oficial do curso de CC
+    - O curso de CC tem um site oficial
+    - Onde é o site oficial do curso de CC
+    - Qual é o site do curso de Ciência da Computação
+    - Onde posso acessar o site do curso de Ciência da Computação
+    - Qual endereço do site do curso de Ciência da Computação
+    - Você sabe qual é o site do curso de Ciência da Computação
+    - Pode me informar o site do curso de Ciência da Computação
+    - Onde encontro o site do curso de Ciência da Computação
+    - Qual é o link do site do curso de Ciência da Computação
+    - Onde posso encontrar informações sobre o curso de Ciência da Computação online
+    - Qual o site oficial do curso de Ciência da Computação
+    - Onde está disponível o site do curso de Ciência da Computação
+    - Existe um site do curso de Ciência da Computação
+    - Qual é o site oficial do curso de Ciência da Computação
+    - O curso de Ciência da Computação tem um site oficial
+    - Onde é o site oficial do curso de Ciência da Computação
 
-  - intent: cursos_site_ec
-    examples: | 
-      - Qual é o site do curso de EC
-      - Onde posso acessar o site do curso de EC
-      - Qual endereço do site do curso de EC
-      - Você sabe qual é o site do curso de EC
-      - Pode me informar o site do curso de EC
-      - Onde encontro o site do curso de EC
-      - Qual é o link do site do curso de EC
-      - Onde posso encontrar informações sobre o curso de EC online
-      - Qual o site oficial do curso de EC
-      - Onde está disponível o site do curso de EC
-      - Existe um site do curso de EC
-      - Qual é o site oficial do curso de EC
-      - O curso de EC tem um site oficial
-      - Onde é o site oficial do curso de EC
-      - Qual é o site do curso de Engenharia de Computação
-      - Onde posso acessar o site do curso de Engenharia de Computação
-      - Qual endereço do site do curso de Engenharia de Computação
-      - Você sabe qual é o site do curso de Engenharia de Computação
-      - Pode me informar o site do curso de Engenharia de Computação
-      - Onde encontro o site do curso de Engenharia de Computação
-      - Qual é o link do site do curso de Engenharia de Computação
-      - Onde posso encontrar informações sobre o curso de Engenharia de Computação online
-      - Qual o site oficial do curso de Engenharia de Computação
-      - Onde está disponível o site do curso de Engenharia de Computação
-      - Existe um site do curso de Engenharia de Computação
-      - Qual é o site oficial do curso de Engenharia de Computação
-      - O curso de Engenharia de Computação tem um site oficial
-      - Onde é o site oficial do curso de Engenharia de Computação
+- intent: cursos_site_ec
+  examples: | 
+    - Qual é o site do curso de EC
+    - Onde posso acessar o site do curso de EC
+    - Qual endereço do site do curso de EC
+    - Você sabe qual é o site do curso de EC
+    - Pode me informar o site do curso de EC
+    - Onde encontro o site do curso de EC
+    - Qual é o link do site do curso de EC
+    - Onde posso encontrar informações sobre o curso de EC online
+    - Qual o site oficial do curso de EC
+    - Onde está disponível o site do curso de EC
+    - Existe um site do curso de EC
+    - Qual é o site oficial do curso de EC
+    - O curso de EC tem um site oficial
+    - Onde é o site oficial do curso de EC
+    - Qual é o site do curso de Engenharia de Computação
+    - Onde posso acessar o site do curso de Engenharia de Computação
+    - Qual endereço do site do curso de Engenharia de Computação
+    - Você sabe qual é o site do curso de Engenharia de Computação
+    - Pode me informar o site do curso de Engenharia de Computação
+    - Onde encontro o site do curso de Engenharia de Computação
+    - Qual é o link do site do curso de Engenharia de Computação
+    - Onde posso encontrar informações sobre o curso de Engenharia de Computação online
+    - Qual o site oficial do curso de Engenharia de Computação
+    - Onde está disponível o site do curso de Engenharia de Computação
+    - Existe um site do curso de Engenharia de Computação
+    - Qual é o site oficial do curso de Engenharia de Computação
+    - O curso de Engenharia de Computação tem um site oficial
+    - Onde é o site oficial do curso de Engenharia de Computação
 
-  - intent: cursos_site_si
-    examples: | 
-      - Qual é o site do curso de SI
-      - Onde posso acessar o site do curso de SI
-      - Qual endereço do site do curso de SI
-      - Você sabe qual é o site do curso de SI
-      - Pode me informar o site do curso de SI
-      - Onde encontro o site do curso de SI
-      - Qual é o link do site do curso de SI
-      - Onde posso encontrar informações sobre o curso de SI online
-      - Qual o site oficial do curso de SI
-      - Onde está disponível o site do curso de SI
-      - Existe um site do curso de SI
-      - Qual é o site oficial do curso de SI
-      - O curso de SI tem um site oficial
-      - Onde é o site oficial do curso de SI
-      - Qual é o site do curso de Sistemas de Informação
-      - Onde posso acessar o site do curso de Sistemas de Informação
-      - Qual endereço do site do curso de Sistemas de Informação
-      - Você sabe qual é o site do curso de Sistemas de Informação
-      - Pode me informar o site do curso de Sistemas de Informação
-      - Onde encontro o site do curso de Sistemas de Informação
-      - Qual é o link do site do curso de Sistemas de Informação
-      - Onde posso encontrar informações sobre o curso de Sistemas de Informação online
-      - Qual o site oficial do curso de Sistemas de Informação
-      - Onde está disponível o site do curso de Sistemas de Informação
-      - Existe um site do curso de Sistemas de Informação
-      - Qual é o site oficial do curso de Sistemas de Informação
+- intent: cursos_site_si
+  examples: | 
+    - Qual é o site do curso de SI
+    - Onde posso acessar o site do curso de SI
+    - Qual endereço do site do curso de SI
+    - Você sabe qual é o site do curso de SI
+    - Pode me informar o site do curso de SI
+    - Onde encontro o site do curso de SI
+    - Qual é o link do site do curso de SI
+    - Onde posso encontrar informações sobre o curso de SI online
+    - Qual o site oficial do curso de SI
+    - Onde está disponível o site do curso de SI
+    - Existe um site do curso de SI
+    - Qual é o site oficial do curso de SI
+    - O curso de SI tem um site oficial
+    - Onde é o site oficial do curso de SI
+    - Qual é o site do curso de Sistemas de Informação
+    - Onde posso acessar o site do curso de Sistemas de Informação
+    - Qual endereço do site do curso de Sistemas de Informação
+    - Você sabe qual é o site do curso de Sistemas de Informação
+    - Pode me informar o site do curso de Sistemas de Informação
+    - Onde encontro o site do curso de Sistemas de Informação
+    - Qual é o link do site do curso de Sistemas de Informação
+    - Onde posso encontrar informações sobre o curso de Sistemas de Informação online
+    - Qual o site oficial do curso de Sistemas de Informação
+    - Onde está disponível o site do curso de Sistemas de Informação
+    - Existe um site do curso de Sistemas de Informação
+    - Qual é o site oficial do curso de Sistemas de Informação
 
-  - intent: cursos_site_redes
-    examples: | 
-      - Qual é o site do curso de Redes
-      - Onde posso acessar o site do curso de Redes
-      - Qual endereço do site do curso de Redes
-      - Você sabe qual é o site do curso de Redes
-      - Pode me informar o site do curso de Redes
-      - Onde encontro o site do curso de Redes
-      - Qual é o link do site do curso de Redes
-      - Onde posso encontrar informações sobre o curso de Redes online
-      - Qual o site oficial do curso de Redes
-      - Onde está disponível o site do curso de Redes
-      - Existe um site do curso de Redes
-      - Qual é o site oficial do curso de Redes
-      - O curso de Redes tem um site oficial
-      - Onde é o site oficial do curso de Redes
+- intent: cursos_site_redes
+  examples: | 
+    - Qual é o site do curso de Redes
+    - Onde posso acessar o site do curso de Redes
+    - Qual endereço do site do curso de Redes
+    - Você sabe qual é o site do curso de Redes
+    - Pode me informar o site do curso de Redes
+    - Onde encontro o site do curso de Redes
+    - Qual é o link do site do curso de Redes
+    - Onde posso encontrar informações sobre o curso de Redes online
+    - Qual o site oficial do curso de Redes
+    - Onde está disponível o site do curso de Redes
+    - Existe um site do curso de Redes
+    - Qual é o site oficial do curso de Redes
+    - O curso de Redes tem um site oficial
+    - Onde é o site oficial do curso de Redes
 
-  - intent: cursos_horas_complementares
-    examples: |  
-      - O que são horas complementares
-      - O que significa horas complementares
-      - O que quer dizer horas complementares
-      - Como funcionam as horas complementares
-      - Qual é o conceito de horas complementares
-      - Você pode explicar o que são horas complementares
-      - O que são as horas complementares em um curso
-      - Para que servem as horas complementares
-      - O que se entende por horas complementares
-      - O que envolve as horas complementares
-      - O que são as horas complementares
-      - O que é horas complementares
+- intent: cursos_horas_complementares
+  examples: |  
+    - O que são horas complementares
+    - O que significa horas complementares
+    - O que quer dizer horas complementares
+    - Como funcionam as horas complementares
+    - Qual é o conceito de horas complementares
+    - Você pode explicar o que são horas complementares
+    - O que são as horas complementares em um curso
+    - Para que servem as horas complementares
+    - O que se entende por horas complementares
+    - O que envolve as horas complementares
+    - O que são as horas complementares
+    - O que é horas complementares
+    - e horas complementares?
 
 
 

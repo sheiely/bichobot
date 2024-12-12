@@ -173,6 +173,9 @@ nlu:
     - Como consigo uma bolsa [PIBIC](bolsa)
     - Como consigo uma bolsa [PIBIT](bolsa)
     - Como consigo [isenção do RU](bolsa)
+    - Como posso conseguir bolsas?
+    - Como consigo bolsa
+    - Como conseguir bolsas
 
 
 - intent: como_funciona_bia

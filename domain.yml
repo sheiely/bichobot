@@ -331,7 +331,8 @@ desempenho na vida acadêmica. Para mais informações sobre
 a bolsa acesse: https://prograd.ufc.br/pt/bolsas/bolsas-do-pid-
 programa-de-iniciacao-a-docencia/."
 
-utter_localidade_campus:
+##Responses para localidade
+  utter_localidade_campus:
   - text: "O Campus da Universidade Federal do Ceará em Quixadá 
           está localizado em um dos pontos turísticos 
           mais visitados do município: A região do açude do Cedro. \n
