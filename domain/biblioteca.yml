@@ -25,12 +25,19 @@ responses:
     Link: https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php
   faq/minhabiblioteca:
   - text: |
-    È
+    Você pode acessar o MinhaBiblioteca acessando o SIGAA (https://si3.ufc.br/sigaa) e clicando em Minha Biblioteca na tela ínicial. Lá você tem acesso a vários livros.
   faq/cadastro:
   - text:
+    Para se cadastrar na biblioteca você precisará apresentar o atestado de matrícula e seu RG para o atendente da biblioteca.
   faq/multa:
   - text:
+    Caso você atrase a devolução terá que pagar uma multa diária de R$ 1,00 por livro.
   faq/reservar:
   - text:
+    Caso apareça que seu livro foi reservado foi porque alguém reservou ele e você terá que realizar a devolução.
+  faq/quantos_dias:
+  - text:
+    Você pode reservar no máximo de 25 livros durante 1 mês e realizar a renovação online no site do pergamum (https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php)
   faq/achar_livro:
   - text:
+    Todo livro tem cadastrado um ISBN que serve para buscar o livro pelas prateleiras. Para saber qual é o código você pode pesquisar o nome ou autor no site do pergamum (https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php)

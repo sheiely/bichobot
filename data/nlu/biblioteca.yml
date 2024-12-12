@@ -5,27 +5,128 @@ nlu:
     examples: |
       - biblioteca
       - qual site da biblioteca?
+      - Onde fica a biblioteca?
+      - Como posso usar a biblioteca?
+      - Quais serviços a biblioteca oferece?
+      - Biblioteca da UFC
+      - Como acessar a biblioteca da universidade?
+      - Biblioteca da minha faculdade
+      - Informações sobre biblioteca universitária
+      - Onde acho a biblioteca no campus?
+
   - intent: faq/biblioteca_horarios
     examples: |
-      - horarios de funcionamento
+      - horários de funcionamento
+      - Qual o horário da biblioteca?
+      - Que horas abre a biblioteca?
+      - A biblioteca funciona à noite?
+      - Até que horas posso ir na biblioteca?
+      - Quando a biblioteca fecha?
+      - A biblioteca abre aos finais de semana?
+      - Posso ir à biblioteca de manhã cedo?
+      - O horário da biblioteca mudou?
+      - Como saber o horário atual da biblioteca?
+
   - intent: faq/biblioteca_site
     examples: |
       - Qual o site da biblioteca?
+      - Como acesso o site da biblioteca?
+      - Onde encontro o site da biblioteca?
+      - Qual é o link da biblioteca?
+      - Existe um portal online para a biblioteca?
+      - O site da biblioteca está funcionando?
+      - Tem como pesquisar livros no site da biblioteca?
+      - Posso renovar livro pelo site da biblioteca?
+      - Onde encontro a página da biblioteca?
+      - O site da biblioteca tem informações atualizadas?
+
   - intent: faq/pergamum
     examples: |
       - O que é o pergamum?
+      - Como uso o sistema Pergamum?
+      - O que o Pergamum faz?
+      - Para que serve o Pergamum?
+      - O Pergamum é para empréstimos de livros?
+      - Como acessar o Pergamum?
+      - O que significa Pergamum na biblioteca?
+      - Quais serviços estão no Pergamum?
+      - Dá para renovar livros pelo Pergamum?
+      - Pergamum é gratuito?
+
   - intent: faq/minhabiblioteca
     examples: |
       - O que é a minha biblioteca?
+      - Como funciona a Minha Biblioteca?
+      - Minha Biblioteca é um sistema online?
+      - Dá para acessar livros na Minha Biblioteca?
+      - A Minha Biblioteca é integrada ao site da universidade?
+      - Como faço login na Minha Biblioteca?
+      - Minha Biblioteca é confiável?
+      - O que posso fazer na Minha Biblioteca?
+      - Minha Biblioteca tem todos os livros da universidade?
+      - Minha Biblioteca é para todos os alunos?
+
   - intent: faq/cadastro
     examples: |
       - Como me cadastro na biblioteca?
+      - Posso fazer cadastro online na biblioteca?
+      - Onde faço o cadastro na biblioteca?
+      - Preciso de documentos para me cadastrar na biblioteca?
+      - Qual é o processo para me registrar na biblioteca?
+      - Aluno novo precisa se cadastrar na biblioteca?
+      - Tem taxa para cadastro na biblioteca?
+      - Cadastro na biblioteca é obrigatório?
+      - Cadastro na biblioteca é presencial ou online?
+      - Quanto tempo leva para se cadastrar na biblioteca?
+
   - intent: faq/multa
     examples: |
       - Como funciona a multa da biblioteca?
+      - Quanto custa a multa na biblioteca?
+      - Multa na biblioteca é por dia?
+      - Existe limite para multas na biblioteca?
+      - Como pago a multa da biblioteca?
+      - Multa de biblioteca acumula?
+      - Posso contestar uma multa da biblioteca?
+      - O que acontece se eu não pagar a multa da biblioteca?
+      - Multa na biblioteca impede novos empréstimos?
+      - Tem como reduzir a multa da biblioteca?
+
   - intent: faq/reservar
     examples: |
       - Meu livro foi reservado
+      - Como faço uma reserva de livro na biblioteca?
+      - Posso reservar livro pela internet?
+      - O que acontece se meu livro for reservado?
+      - Reserva de livro tem prazo?
+      - Como vejo os livros reservados na biblioteca?
+      - Alguém pode reservar o livro que estou usando?
+      - Onde verifico as reservas de livros?
+      - Posso cancelar uma reserva de livro?
+      - Reserva de livro pode ser renovada?
+
   - intent: faq/achar_livro
     examples: |
       - Como acho um livro na biblioteca?
+      - Onde está o livro na biblioteca?
+      - Existe um catálogo de livros na biblioteca?
+      - Como pesquisar um livro na biblioteca?
+      - Dá para procurar livros pelo site da biblioteca?
+      - Posso pedir ajuda para achar um livro?
+      - Como funciona a busca por livros na biblioteca?
+      - O catálogo de livros é atualizado?
+      - Tem como localizar um livro específico na biblioteca?
+      - Onde estão os livros mais procurados na biblioteca?
+
+  - intent: faq/quantos_dias
+    examples: |
+      - Quantos dias posso renovar?
+      - Qual é o prazo para renovação de livros?
+      - Dá para renovar livro mais de uma vez?
+      - Quantos dias tenho para devolver o livro?
+      - Qual é o tempo máximo de renovação de empréstimos?
+      - Renovação de livro é ilimitada?
+      - Quando posso renovar meu livro?
+      - Posso renovar antes do prazo final?
+      - Renovação de livro aumenta o prazo em quantos dias?
+      - Qual é o limite de tempo para renovação?
