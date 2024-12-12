@@ -6,6 +6,14 @@ nlu:
       - ônibus
       - onibus
       - Quais os horários dos ônibus da UFC
+  - intent: faq/site_onibus
+    examples: |
+      - Qual o site do ônibus?
+  - intent: faq/pontos_onibus
+    examples: |
+      - ônibus pontos
+      - Quais os pontos de parada do ônibus?
+      - Quais as paradas dos Ônibus?
   - intent: faq/quando_passa_os_onibus_do_ifce
     examples: |
       - Quais os horários dos ônibus do IFCE

@@ -4,6 +4,7 @@ nlu:
   - intent: faq/biblioteca
     examples: |
       - biblioteca
+      - qual site da biblioteca?
   - intent: faq/biblioteca_horarios
     examples: |
       - horarios de funcionamento

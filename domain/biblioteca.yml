@@ -2,15 +2,30 @@ version: "3.1"
 
 responses:
   faq/biblioteca:
-  - text:
+  - text: |
+    A Biblioteca da Universidade Federal do Ceará – Campus Quixadá, tem como objetivo atender as necessidades informacionais dos seus usuários, fornecendo suporte às atividades de ensino, pesquisa e extensão. Conta com um acervo voltado para as áreas de interesse dos cursos oferecidos pelo Campus.
+    
+    Link: https://www.quixada.ufc.br/biblioteca/
   faq/biblioteca_horarios:
-  - text:
+  - text: |
+    – Período letivo
+
+      De segunda a sexta-feira, das 8h às 19h
+
+    – Período de férias 
+
+    De segunda a sexta-feira, das 8h às 12h e de 13h as 17h
+
+    > 27/09/24 a 18/10/2024: 8h-12h – 13h-17h
   faq/biblioteca_site:
-  - text:
+  - text: "Link: https://www.quixada.ufc.br/biblioteca/"
   faq/pergamum:
-  - text:
+  - text: |
+    O Pergamum é um serviço para fazer acesso dos livros e renovação online.
+    Link: https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php
   faq/minhabiblioteca:
-  - text:
+  - text: |
+    È
   faq/cadastro:
   - text:
   faq/multa:
