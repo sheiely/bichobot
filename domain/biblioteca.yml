@@ -1,8 +1,6 @@
 version: "3.1"
 
 responses:
-  utter_chitchat/o_que_e_o_ru:
-  - text:
   faq/biblioteca:
   - text:
   faq/biblioteca_horarios:
