@@ -3,41 +3,57 @@ version: "3.1"
 responses:
   faq/biblioteca:
   - text: |
-    A Biblioteca da Universidade Federal do Ceará – Campus Quixadá, tem como objetivo atender as necessidades informacionais dos seus usuários, fornecendo suporte às atividades de ensino, pesquisa e extensão. Conta com um acervo voltado para as áreas de interesse dos cursos oferecidos pelo Campus.
-    
-    Link: https://www.quixada.ufc.br/biblioteca/
+      A Biblioteca da Universidade Federal do Ceará – Campus Quixadá tem como objetivo atender às necessidades informacionais dos seus usuários, oferecendo suporte às atividades de ensino, pesquisa e extensão. O acervo é focado nas áreas de interesse dos cursos oferecidos pelo campus.
+
+      Para mais informações, acesse: [Biblioteca UFC Quixadá](https://www.quixada.ufc.br/biblioteca/)
+
   faq/biblioteca_horarios:
   - text: |
-    – Período letivo
+      **Horários de funcionamento da biblioteca:**
 
-      De segunda a sexta-feira, das 8h às 19h
+      - **Período letivo:**  
+        Segunda a sexta-feira: das 8h às 19h  
 
-    – Período de férias 
+      - **Período de férias:**  
+        Segunda a sexta-feira:  
+        Das 8h às 12h e das 13h às 17h  
 
-    De segunda a sexta-feira, das 8h às 12h e de 13h as 17h
+      - **Horário especial:**  
+      De 27/09/2024 a 18/10/2024:  
+      Das 8h às 12h e das 13h às 17h  
 
-    > 27/09/24 a 18/10/2024: 8h-12h – 13h-17h
   faq/biblioteca_site:
-  - text: "Link: https://www.quixada.ufc.br/biblioteca/"
+  - text: |
+      Para mais informações sobre a biblioteca, acesse:  
+      [Biblioteca UFC Quixadá](https://www.quixada.ufc.br/biblioteca/)
+
   faq/pergamum:
   - text: |
-    O Pergamum é um serviço para fazer acesso dos livros e renovação online.
-    Link: https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php
+      O Pergamum é um sistema que permite acessar o catálogo de livros e realizar renovações online.  
+      Acesse: [Sistema Pergamum](https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php)
+
   faq/minhabiblioteca:
   - text: |
-    Você pode acessar o MinhaBiblioteca acessando o SIGAA (https://si3.ufc.br/sigaa) e clicando em Minha Biblioteca na tela ínicial. Lá você tem acesso a vários livros.
+      O "MinhaBiblioteca" está disponível para leitura de livros digitais. Para acessá-lo, entre no SIGAA ([Acesse o SIGAA](https://si3.ufc.br/sigaa)) e clique em "Minha Biblioteca" na página inicial.
+
   faq/cadastro:
-  - text:
-    Para se cadastrar na biblioteca você precisará apresentar o atestado de matrícula e seu RG para o atendente da biblioteca.
+  - text: |
+      Para se cadastrar na biblioteca, apresente o atestado de matrícula e um documento de identificação (RG) ao atendente.
+
   faq/multa:
-  - text:
-    Caso você atrase a devolução terá que pagar uma multa diária de R$ 1,00 por livro.
+  - text: |
+      O atraso na devolução de livros resulta em uma multa diária de R$ 1,00 por exemplar.
+
   faq/reservar:
-  - text:
-    Caso apareça que seu livro foi reservado foi porque alguém reservou ele e você terá que realizar a devolução.
+  - text: |
+      Caso o livro que você emprestou tenha sido reservado por outra pessoa, será necessário devolvê-lo na data prevista.
+
   faq/quantos_dias:
-  - text:
-    Você pode reservar no máximo de 25 livros durante 1 mês e realizar a renovação online no site do pergamum (https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php)
+  - text: |
+      Você pode pegar até 25 livros emprestados por um período de até 30 dias. Renovação online está disponível pelo site do Pergamum:  
+      [Renovar livros no Pergamum](https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php)
+
   faq/achar_livro:
-  - text:
-    Todo livro tem cadastrado um ISBN que serve para buscar o livro pelas prateleiras. Para saber qual é o código você pode pesquisar o nome ou autor no site do pergamum (https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php)
+  - text: |
+      Todo livro possui um número ISBN, que serve para localizar o exemplar na prateleira. Para consultar o ISBN, busque pelo nome do livro ou autor no site do Pergamum:  
+      [Pesquisar no Pergamum](https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php)
