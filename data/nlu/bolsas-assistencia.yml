@@ -58,6 +58,7 @@ nlu:
     - Qual o número para falar com a nutrição?
     - Como faço para marcar uma consulta com a nutrição?
     - Qual o contato da nutricionista?
+    - Qual contato da nutricionista?
     - Como entro em contato com a nutricionista?
     - Qual o número para falar com a nutricionista?
 
@@ -142,8 +143,11 @@ nlu:
   examples: |
     - O que é o auxílio moradia?
     - Como funciona o aux moradia
+    - Como funciona o auxilio moradia
     - Quero saber como funciona o auxílio moradia
     - Pode me explicar o que é o aux moradia?
+    - O que é o aux moradia?
+    - O que é o auxilio moradia?
 
 - intent: como_funciona_aux_emergencial
   examples: |
