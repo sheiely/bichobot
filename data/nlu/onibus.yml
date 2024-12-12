@@ -78,6 +78,7 @@ nlu:
       - Como saber mais sobre o ônibus roxo?
       - O ônibus roxo tem horários fixos?
       - Quem pode pegar o ônibus roxo?
+      - Qual é o ônibus A?
 
   - intent: faq/qual_o_onibus_cinza
     examples: |
@@ -91,6 +92,7 @@ nlu:
       - Como saber mais sobre o ônibus cinza?
       - O ônibus cinza tem horários fixos?
       - Quem pode pegar o ônibus cinza?
+      - Qual é o ônibus B?
 
   - intent: faq/qual_o_onibus_do_ifce
     examples: |
