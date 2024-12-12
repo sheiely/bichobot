@@ -4,6 +4,7 @@ nlu:
   - intent: faq/onibus
     examples: |
       - ônibus
+      - onibus
       - Quais os horários dos ônibus da UFC
   - intent: faq/quando_passa_os_onibus_do_ifce
     examples: |

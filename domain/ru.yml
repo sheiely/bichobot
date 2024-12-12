@@ -3,3 +3,43 @@ version: "3.1"
 responses:
   utter_chitchat/o_que_e_o_ru:
   - text: O Restaurante Universitário tem como objetivo ofertar refeições balanceadas e de qualidade, além de constituir um espaço de convivência e integração da comunidade universitária.
+  faq/o_que_e_o_ru:
+  - text: 
+  faq/solicitar_cartao:
+  - text: 
+  faq/segunda_via:
+  - text: 
+  faq/quem_pode_solicitar:
+  - text: 
+  faq/eh_gratuito:
+  - text: 
+  faq/valor_da_refeicao:
+  - text: 
+  faq/ruquem_pode_acessar:
+  - text: 
+  faq/quantidade_maxima_de_creditos_no_cartao:
+  - text: 
+  faq/cardapio:
+  - text: 
+  faq/o_ru_funciona:
+  - text: 
+  faq/como_faco_segunda_via:
+  - text: 
+  faq/nutricionista:
+  - text: 
+  faq/esqueci_agendar:
+  - text: 
+  faq/esqueci_o_cartao:
+  - text: 
+  faq/site_do_ru:
+  - text: 
+  faq/como_funciona_o_agendamento:
+  - text: 
+  faq/quanto_custa_o_cartao:
+  - text: 
+  faq/quanto_custa_segunda_via_do_cartao:
+  - text: 
+  faq/meu_cartao_deu_defeito:
+  - text: 
+  faq/posso_emprestar_o_cartão:
+  - text: 

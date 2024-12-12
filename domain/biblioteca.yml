@@ -1,1 +1,23 @@
 version: "3.1"
+
+responses:
+  utter_chitchat/o_que_e_o_ru:
+  - text:
+  faq/biblioteca:
+  - text:
+  faq/biblioteca_horarios:
+  - text:
+  faq/biblioteca_site:
+  - text:
+  faq/pergamum:
+  - text:
+  faq/minhabiblioteca:
+  - text:
+  faq/cadastro:
+  - text:
+  faq/multa:
+  - text:
+  faq/reservar:
+  - text:
+  faq/achar_livro:
+  - text:

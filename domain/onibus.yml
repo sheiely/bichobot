@@ -1,1 +1,19 @@
 version: "3.1"
+
+responses:
+  utter_chitchat/o_que_e_o_ru:
+  - text: O Restaurante Universitário tem como objetivo ofertar refeições balanceadas e de qualidade, além de constituir um espaço de convivência e integração da comunidade universitária.
+  faq/onibus:
+  - text: 
+  faq/quando_passa_os_onibus_do_ifce:
+  - text: 
+  faq/onibus_ifce:
+  - text: 
+  faq/qual_o_onibus_roxo:
+  - text: 
+  faq/qual_o_onibus_cinza:
+  - text: 
+  faq/qual_o_onibus_do_ifce:
+  - text: 
+  faq/onibus_quebra:
+  - text: 

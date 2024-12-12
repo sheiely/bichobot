@@ -49,7 +49,7 @@ nlu:
   - intent: faq/site_do_ru
     examples: |
       - Qual o site do ru?
-  - intent: faq/como_funciona_o_agendamento?
+  - intent: faq/como_funciona_o_agendamento
     examples: |
       - Como funciona o agendamento no RU?
   - intent: faq/quanto_custa_o_cartao
@@ -61,6 +61,6 @@ nlu:
   - intent: faq/meu_cartao_deu_defeito
     examples: |
       - Meu cartão deu defeito
-  - intent: faq/posso_emprestar_o_cartão?
+  - intent: faq/posso_emprestar_o_cartão
     examples: |
       - O que acontece se eu emprestar meu cartão do RU?
