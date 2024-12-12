@@ -1,0 +1,75 @@
+version: "3.1"
+
+##RULES CURSOS---------------------------------------------------------
+
+rules:
+
+  - rule: cursos_ufc
+    steps:
+    - intent: cursos_ufc
+    - action: utter_cursos_ufc
+
+  - rule: cursos_rep_dd
+    steps:
+    - intent: cursos_rep_dd
+    - action: utter_cursos_rep_dd
+
+  - rule: cursos_rep_es
+    steps:
+    - intent: cursos_rep_es
+    - action: utter_cursos_rep_es
+
+  - rule: cursos_rep_cc
+    steps:
+    - intent: cursos_rep_cc
+    - action: utter_cursos_rep_cc
+
+  - rule: cursos_rep_ec
+    steps:
+    - intent: cursos_rep_ec
+    - action: utter_cursos_rep_ec
+
+  - rule: cursos_rep_si
+    steps:
+    - intent: cursos_rep_si
+    - action: utter_cursos_rep_si
+
+  - rule: cursos_rep_redes
+    steps:
+    - intent: cursos_rep_redes
+    - action: utter_cursos_rep_redes
+
+  - rule: cursos_sites_dd
+    steps:
+    - intent: cursos_sites_dd
+    - action: utter_cursos_sites_dd
+
+  - rule: cursos_sites_es
+    steps:
+    - intent: cursos_sites_es
+    - action: utter_cursos_sites_es
+
+  - rule: cursos_sites_cc
+    steps:
+    - intent: cursos_sites_cc
+    - action: utter_cursos_sites_cc
+
+  - rule: cursos_sites_ec
+    steps:
+    - intent: cursos_sites_ec
+    - action: utter_cursos_sites_ec
+
+  - rule: cursos_sites_si
+    steps:
+    - intent: cursos_sites_si
+    - action: utter_cursos_sites_si
+
+  - rule: cursos_sites_redes
+    steps:
+    - intent: cursos_sites_redes
+    - action: utter_cursos_sites_redes
+
+  - rule: cursos_horas_complementares
+    steps:
+    - intent: cursos_horas_complementares
+    - action: utter_horas_complementares

@@ -1,6 +1,7 @@
 version: "3.1"
 
 rules:
+
 - rule: Comprimenta o usuario e se apresenta
   steps:
   - intent: saudacao
