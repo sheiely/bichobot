@@ -6,4 +6,3 @@ nlu:
   - intent: CQM_quixada
     examples: |
       - Onde fica quixadá
-      - 

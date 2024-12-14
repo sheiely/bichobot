@@ -12,10 +12,11 @@ Este repositório tem como objetivo desenvolver uma **IA** utilizando a platafor
 
 ### Pré-requisitos
 
-- python 3.9.13
+- python 3.9.13 ([windows](https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe)/[linux])
+- makefile
 - venv
 
-### Instalação
+### Instalação Linux
 
 1. Clone o repositório
 ```
@@ -24,7 +25,7 @@ cd CalouroBot
 ```
 2. Crie e ative um ambiente virtual
 ```sh
-python -m venv venv
+python3.9 -m venv venv
 source venv/bin/activate  # No Windows: venv\Scripts\activate
 ```
 3. instale as dependências
@@ -34,14 +35,9 @@ make install
 
 ### Execução
 
-1. Para treinar o modelo:
+1. Para iniciar assistente:
 ```sh
-rasa train
-```
-
-2. Para iniciar o bot:
-```sh
-rasa shell
+make start
 ```
 
 ### Testes
@@ -51,42 +47,47 @@ rasa shell
 rasa test
 ```
 
+### Instalação Codespace
+
 ## TODO List
 
-- [ ] Fazer o `makefile` das dependências
+- [X] Fazer o `makefile` das dependências
 - [X] Separar `nlu.yml`, `rule.yml`, `domain.yml`, em pastas com nomes descritivos.
-- [ ] Implementar `chitchat` para não precisar criar os rule do projeto.
-- [ ] Criar testes
+- [X] Implementar `chitchat` para não precisar criar os rule do projeto.
+- [X] Criar pelo menos um teste
 - [ ] Criar FAQ
-    - [nlu](./data/nlu/faq.yml)/[response](./domain/chitchat/faq.yml)
+    - [nlu](./data/nlu/faq.yml)/[response](./domain/faq.yml)
 
 ## Divisão da Equipe
 
+- [X] Exemplo
+    - [nlu](./data/nlu/__exemplo__.yml)/[response](./domain/__exemplo__.yml)
+
 **Henrique** 
 -  [ ] Perguntas sobre localização
-    - [nlu](./data/nlu/localizacao.yml)/[response](./domain/chitchat/localizacao.yml) (localizacao)
+    - [nlu](./data/nlu/localizacao.yml)/[response](./domain/localizacao.yml) (localizacao)
 -  [ ] Perguntas sobre o \(campus/Quixadá/moradia\)
-    - [nlu](./data/nlu/campus.yml)/[response](./domain/chitchat/campus.yml) (campus)
-    - [nlu](./data/nlu/quixada.yml)/[response](./domain/chitchat/quixada.yml) (quixada)
-    - [nlu](./data/nlu/moradia.yml)/[response](./domain/chitchat/moradia.yml) (moradia)
+    - [nlu](./data/nlu/campus.yml)/[response](./domain/campus.yml) (campus)
+    - [nlu](./data/nlu/quixada.yml)/[response](./domain/quixada.yml) (quixada)
+    - [nlu](./data/nlu/moradia.yml)/[response](./domain/moradia.yml) (moradia)
 -  [ ] Perguntas sobre os cursos
-    - [nlu](./data/nlu/cursos.yml)/[response](./domain/chitchat/cursos.yml) (cursos)
+    - [nlu](./data/nlu/cursos.yml)/[response](./domain/cursos.yml) (cursos)
 
 **Victor**
 -  [ ] Perguntas sobre o RU
-    - [nlu](./data/nlu/ru.yml)/[response](./domain/chitchat/ru.yml) (ru)
+    - [nlu](./data/nlu/ru.yml)/[response](./domain/ru.yml) (ru)
 -  [ ] Perguntas sobre os ônibus  
-    - [nlu](./data/nlu/onibus.yml)/[response](./domain/chitchat/onibus.yml) (onibus)
+    - [nlu](./data/nlu/onibus.yml)/[response](./domain/onibus.yml) (onibus)
 -  [ ] Perguntas sobre a biblioteca
-    - [nlu](./data/nlu/biblioteca.yml)/[response](./domain/chitchat/biblioteca.yml) (biblioteca)
+    - [nlu](./data/nlu/biblioteca.yml)/[response](./domain/biblioteca.yml) (biblioteca)
 
 **Sheiely**
 -  [ ] Perguntas sobre os projetos
-    - [nlu](./data/nlu/projetos.yml)/[response](./domain/chitchat/projetos.yml) (projetos)
+    - [nlu](./data/nlu/projetos.yml)/[response](./domain/projetos.yml) (projetos)
 -  [ ] Perguntas sobre sistemas e serviços
-    - [nlu](./data/nlu/sistemas.yml)/[response](./domain/chitchat/sistemas.yml) (sistemas)
+    - [nlu](./data/nlu/sistemas.yml)/[response](./domain/sistemas.yml) (sistemas)
 -  [ ] Perguntas sobre bolsas/assistência
-    - [nlu](./data/nlu/bolsas.yml)/[response](./domain/chitchat/bolsas.yml) (bolsas)
-    - [nlu](./data/nlu/assistencia.yml)/[response](./domain/chitchat/assistencia.yml) (assistencia)
+    - [nlu](./data/nlu/bolsas.yml)/[response](./domain/bolsas.yml) (bolsas)
+    - [nlu](./data/nlu/assistencia.yml)/[response](./domain/assistencia.yml) (assistencia)
 -  [ ] Perguntas gerais
-    - [nlu](./data/nlu/geral.yml)/[response](./domain/chitchat/geral.yml) (geral)
+    - [nlu](./data/nlu/geral.yml)/[response](./domain/geral.yml) (geral)

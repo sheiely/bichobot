@@ -17,12 +17,15 @@ pipeline:
   - name: CountVectorsFeaturizer
   - name: DIETClassifier
     epochs: 100
+    constrain_similarities: true
   - name: ResponseSelector
-    epochs: 100
+    epochs: 26
     retrieval_intent: faq
+    constrain_similarities: true
   - name: ResponseSelector
-    epochs: 100
+    epochs: 26
     retrieval_intent: chitchat
+    constrain_similarities: true
 
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
 # # If you'd like to customize it, uncomment and adjust the pipeline.
