@@ -44,6 +44,16 @@ nlu:
     - O que é o auxílio creche?
     - Pode me explicar como funciona o aux creche?
 
+- intent: como_funciona_aux_moradia
+  examples: |
+    - O que é o auxílio moradia?
+    - Como funciona o aux moradia
+    - Como funciona o auxilio moradia
+    - Quero saber como funciona o auxílio moradia
+    - Pode me explicar o que é o aux moradia?
+    - O que é o aux moradia?
+    - O que é o auxilio moradia?
+
 - intent: como_conseguir_bolsa
   examples: |
     - Como consigo o [aux moradia](bolsa)
@@ -60,12 +70,3 @@ nlu:
     - Como consigo bolsa
     - Como conseguir bolsas
 
-- intent: como_funciona_aux_moradia
-  examples: |
-    - O que é o auxílio moradia?
-    - Como funciona o aux moradia
-    - Como funciona o auxilio moradia
-    - Quero saber como funciona o auxílio moradia
-    - Pode me explicar o que é o aux moradia?
-    - O que é o aux moradia?
-    - O que é o auxilio moradia?

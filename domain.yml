@@ -17,7 +17,7 @@ intents:
   - o_que_e_o_pacce
   - o_que_e_o_poa
   - quais_os_projetos_ufc_quixada
-  ##intents sobre sistemas-servicos
+  ##intents sobre sistemas
   - quais_sistemas_ufc
   - saber_matricula
   - quais_disciplinas_matriculado
@@ -35,15 +35,7 @@ intents:
   - qual_site_moodle
   - qual_site_pergamum
   - qual_site_prae
-  - quais_servicos_ufc
-  ##intents de bolsas-assistencias
-  - qual_contato_nutricao
-  - na_ufc_tem_nutricionista
-  - qual_contato_psicologa
-  - na_ufc_tem_psicologa
-  - qual_contato_servico_social
-  - a_quem_buscar_ajuda
-  - qual_contato_secretaria_academica
+  ##intents de bolsas
   - como_funciona_aux_moradia
   - como_funciona_aux_emergencial
   - como_funciona_aux_creche
@@ -53,6 +45,15 @@ intents:
   - como_funciona_pibic
   - como_funciona_pibit
   - como_funciona_pid
+  #intents de assistencias
+  - qual_contato_nutricao
+  - na_ufc_tem_nutricionista
+  - qual_contato_psicologa
+  - na_ufc_tem_psicologa
+  - qual_contato_servico_social
+  - a_quem_buscar_ajuda
+  - qual_contato_secretaria_academica
+  - quais_servicos_ufc
   ## INTENTS SOBRE LOCALIZAÇÃO---------------------------------------------------------
   - localidade_campus
   - localidade_convivencia
@@ -77,6 +78,9 @@ intents:
   
 
 responses:
+  utter_default:
+    - text: "Desculpe, não entendi sua pergunta. Você pode tentar reformular?"
+    
   utter_saudacao:
   - text: "Oi! Sou um chatbot feito para tirar duvida dos calouros, como posso te ajudar?"
 
