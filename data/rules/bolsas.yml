@@ -27,11 +27,6 @@ rules:
       - intent: como_funciona_bia
       - action: utter_como_funciona_bia
 
-  - rule: Responder sobre como conseguir isenção do RU
-    steps:
-      - intent: como_conseguir_isencao_ru
-      - action: utter_como_conseguir_isencao_ru
-
   - rule: Responder sobre como funciona o PIBIC
     steps:
       - intent: como_funciona_pibic

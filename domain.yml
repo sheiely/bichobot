@@ -41,7 +41,6 @@ intents:
   - como_funciona_aux_creche
   - como_conseguir_bolsa
   - como_funciona_bia
-  - como_conseguir_isencao_ru
   - como_funciona_pibic
   - como_funciona_pibit
   - como_funciona_pid
@@ -292,14 +291,6 @@ desempenho acadêmico satisfatório, mediante atuação, em
 caráter de iniciação acadêmica, nas diversas unidades da
 Instituição."
 
-  utter_como_conseguir_isencao_ru:
-    - text: "Para ser contemplado com a isenção, é preciso estar
-regularmente matriculado em um curso de graduação
-presencial da UFC. Têm o direito de solicitar tanto os
-estudantes que nunca requereram o benefício quanto os que
-já foram beneficiários dele em algum semestre letivo anterior
-(renovação). Com a isenção você fica livre da taxa do
-Restaurante Universitário."
 
   utter_como_funciona_pibic:
     - text: "O Programa Institucional de Bolsas de Iniciação Científica -

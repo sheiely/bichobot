@@ -2,6 +2,7 @@ version: "3.1"
 
 nlu:
 
+
 - intent: como_funciona_pibic
   examples: |
     - Como funciona a bolsa PIBIC
@@ -25,12 +26,6 @@ nlu:
     - Como funciona o BIA
     - Pode me explicar o que é o BIA?
     - O que significa o BIA e como ele funciona?
-
-- intent: como_conseguir_isencao_ru
-  examples: |
-    - Como conseguir a isenção do RU
-    - O que é necessário para isenção no RU?
-    - Pode me explicar como conseguir a isenção do RU?
 
 - intent: como_funciona_aux_emergencial
   examples: |
