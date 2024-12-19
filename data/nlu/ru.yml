@@ -1,9 +1,0 @@
-version: "3.1"
-
-nlu:
-  - intent: chitchat/o_que_e_o_ru
-    examples: |
-      - o que significa RU
-      - pode explicar o que é o RU
-      - qual é o objetivo do RU
-      - qual a função do RU
