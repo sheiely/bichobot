@@ -36,14 +36,8 @@ intents:
   - qual_site_pergamum
   - qual_site_prae
   ##intents de bolsas
-  - como_funciona_aux_moradia
-  - como_funciona_aux_emergencial
-  - como_funciona_aux_creche
+  - como_funciona_auxilio_bolsa
   - como_conseguir_bolsa
-  - como_funciona_bia
-  - como_funciona_pibic
-  - como_funciona_pibit
-  - como_funciona_pid
   #intents de assistencias
   - qual_contato_nutricao
   - na_ufc_tem_nutricionista
@@ -75,6 +69,20 @@ intents:
   - cursos_site_redes
   - cursos_horas_complementares
   
+entities:
+  - auxilio-bolsa
+  - curso
+  - servico
+
+actions:
+  - action_como_funciona_auxilio
+
+slots:
+  auxilio-bolsa:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: auxilio-bolsa
 
 responses:
   utter_default:
@@ -448,7 +456,4 @@ programa-de-iniciacao-a-docencia/."
 
 
 
-entities:
-  - bolsa
-  - curso
-  - servico
+

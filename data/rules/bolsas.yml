@@ -2,42 +2,17 @@ version: "3.1"
 
 rules: 
  
-  - rule: Responder sobre como funciona o auxílio moradia
-    steps:
-      - intent: como_funciona_aux_moradia
-      - action: utter_como_funciona_aux_moradia
-
-  - rule: Responder sobre como funciona o auxílio emergencial
-    steps:
-      - intent: como_funciona_aux_emergencial
-      - action: utter_como_funciona_aux_emergencial
-
-  - rule: Responder sobre como funciona o auxílio creche
-    steps:
-      - intent: como_funciona_aux_creche
-      - action: utter_como_funciona_aux_creche
-
   - rule: Responder sobre como conseguir uma bolsa
     steps:
       - intent: como_conseguir_bolsa
       - action: utter_como_conseguir_bolsa
 
-  - rule: Responder sobre como funciona a BIA
+  - rule: como funciona os auxílios/bolsas
+  
     steps:
-      - intent: como_funciona_bia
-      - action: utter_como_funciona_bia
+      - intent: como_funciona_auxilio_bolsa
+      - slot_was_set:
+          - auxilio-bolsa: "PID"
+      - action: action_como_funciona_auxilio
 
-  - rule: Responder sobre como funciona o PIBIC
-    steps:
-      - intent: como_funciona_pibic
-      - action: utter_como_funciona_pibic
-
-  - rule: Responder sobre como funciona o PIBIT
-    steps:
-      - intent: como_funciona_pibit
-      - action: utter_como_funciona_pibit
-
-  - rule: Responder sobre como funciona o PID
-    steps:
-      - intent: como_funciona_pid
-      - action: utter_como_funciona_pid
+ 
