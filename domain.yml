@@ -17,7 +17,7 @@ intents:
   - o_que_e_o_pacce
   - o_que_e_o_poa
   - quais_os_projetos_ufc_quixada
-  ##intents sobre sistemas-servicos
+  ##intents sobre sistemas
   - quais_sistemas_ufc
   - saber_matricula
   - quais_disciplinas_matriculado
@@ -35,8 +35,10 @@ intents:
   - qual_site_moodle
   - qual_site_pergamum
   - qual_site_prae
-  - quais_servicos_ufc
-  ##intents de bolsas-assistencias
+  ##intents de bolsas
+  - como_funciona_auxilio_bolsa
+  - como_conseguir_bolsa
+  #intents de assistencias
   - qual_contato_nutricao
   - na_ufc_tem_nutricionista
   - qual_contato_psicologa
@@ -44,15 +46,7 @@ intents:
   - qual_contato_servico_social
   - a_quem_buscar_ajuda
   - qual_contato_secretaria_academica
-  - como_funciona_aux_moradia
-  - como_funciona_aux_emergencial
-  - como_funciona_aux_creche
-  - como_conseguir_bolsa
-  - como_funciona_bia
-  - como_conseguir_isencao_ru
-  - como_funciona_pibic
-  - como_funciona_pibit
-  - como_funciona_pid
+  - quais_servicos_ufc
   ## INTENTS SOBRE LOCALIZAÇÃO---------------------------------------------------------
   - localidade_campus
   - localidade_convivencia
@@ -75,8 +69,25 @@ intents:
   - cursos_site_redes
   - cursos_horas_complementares
   
+entities:
+  - auxilio-bolsa
+  - curso
+  - servico
+
+actions:
+  - action_como_funciona_auxilio
+
+slots:
+  auxilio-bolsa:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: auxilio-bolsa
 
 responses:
+  utter_default:
+    - text: "Desculpe, não entendi sua pergunta. Você pode tentar reformular?"
+    
   utter_saudacao:
   - text: "Oi! Sou um chatbot feito para tirar duvida dos calouros, como posso te ajudar?"
 
@@ -288,14 +299,6 @@ desempenho acadêmico satisfatório, mediante atuação, em
 caráter de iniciação acadêmica, nas diversas unidades da
 Instituição."
 
-  utter_como_conseguir_isencao_ru:
-    - text: "Para ser contemplado com a isenção, é preciso estar
-regularmente matriculado em um curso de graduação
-presencial da UFC. Têm o direito de solicitar tanto os
-estudantes que nunca requereram o benefício quanto os que
-já foram beneficiários dele em algum semestre letivo anterior
-(renovação). Com a isenção você fica livre da taxa do
-Restaurante Universitário."
 
   utter_como_funciona_pibic:
     - text: "O Programa Institucional de Bolsas de Iniciação Científica -
@@ -453,7 +456,4 @@ programa-de-iniciacao-a-docencia/."
 
 
 
-entities:
-  - bolsa
-  - curso
-  - servico
+
