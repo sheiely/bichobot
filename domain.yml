@@ -67,12 +67,12 @@ intents:
   - cursos_rep_ec
   - cursos_rep_si
   - cursos_rep_redes
-  - cursos_sites_dd
-  - cursos_sites_es
-  - cursos_sites_cc
-  - cursos_sites_ec
-  - cursos_sites_si
-  - cursos_sites_redes
+  - cursos_site_dd
+  - cursos_site_es
+  - cursos_site_cc
+  - cursos_site_ec
+  - cursos_site_si
+  - cursos_site_redes
   - cursos_horas_complementares
   
 

@@ -1,0 +1,66 @@
+version: "3.1"
+
+nlu:
+  - intent: faq/o_que_e_o_ru
+    examples: |
+      - o que significa RU
+      - pode explicar o que é o RU
+      - qual é o objetivo do RU
+      - qual a função do RU
+  - intent: faq/solicitar_cartao
+    examples: |
+      - O que precisa para solicitar o cartão?
+  - intent: faq/segunda_via
+    examples: |
+      - Apenas o primeiro cartão ou a segunda via também?
+  - intent: faq/quem_pode_solicitar
+    examples: |
+      - Quem pode solicitar?
+  - intent: faq/eh_gratuito
+    examples: |
+      - É gratuito?
+  - intent: faq/valor_da_refeicao
+    examples: |
+      - Qual o valor da refeição para alunos, profs e STAs?
+  - intent: faq/ruquem_pode_acessar
+    examples: |
+      - Quem pode acessar?
+  - intent: faq/quantidade_maxima_de_creditos_no_cartao
+    examples: |
+      - Existe quantidade máxima de créditos no cartão?
+  - intent: faq/cardapio
+    examples: |
+      - Qual o cardápio do RU?
+  - intent: faq/o_ru_funciona
+    examples: |
+      - Quando o ru funciona?
+  - intent: faq/como_faco_segunda_via
+    examples: |
+      - Como faço minha segunda via?
+  - intent: faq/nutricionista
+    examples: |
+      - Quem é a nutricionista?
+  - intent: faq/esqueci_agendar
+    examples: |
+      - Esqueci de agendar a refeição.
+  - intent: faq/esqueci_o_cartao
+    examples: |
+      - Esqueci o cartão, e agora?
+  - intent: faq/site_do_ru
+    examples: |
+      - Qual o site do ru?
+  - intent: faq/como_funciona_o_agendamento
+    examples: |
+      - Como funciona o agendamento no RU?
+  - intent: faq/quanto_custa_o_cartao
+    examples: |
+      - Quanto custa para fazer o cartão?
+  - intent: faq/quanto_custa_segunda_via_do_cartao
+    examples: |
+      - Quanto custa para fazer a segunda via do cartão?
+  - intent: faq/meu_cartao_deu_defeito
+    examples: |
+      - Meu cartão deu defeito
+  - intent: faq/posso_emprestar_o_cartão
+    examples: |
+      - O que acontece se eu emprestar meu cartão do RU?

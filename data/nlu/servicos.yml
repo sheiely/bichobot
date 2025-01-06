@@ -1,0 +1,29 @@
+version: "3.1"
+
+
+nlu:
+
+
+- intent: oque_e_prae
+  examples: |
+    - O que é o PRAE
+    - O que significa PRAE
+    - Qual a finalidade do PRAE
+    - Como o PRAE pode me ajudar
+    - O que é o Programa de Apoio Estudantil (PRAE)
+    - Como posso acessar o PRAE
+    - Quais serviços o PRAE oferece para os alunos
+    - Onde encontro informações sobre o PRAE
+    - Como o PRAE pode me auxiliar durante o curso
+
+
+
+- intent: quais_servicos_ufc
+  examples: |
+    - Quais os serviços da UFC?
+    - Quais são os serviços oferecidos pela UFC?
+    - Quais serviços a UFC disponibiliza para os alunos?
+    - O que a UFC oferece em termos de serviços?
+    - Quais são os serviços da Universidade Federal do Ceará?
+    - Quais serviços a UFC tem para os estudantes?
+    - Quais são as facilidades que a UFC oferece para seus alunos?
