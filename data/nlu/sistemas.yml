@@ -1,1 +1,174 @@
 version: "3.1"
+
+
+nlu:
+- intent: quais_sistemas_ufc
+  examples: |
+    - Qual os sistemas que a UFC usa
+    - Quais sistemas a UFC utiliza
+    - Me fale sobre os sistemas da UFC
+    - Quais sistemas estão disponíveis na UFC
+    - O que a UFC utiliza para gerenciar as suas atividades
+    - Quais sistemas são usados na Universidade Federal do Ceará
+    - Como a UFC gerencia seus sistemas
+    - Que sistemas a UFC oferece para os alunos
+    - Quais sistemas são acessíveis para os estudantes da UFC
+
+- intent: saber_matricula
+  examples: |
+    - Como consigo olhar minha matrícula
+    - Como vejo minha matrícula
+    - Como acessar minha matrícula
+    - Onde posso verificar minha matrícula
+    - Como consultar minha matrícula na UFC
+    - Como acessar minha matrícula no SIGAA
+    - Onde encontro informações sobre minha matrícula
+    - Como vejo as informações da minha matrícula
+    - Onde está o link para consultar minha matrícula
+
+- intent: quais_disciplinas_matriculado
+  examples: |
+    - Como ver as disciplinas que estou matriculado
+    - Quais disciplinas estou matriculado
+    - Onde vejo as disciplinas da minha matrícula
+    - Como consulto as disciplinas que estou cursando
+    - Como ver as matérias que estou cursando
+    - Onde encontro a lista das disciplinas em que estou matriculado
+    - Como acessar as disciplinas do meu semestre
+    - Quais são as minhas disciplinas na UFC
+    - Onde posso verificar as disciplinas que escolhi para este semestre
+
+- intent: como_cadastrar_horas_complementares
+  examples: |
+    - Como cadastrar horas complementares
+    - Onde faço o cadastro das horas complementares
+    - Como adicionar horas complementares no sistema
+    - Qual o procedimento para registrar horas complementares
+    - Como faço para incluir horas complementares no SIGAA
+    - Onde posso registrar minhas horas complementares
+    - Como funciona o cadastro de horas complementares na UFC
+    - O que preciso para registrar horas complementares
+    - Como informo minhas horas complementares no sistema da UFC
+
+- intent: oque_e_sigaa
+  examples: |
+    - O que é o SIGAA
+    - O que significa SIGAA
+    - Para que serve o SIGAA
+    - Qual a finalidade do SIGAA
+    - O que posso fazer no SIGAA
+    - Como utilizar o SIGAA
+    - Para que serve o sistema SIGAA
+    - Como acessar o SIGAA
+    - O que o SIGAA oferece para os alunos
+
+- intent: oque_e_sippa
+  examples: |
+    - O que é o SIPPA
+    - O que significa SIPPA
+    - Para que serve o SIPPA
+    - Qual a finalidade do SIPPA
+    - O que o SIPPA pode fazer por mim
+    - Como usar o SIPPA
+    - Como faço para acessar o SIPPA
+    - Qual o objetivo do SIPPA na UFC
+    - Para que serve o sistema SIPPA na universidade
+
+- intent: oque_e_moodle
+  examples: |
+    - O que é o Moodle
+    - O que significa Moodle
+    - Como funciona o Moodle
+    - Qual a finalidade do Moodle
+    - Como acessar o Moodle
+    - O que eu encontro no Moodle
+    - O que posso fazer no Moodle
+    - O que é o ambiente virtual Moodle
+    - Como utilizar o Moodle na UFC
+
+- intent: oque_e_pergamum
+  examples: |
+    - O que é o Pergamum
+    - O que significa Pergamum
+    - Como funciona o Pergamum
+    - Qual a finalidade do Pergamum
+    - O que eu posso fazer no Pergamum
+    - Como acessar o Pergamum
+    - Como utilizar o sistema Pergamum
+    - O que é o sistema Pergamum na UFC
+    - O que posso consultar no Pergamum
+- intent: qual_site_biblioteca
+  examples: |
+    - Qual o site da biblioteca
+    - Onde encontro o site da biblioteca
+    - Qual o endereço da biblioteca
+    - Como acesso o site da biblioteca
+    - Qual é o link para o site da biblioteca da UFC
+    - Onde posso consultar os livros da biblioteca
+    - Como pesquisar livros no site da biblioteca
+    - Como faço para acessar os recursos da biblioteca online
+    - Onde encontro as informações sobre a biblioteca
+
+- intent: como_reserva_sala
+  examples: |
+    - Como reserva uma sala
+    - Como faço para reservar uma sala
+    - Onde faço a reserva de sala
+    - Qual o procedimento para reservar uma sala
+    - Como agendar uma sala na UFC
+    - Onde posso reservar uma sala para estudar
+    - Como faço para reservar uma sala para uma reunião
+    - Como faço para agendar uma sala de aula
+    - Onde posso verificar a disponibilidade de salas
+
+- intent: como_cria_email_institucional
+  examples: |
+    - Como faz um email institucional
+    - Como criar um email institucional
+    - Onde faço um email institucional
+    - Como obter um email institucional
+    - Como crio meu email institucional na UFC
+    - Qual é o procedimento para ter um email institucional
+    - Onde posso fazer meu cadastro para obter um email institucional
+    - Como eu crio uma conta de email institucional
+    - Onde encontro informações sobre o email institucional
+
+- intent: qual_site_sigaa
+  examples: |
+    - Qual o site do SIGAA?
+    - Onde posso acessar o SIGAA?
+    - Qual é o endereço do SIGAA?
+    - Qual o link do SIGAA?
+    - Onde está o site do SIGAA?
+
+- intent: qual_site_sippa
+  examples: |
+    - Qual o site do SIPPA?
+    - Onde posso acessar o SIPPA?
+    - Qual é o endereço do SIPPA?
+    - Onde encontro o site do SIPPA?
+    - Qual o link do SIPPA?
+
+- intent: qual_site_moodle
+  examples: |
+    - Qual o site do Moodle?
+    - Onde posso acessar o Moodle?
+    - Qual é o endereço do Moodle?
+    - Onde encontro o site do Moodle?
+    - Qual o link do Moodle?
+
+- intent: qual_site_pergamum
+  examples: |
+    - Qual o site do Pergamum?
+    - Onde posso acessar o Pergamum?
+    - Qual é o endereço do Pergamum?
+    - Onde encontro o site do Pergamum?
+    - Qual o link do Pergamum?
+
+- intent: qual_site_prae
+  examples: |
+    - Qual o site do PRAE?
+    - Onde posso acessar o PRAE?
+    - Qual é o endereço do PRAE?
+    - Onde encontro o site do PRAE?
+    - Qual o link do PRAE?

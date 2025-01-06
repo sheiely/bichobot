@@ -1,0 +1,57 @@
+version: "3.1"
+
+nlu:
+- intent: saudacao
+  examples: |
+    - Olá
+    - hello
+    - Oi
+    - Eae
+    - Bom dia
+    - Boa tarde
+    - Boa noite
+
+- intent: despedida
+  examples: |
+    - tchau
+    - xau
+    - bye bye
+    - ate mais
+
+- intent: afirmacao
+  examples: |
+    - sim
+    - s
+    - isso
+    - é
+
+- intent: negacao
+  examples: |
+    - não
+    - nunca
+    - jamais
+    - n
+
+- intent: desafiar_bot
+  examples: |
+    - voce é um robo?
+    - voce é um bot?
+    - voce é humano?
+
+- intent: qual_contato
+  examples: |
+    - Qual o contato?
+    - Como posso entrar em contato?
+    - Qual é o número de contato?
+    - Onde encontro o contato?
+    - Qual o telefone de contato?
+    - Como faço para falar com alguém?
+    - Qual o endereço de contato?
+    - Onde posso encontrar o contato?
+    - Como posso me comunicar?
+    - Qual o email de contato?
+    - Qual o endereço de email para contato?
+    - Como faço para enviar um email?
+    - Qual é o email para falar com o setor?
+
+

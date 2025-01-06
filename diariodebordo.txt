@@ -32,3 +32,6 @@
       PERGUNTAS SOBRE SISTEMAS/SERVIÇOS
       PERGUNTAS BOLSAS/ASSISTENCIA
       PERGUNTAS GERAIS
+
+09/12/2024 - 11/12/2024
+   - adicionei intents para projetos, sistemas servicos

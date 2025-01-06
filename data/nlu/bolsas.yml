@@ -1,1 +1,71 @@
 version: "3.1"
+
+nlu:
+
+- intent: como_funciona_pibic
+  examples: |
+    - Como funciona a bolsa PIBIC
+    - Quero saber como funciona o PIBIC
+    - Pode explicar a bolsa PIBIC?
+
+- intent: como_funciona_pibit
+  examples: |
+    - Como funciona a bolsa PIBIT
+    - Pode me explicar o que é o PIBIT?
+    - O que é e como funciona a bolsa PIBIT?
+
+- intent: como_funciona_pid
+  examples: |
+    - Como funciona a bolsa PID
+    - Pode me explicar o que é a bolsa PID?
+    - Quero saber mais sobre o PID
+
+- intent: como_funciona_bia
+  examples: |
+    - Como funciona o BIA
+    - Pode me explicar o que é o BIA?
+    - O que significa o BIA e como ele funciona?
+
+- intent: como_conseguir_isencao_ru
+  examples: |
+    - Como conseguir a isenção do RU
+    - O que é necessário para isenção no RU?
+    - Pode me explicar como conseguir a isenção do RU?
+
+- intent: como_funciona_aux_emergencial
+  examples: |
+    - Como funciona o aux emergencial
+    - Pode explicar o auxílio emergencial?
+    - Quero saber mais sobre o aux emergencial
+
+- intent: como_funciona_aux_creche
+  examples: |
+    - Como funciona o aux creche
+    - O que é o auxílio creche?
+    - Pode me explicar como funciona o aux creche?
+
+- intent: como_conseguir_bolsa
+  examples: |
+    - Como consigo o [aux moradia](bolsa)
+    - Como consigo o [auxilio moradia](bolsa)
+    - Como consigo o [auxilio creche](bolsa)
+    - Como consigo o [aux creche](bolsa)
+    - Como consigo o [BIA](bolsa)
+    - Como consigo a [Bolsa de iniciação Academica](bolsa)
+    - Como consigo uma bolsa [PID](bolsa)
+    - Como consigo uma bolsa [PIBIC](bolsa)
+    - Como consigo uma bolsa [PIBIT](bolsa)
+    - Como consigo [isenção do RU](bolsa)
+    - Como posso conseguir bolsas?
+    - Como consigo bolsa
+    - Como conseguir bolsas
+
+- intent: como_funciona_aux_moradia
+  examples: |
+    - O que é o auxílio moradia?
+    - Como funciona o aux moradia
+    - Como funciona o auxilio moradia
+    - Quero saber como funciona o auxílio moradia
+    - Pode me explicar o que é o aux moradia?
+    - O que é o aux moradia?
+    - O que é o auxilio moradia?
