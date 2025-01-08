@@ -1,51 +1,51 @@
-version: "3.1"
+# version: "3.1"
 
-responses:
-  faq/onibus:
-  - text: |
-      Os ônibus terceirizados da UFC são destinados exclusivamente aos estudantes da instituição. Para embarcar, é necessário apresentar ao motorista:  
-      - Um documento que comprove vínculo estudantil com a UFC.  
-      - Um documento oficial com foto para identificação.  
+# responses:
+#   faq/onibus:
+#   - text: |
+#       Os ônibus terceirizados da UFC são destinados exclusivamente aos estudantes da instituição. Para embarcar, é necessário apresentar ao motorista:  
+#       - Um documento que comprove vínculo estudantil com a UFC.  
+#       - Um documento oficial com foto para identificação.  
 
-      **Regras de uso:**  
-      - Os ônibus somente pararão nos pontos preestabelecidos.  
-      - A lotação será limitada à capacidade máxima permitida por lei.  
-      - O ônibus do Campus será reservado para visitas técnicas.  
+#       **Regras de uso:**  
+#       - Os ônibus somente pararão nos pontos preestabelecidos.  
+#       - A lotação será limitada à capacidade máxima permitida por lei.  
+#       - O ônibus do Campus será reservado para visitas técnicas.  
 
-      **Horários disponíveis:**  
-      [Horários dos Ônibus - Campus UFC Quixadá](https://www.quixada.ufc.br/wp-content/uploads/2024/07/SITE-Post-Onibus-Campus-04-1-1024x1024.jpg)
+#       **Horários disponíveis:**  
+#       [Horários dos Ônibus - Campus UFC Quixadá](https://www.quixada.ufc.br/wp-content/uploads/2024/07/SITE-Post-Onibus-Campus-04-1-1024x1024.jpg)
 
-  faq/pontos_onibus:
-  - text: |
-      **Mapa dos pontos de ônibus:**  
-      [Rota e Pontos de Retorno - Campus UFC Quixadá](https://www.quixada.ufc.br/wp-content/uploads/2024/02/Rota-Retorno-Campus_Rodoviaria.png)
+#   faq/pontos_onibus:
+#   - text: |
+#       **Mapa dos pontos de ônibus:**  
+#       [Rota e Pontos de Retorno - Campus UFC Quixadá](https://www.quixada.ufc.br/wp-content/uploads/2024/02/Rota-Retorno-Campus_Rodoviaria.png)
 
-  faq/site_onibus:
-  - text: |
-      Para informações completas sobre o itinerário dos ônibus, acesse:  
-      [Itinerário dos Ônibus - UFC Quixadá](https://www.quixada.ufc.br/itinerario-dos-onibus/)
+#   faq/site_onibus:
+#   - text: |
+#       Para informações completas sobre o itinerário dos ônibus, acesse:  
+#       [Itinerário dos Ônibus - UFC Quixadá](https://www.quixada.ufc.br/itinerario-dos-onibus/)
 
-  faq/quando_passa_os_onibus_do_ifce:
-  - text: |
-      A informação sobre os horários dos ônibus do IFCE não está disponível no momento, pois o site do IFCE está temporariamente fora do ar.
+#   faq/quando_passa_os_onibus_do_ifce:
+#   - text: |
+#       A informação sobre os horários dos ônibus do IFCE não está disponível no momento, pois o site do IFCE está temporariamente fora do ar.
 
-  faq/onibus_ifce:
-  - text: |
-      Sim, os estudantes podem utilizar os ônibus do IFCE, mas é recomendável priorizar o uso dos ônibus da UFC.
+#   faq/onibus_ifce:
+#   - text: |
+#       Sim, os estudantes podem utilizar os ônibus do IFCE, mas é recomendável priorizar o uso dos ônibus da UFC.
 
-  faq/qual_o_onibus_roxo:
-  - text: |
-      O ônibus roxo é identificado como **Ônibus A**.
+#   faq/qual_o_onibus_roxo:
+#   - text: |
+#       O ônibus roxo é identificado como **Ônibus A**.
 
-  faq/qual_o_onibus_cinza:
-  - text: |
-      O ônibus cinza é identificado como **Ônibus B**.
+#   faq/qual_o_onibus_cinza:
+#   - text: |
+#       O ônibus cinza é identificado como **Ônibus B**.
 
-  faq/qual_o_onibus_do_ifce:
-  - text: |
-      Os ônibus do IFCE são identificados pelas cores azul e amarelo. Eles também são conhecidos como **Ônibus PMQ** (Prefeitura Municipal de Quixadá).
+#   faq/qual_o_onibus_do_ifce:
+#   - text: |
+#       Os ônibus do IFCE são identificados pelas cores azul e amarelo. Eles também são conhecidos como **Ônibus PMQ** (Prefeitura Municipal de Quixadá).
 
-  faq/onibus_quebra:
-  - text: |
-      - **Se o ônibus quebrar próximo à Universidade ou dentro de Quixadá:** Os alunos deverão seguir a pé para o destino.  
-      - **Se o ônibus quebrar no meio do trajeto:** A empresa responsável geralmente envia outro veículo para substituir.
+#   faq/onibus_quebra:
+#   - text: |
+#       - **Se o ônibus quebrar próximo à Universidade ou dentro de Quixadá:** Os alunos deverão seguir a pé para o destino.  
+#       - **Se o ônibus quebrar no meio do trajeto:** A empresa responsável geralmente envia outro veículo para substituir.

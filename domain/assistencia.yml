@@ -1,0 +1,46 @@
+version: "3.1"
+
+intents:
+  - qual_contato_nutricao
+  - na_ufc_tem_nutricionista
+  - qual_contato_psicologa
+  - na_ufc_tem_psicologa
+  - qual_contato_servico_social
+  - a_quem_buscar_ajuda
+  - qual_contato_secretaria_academica
+  - quais_servicos_ufc
+  - qual_contato
+
+entities:
+  - servico
+
+responses:
+  utter_qual_contato_nutricao:
+    - text: "Você pode entrar em contato com o setor de nutrição pelo email nutricao@quixada.ufc.br."
+  utter_na_ufc_tem_nutricionista:
+    - text: "Sim, a UFC oferece atendimento com nutricionista para os alunos."
+  utter_qual_contato_psicologa:
+    - text: "Você pode entrar em contato com o setor de psicologia pelo email psicologia@quixada.ufc.br."
+  utter_na_ufc_tem_psicologa:
+    - text: "Sim, a UFC tem psicóloga disponível para atender os alunos."
+  utter_qual_contato_servico_social:
+    - text: "Você pode entrar em contato com o serviço social pelo email servicosocial@quixada.ufc.br."
+  utter_a_quem_buscar_ajuda:
+    - text: "Na UFC Quixadá, você pode contar com vários serviços de apoio, como:
+
+        - **Apoio Acadêmico**: Caso tenha dificuldades com sua vida acadêmica, como disciplinas ou estágios, você pode procurar a **Coordenação de Cursos** ou a **Secretaria Acadêmica**.
+        
+        - **Serviço de Psicologia**: Se precisar de apoio psicológico, a UFC Quixadá oferece atendimento psicológico gratuito para alunos, com a psicóloga responsável pela área.
+
+        - **Nutrição**: Se tiver dúvidas sobre alimentação saudável ou quiser agendar uma consulta, o setor de **Nutrição** da UFC Quixadá está à disposição.
+
+        - **Serviço Social**: Para orientação sobre questões sociais, como auxílio emergencial, matrícula e outros serviços, o **Serviço Social** está disponível para dar suporte.
+
+        - **Biblioteca**: Caso precise de ajuda com materiais acadêmicos, a **Biblioteca** oferece suporte para os alunos.
+
+        Se precisar de mais informações sobre qualquer um desses serviços ou orientações sobre como acessá-los, fique à vontade para perguntar!"
+  utter_qual_contato_secretaria_academica:
+    - text: "Você pode entrar em contato com a Secretaria Acadêmica (SA) pelo email secretariaacademica@quixada.ufc.br. Precisa de mais alguma informação?"
+  utter_quais_servicos_ufc:
+  - text: "A UFC oferece diversos serviços aos alunos, como atendimento psicológico, nutricional, apoio acadêmico, entre outros. Precisa de mais informações sobre algum serviço específico?"
+  

@@ -32,17 +32,28 @@ nlu:
 
 - intent: como_conseguir_bolsa
   examples: |
-    - Como consigo o [aux moradia](bolsa)
-    - Como consigo o [auxilio moradia](bolsa)
-    - Como consigo o [auxilio creche](bolsa)
-    - Como consigo o [aux creche](bolsa)
-    - Como consigo o [BIA](bolsa)
-    - Como consigo a [Bolsa de iniciação Academica](bolsa)
-    - Como consigo uma bolsa [PID](bolsa)
-    - Como consigo uma bolsa [PIBIC](bolsa)
-    - Como consigo uma bolsa [PIBIT](bolsa)
-    - Como consigo [isenção do RU](bolsa)
+    - Como consigo o aux [moradia](auxilio-bolsa)
+    - Como consigo o auxilio [moradia](auxilio-bolsa)
+    - Como consigo o aux [creche](auxilio-bolsa)
+    - Como consigo o [BIA](auxilio-bolsa)
+    - Como consigo a [Bolsa de iniciação Academica](auxilio-bolsa)
+    - Como consigo uma bolsa [PID](auxilio-bolsa)
+    - Como consigo uma bolsa [PIBIC](auxilio-bolsa)
+    - Como consigo uma bolsa [PIBIT](auxilio-bolsa)
+    - Como consigo [isenção do RU](auxilio-bolsa)
     - Como posso conseguir bolsas?
     - Como consigo bolsa
     - Como conseguir bolsas
+    - Como eu posso ser bolsista do [PET](auxilio-bolsa)
+    - o que eu preciso fazer para entrar em uma bolsa
+  
+- intent: qual_valor_bolsas
+  examples: |
+    - Quanto ganha o aux [moradia](auxilio-bolsa)?
+    - Qual o valor das bolsas
+    - quanto recebo pelo auxilio?
+    - qual a diferença de valor das bolsas
+    - recebo algo por ter a [isenção do RU](auxilio-bolsa)?
+
+      
 

@@ -34,7 +34,7 @@ action_endpoint:
 tracker_store:
       type: SQL
       dialect: "postgresql"  # the dialect used to interact with the db
-      url: "postgres"
+      url: "localhost"
       db: "rasa"  # path to your db
       username:  "postgres"
       password:  "1234" # password used for authentication
