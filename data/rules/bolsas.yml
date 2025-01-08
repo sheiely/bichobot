@@ -7,6 +7,16 @@ rules:
       - intent: como_conseguir_bolsa
       - action: utter_como_conseguir_bolsa
 
+  - rule: Responder como funciona uma bolsa
+    steps:
+      - intent: como_funciona_auxilio_bolsa
+      - action: action_como_funciona_auxilio
+      
+  - rule: Saber valor das bolsas
+    steps:
+      - intent: qual_valor_bolsas
+      - action: utter_qual_valor_bolsas
+
  
 
  
