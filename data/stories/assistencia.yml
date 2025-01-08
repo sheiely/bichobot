@@ -14,13 +14,8 @@ stories:
       - action: utter_na_ufc_tem_psicologa
       - intent: qual_contato
       - action: utter_qual_contato_psicologa
+  
 
-  - story: HAHAHAHSifkdapodl
-    steps:
-      - intent: como_funciona_auxilio_bolsa
-        entities:
-          - auxilio-bolsa: PID
-      - action: utter_como_funciona_pid
 
 
 

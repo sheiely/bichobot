@@ -1,0 +1,102 @@
+version: "3.1"
+
+intents:
+  - cursos_ufc
+  - cursos_rep_dd
+  - cursos_rep_es
+  - cursos_rep_cc
+  - cursos_rep_ec
+  - cursos_rep_si
+  - cursos_rep_redes
+  - cursos_site
+  - cursos_horas_complementares
+
+
+entities:
+  - curso
+
+responses:
+  utter_cursos_ufc:
+  - text: "Os cursos oferecidos pela UFC de Quixadá são: \n
+          - Design Digital\n
+          - Ciência da Computação \n
+          - Engenharia de Computação \n
+          - Engenharia de Software \n
+          - Redes de Computadores \n
+          - Sistemas de Informação"
+
+  utter_cursos_rep_dd:
+  - text: "No primeiro semestre do curso
+          de Design Digital das 5
+          disciplinas do semestre as que
+          você deve focar são:
+          Fundamentos de Programação
+          (FUP) e Desenho."
+
+  utter_cursos_rep_es:
+  - text: "No primeiro semestre do curso
+        de Engenharia de software
+        entre as 5 disciplinas do
+        semestre você deve focar em:
+        Fundamentos de Programação
+        (FUP), Matemática Básica,
+        Introdução a Computação e
+        Engenharia de Software,
+        principalmente essa última,
+        pois é uma cadeira anual
+        muito importante."
+
+  utter_cursos_rep_cc:
+  - text: "No primeiro semestre do curso
+        de Ciências da Computação
+        entre as 6 disciplinas do
+        semestre você deve focar em:
+        Fundamentos de Programação
+        (FUP) e Matemática Básica."
+
+  utter_cursos_rep_ec:
+  - text: "No primeiro semestre do curso
+        de Engenharia da Computação
+        das 6 disciplinas do semestre
+        as que você deve focar são:
+        Circuitos Digitais, Pré Cálculo
+        e Fundamentos de
+        Programação."
+
+  utter_cursos_rep_si:
+  - text: "No primeiro semestre do curso
+        de Sistemas de Informação
+        entre as 5 disciplinas do
+        semestre você deve focar em:
+        Fundamentos de Programação
+        (FUP), Matemática Básica e
+        Introdução á Administração."
+
+  utter_cursos_rep_redes:
+  - text: "Em redes de computadores
+        a cadeira mais crítica está no
+        segundo semestres, que é de
+        Redes de Computadores. No
+        primeiro semestre você deve
+        focar em: Fundamentos de
+        Programação (FUP) e
+        Matemática Básica."
+
+  utter_cursos_site:
+  - text: "Os sites oficiais dos cursos da UFC - Quixadá:
+        \nDesign digital: https://dd.quixada.ufc.br
+        \nEngenharia de software: https://es.quixada.ufc.br
+        \nCiencias da computação: https://cc.quixada.ufc.br
+        \nEngenharia da computação: https://ec.quixada.ufc.br
+        \nSistemas de informação: https://si.quixada.ufc.br
+        \nRedes de computadores: https://redes.quixada.ufc.br"
+
+  utter_horas_complementares:
+  - text: "Objetivando a formação de profissionais qualificados, as atividades complementares proporcionam 
+        ao aluno oportunidades para auxilia-lo no desenvolvimento pessoal, social e de competências necessárias no mercado de trabalho, 
+        tais como perfil empreendedor, iniciativa, liderança, autoconhecimento, perseverança e habilidade em lidar com obstáculos, mudanças e transformações, 
+        além de prestar serviços a comunidade. Cada curso possui uma quantidade obrigatória de horas em atividades complementares, que podem ser consultadas nos sites de cada curso."
+
+
+
+
