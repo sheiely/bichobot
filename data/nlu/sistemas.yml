@@ -52,60 +52,60 @@ nlu:
 
 - intent: oque_e_sigaa
   examples: |
-    - O que é o SIGAA
-    - O que significa SIGAA
-    - Para que serve o SIGAA
-    - Qual a finalidade do SIGAA
-    - O que posso fazer no SIGAA
-    - Como utilizar o SIGAA
-    - Para que serve o sistema SIGAA
-    - Como acessar o SIGAA
-    - O que o SIGAA oferece para os alunos
+    - O que é o [SIGAA](sistema)
+    - O que significa [SIGAA](sistema)
+    - Para que serve o [SIGAA](sistema)
+    - Qual a finalidade do [SIGAA](sistema)
+    - O que posso fazer no [SIGAA](sistema)
+    - Como utilizar o [SIGAA](sistema)
+    - Para que serve o sistema [SIGAA](sistema)
+    - Como acessar o [SIGAA](sistema)
+    - O que o [SIGAA](sistema) oferece para os alunos
 
 - intent: oque_e_sippa
   examples: |
-    - O que é o SIPPA
-    - O que significa SIPPA
-    - Para que serve o SIPPA
-    - Qual a finalidade do SIPPA
-    - O que o SIPPA pode fazer por mim
-    - Como usar o SIPPA
-    - Como faço para acessar o SIPPA
-    - Qual o objetivo do SIPPA na UFC
-    - Para que serve o sistema SIPPA na universidade
+    - O que é o [SIPPA](sistema)
+    - O que significa [SIPPA](sistema)
+    - Para que serve o [SIPPA](sistema)
+    - Qual a finalidade do [SIPPA](sistema)
+    - O que o [SIPPA](sistema) pode fazer por mim
+    - Como usar o [SIPPA](sistema)
+    - Como faço para acessar o [SIPPA](sistema)
+    - Qual o objetivo do [SIPPA](sistema) na UFC
+    - Para que serve o sistema [SIPPA](sistema) na universidade
 
 - intent: oque_e_moodle
   examples: |
-    - O que é o Moodle
-    - O que significa Moodle
-    - Como funciona o Moodle
-    - Qual a finalidade do Moodle
-    - Como acessar o Moodle
-    - O que eu encontro no Moodle
-    - O que posso fazer no Moodle
-    - O que é o ambiente virtual Moodle
-    - Como utilizar o Moodle na UFC
+    - O que é o [Moodle](sistema)
+    - O que significa [Moodle](sistema)
+    - Como funciona o [Moodle](sistema)
+    - Qual a finalidade do [Moodle](sistema)
+    - Como acessar o [Moodle](sistema)
+    - O que eu encontro no [Moodle](sistema)
+    - O que posso fazer no [Moodle](sistema)
+    - O que é o ambiente virtual [Moodle](sistema)
+    - Como utilizar o [Moodle](sistema) na UFC
 
 - intent: oque_e_pergamum
   examples: |
-    - O que é o Pergamum
-    - O que significa Pergamum
-    - Como funciona o Pergamum
-    - Qual a finalidade do Pergamum
-    - O que eu posso fazer no Pergamum
-    - Como acessar o Pergamum
-    - Como utilizar o sistema Pergamum
-    - O que é o sistema Pergamum na UFC
-    - O que posso consultar no Pergamum
+    - O que é o [Pergamum](sistema)
+    - O que significa [Pergamum](sistema)
+    - Como funciona o [Pergamum](sistema)
+    - Qual a finalidade do [Pergamum](sistema)
+    - O que eu posso fazer no [Pergamum](sistema)
+    - Como acessar o [Pergamum](sistema)
+    - Como utilizar o sistema [Pergamum](sistema)
+    - O que é o sistema [Pergamum](sistema) na UFC
+    - O que posso consultar no [Pergamum](sistema)
 - intent: qual_site_biblioteca
   examples: |
-    - Qual o site da biblioteca
-    - Onde encontro o site da biblioteca
+    - Qual o [site da biblioteca](sistema)
+    - Onde encontro o [site da biblioteca](sistema)
     - Qual o endereço da biblioteca
-    - Como acesso o site da biblioteca
-    - Qual é o link para o site da biblioteca da UFC
+    - Como acesso o [site da biblioteca](sistema)
+    - Qual é o link para o [site da biblioteca](sistema) da UFC
     - Onde posso consultar os livros da biblioteca
-    - Como pesquisar livros no site da biblioteca
+    - Como pesquisar livros no [site da biblioteca](sistema)
     - Como faço para acessar os recursos da biblioteca online
     - Onde encontro as informações sobre a biblioteca
 
@@ -135,40 +135,40 @@ nlu:
 
 - intent: qual_site_sigaa
   examples: |
-    - Qual o site do SIGAA?
-    - Onde posso acessar o SIGAA?
-    - Qual é o endereço do SIGAA?
-    - Qual o link do SIGAA?
-    - Onde está o site do SIGAA?
+    - Qual o site do [SIGAA](sistema)?
+    - Onde posso acessar o [SIGAA](sistema)?
+    - Qual é o endereço do [SIGAA](sistema)?
+    - Qual o link do [SIGAA](sistema)?
+    - Onde está o site do [SIGAA](sistema)?
 
 - intent: qual_site_sippa
   examples: |
-    - Qual o site do SIPPA?
-    - Onde posso acessar o SIPPA?
-    - Qual é o endereço do SIPPA?
-    - Onde encontro o site do SIPPA?
-    - Qual o link do SIPPA?
+    - Qual o site do [SIPPA](sistema)?
+    - Onde posso acessar o [SIPPA](sistema)?
+    - Qual é o endereço do [SIPPA](sistema)?
+    - Onde encontro o site do [SIPPA](sistema)?
+    - Qual o link do [SIPPA](sistema)?
 
 - intent: qual_site_moodle
   examples: |
-    - Qual o site do Moodle?
-    - Onde posso acessar o Moodle?
-    - Qual é o endereço do Moodle?
-    - Onde encontro o site do Moodle?
-    - Qual o link do Moodle?
+    - Qual o site do [Moodle](sistema)?
+    - Onde posso acessar o [Moodle](sistema)?
+    - Qual é o endereço do [Moodle](sistema)?
+    - Onde encontro o site do [Moodle](sistema)?
+    - Qual o link do [Moodle](sistema)?
 
 - intent: qual_site_pergamum
   examples: |
-    - Qual o site do Pergamum?
-    - Onde posso acessar o Pergamum?
-    - Qual é o endereço do Pergamum?
-    - Onde encontro o site do Pergamum?
-    - Qual o link do Pergamum?
+    - Qual o site do [Pergamum](sistema)?
+    - Onde posso acessar o [Pergamum](sistema)?
+    - Qual é o endereço do [Pergamum](sistema)?
+    - Onde encontro o site do [Pergamum](sistema)?
+    - Qual o link do [Pergamum](sistema)?
 
 - intent: qual_site_prae
   examples: |
-    - Qual o site do PRAE?
+    - Qual o [site do PRAE](sistema)?
     - Onde posso acessar o PRAE?
     - Qual é o endereço do PRAE?
-    - Onde encontro o site do PRAE?
+    - Onde encontro o [site do PRAE](sistema)?
     - Qual o link do PRAE?

@@ -1,66 +1,119 @@
 version: "3.1"
 
 nlu:
-  - intent: faq/o_que_e_o_ru
+
+  - synonym: Restaurante Universitario
     examples: |
-      - o que significa RU
-      - pode explicar o que é o RU
-      - qual é o objetivo do RU
-      - qual a função do RU
-  - intent: faq/solicitar_cartao
+      - RU
+      - ru
+      
+  - synonym: Cartão do RU
+    examples: |
+      - cartão
+      - cartão do restaurante universitario
+
+  - intent: o_que_e_o_ru
+    examples: |
+      - o que significa [RU](local)
+      - pode explicar o que é o [RU](local)
+      - qual é o objetivo do [RU](local)
+      - qual a função do [RU](local)
+      - o que é a sigra [RU](local)
+
+  - intent: solicitar_cartao
     examples: |
       - O que precisa para solicitar o cartão?
-  - intent: faq/segunda_via
+      - Como faço meu [cartão](objeto)?
+      - Como faço meu [cartão do RU]](objeto)
+      - Onde eu pego meu [cartão do RU](objeto)
+      - Onde pego meu [cartão](objeto)
+      - Como consigo meu [cartão do RU](objeto)
+      - Posso fazer um [cartão do RU](objeto) para mim?
+      - Quem pode ter o [cartao do RU](objeto)
+      - preciso de algo para pegar a comida do RU?
+      - preciso levar o que para comer no RU
+
+  - intent: segunda_via
     examples: |
-      - Apenas o primeiro cartão ou a segunda via também?
-  - intent: faq/quem_pode_solicitar
+      - Apenas o primeiro [cartão](objeto) ou a segunda via também?
+      - Eu posso pegar uma segunda via do [cartão do RU](objeto)?
+      - Posso pegar outro [cartão do RU](objeto)?
+      - Perdi meu [cartão do RU](objeto), e agora?
+      - Como consigo outro [cartão do RU](objeto)
+      - como eu faço a segunda via do [cartão](objeto)
+
+  - intent: quem_pode_solicitar
     examples: |
       - Quem pode solicitar?
-  - intent: faq/eh_gratuito
+      - Eu posso ter o [cartão do RU](objeto)?
+      - qualquer pessoa pode ter o [cartão do RU](objeto)?
+      - quem pode ter o [cartão do RU](objeto)
+      
+  - intent: eh_gratuito
     examples: |
       - É gratuito?
-  - intent: faq/valor_da_refeicao
+      - Preciso pagar algum valor para ter o [cartão do RU](objeto)?
+      - O [cartão do RU](objeto) é gratuito
+      - pago o que pra ter o [cartão do RU](objeto)
+      - quanto eu pago para fazer a segunda via do [cartão do RU](objeto)?
+
+  - intent: valor_da_refeicao
     examples: |
       - Qual o valor da refeição para alunos, profs e STAs?
-  - intent: faq/ruquem_pode_acessar
+      - Precisa pagar alguma coisa para comer no [RU](local)?
+      - Quanto custa a refeição na UFC quixada
+      - Quanto tem que pagar para comer
+      - Quanto é para almossar no [RU](local)?
+      - Precisa pagar alguma coisa para jantar no [RU](local)?
+
+  - intent: ru_quem_pode_acessar
     examples: |
       - Quem pode acessar?
-  - intent: faq/quantidade_maxima_de_creditos_no_cartao
+      - Qualquer pessoa pode entrar no [RU](local)?
+      - Quem que pode entrar no [RU](local)?
+      - Quem pode utilizar o [RU](local)
+      - Quem pode utilizar o [Restaurante universitario](local)?
+
+  - intent: cardapio
     examples: |
-      - Existe quantidade máxima de créditos no cartão?
-  - intent: faq/cardapio
+      - Qual o cardápio do [RU](local)?
+      - O que tem pra comer no [RU](local)?
+      - Como eu sei o que vai ser o almoço de hoje?
+      - Como eu sei o que vai ser a janta de hoje?
+      - Qual a refeição do [RU](local) amanha?
+      - quero saber o que vai ter pra comer no [RU](local) amanha
+      - quero saber qual o cardapio de amanha
+      - me diz o cardapio de terça-feira
+
+  - intent: horarios_ru
     examples: |
-      - Qual o cardápio do RU?
-  - intent: faq/o_ru_funciona
-    examples: |
-      - Quando o ru funciona?
-  - intent: faq/como_faco_segunda_via
-    examples: |
-      - Como faço minha segunda via?
-  - intent: faq/nutricionista
-    examples: |
-      - Quem é a nutricionista?
-  - intent: faq/esqueci_agendar
+      - Quando o [ru](local) funciona?
+      - Quando o [ru](local) abre?
+      - que horas o [ru](local) abre?
+      - quais os horarios do [ru](local)
+      - me diz os horarios do [ru](local)
+      - que horas é o almoço no [ru](local)
+      - que hora é a janta no [ru](local)
+
+  - intent: esqueci_agendar
     examples: |
       - Esqueci de agendar a refeição.
-  - intent: faq/esqueci_o_cartao
+      - o que eu faço se esquever de agendar o [ru](local)
+      - o que fazer se nao agendar o [ru](local)
+      - esqueci de agendar o [ru](local)
+
+  - intent: site_do_ru
     examples: |
-      - Esqueci o cartão, e agora?
-  - intent: faq/site_do_ru
-    examples: |
-      - Qual o site do ru?
-  - intent: faq/como_funciona_o_agendamento
+      - Qual o site do [ru](local)?
+      - o [ru](local) tem um sistema?
+      - o [ru](local) tem algum site?
+      - me diz o site do [ru](local)
+      - fala ai o site do [ru](local)
+
+  - intent: como_agendar_ru
     examples: |
       - Como funciona o agendamento no RU?
-  - intent: faq/quanto_custa_o_cartao
-    examples: |
-      - Quanto custa para fazer o cartão?
-  - intent: faq/quanto_custa_segunda_via_do_cartao
-    examples: |
-      - Quanto custa para fazer a segunda via do cartão?
-  - intent: faq/meu_cartao_deu_defeito
-    examples: |
-      - Meu cartão deu defeito
-  - intent: faq/posso_emprestar_o_cartão
-    examples: |
-      - O que acontece se eu emprestar meu cartão do RU?
+      - como que agenda refeição
+      - como que eu marco uma refeição no ru
+      - onde eu marco a refeiçao do ru
+      - e onde fica o agendamento do ru

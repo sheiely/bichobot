@@ -2,9 +2,6 @@ version: "3.1"
 
 rules:
 
-
-##Rules de projetos
-
 - rule: O que é o PET
   steps:
     - intent: o_que_e_o_pet
