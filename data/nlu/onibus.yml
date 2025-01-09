@@ -1,11 +1,15 @@
 version: "3.1"
 
 nlu:
-  - intent: faq/onibus
+  - intent: onibus_horarios
     examples: |
       - ônibus
       - onibus
       - Quais os horários dos ônibus da UFC
+      - Qual o horario do onibus
+      - que horas o onibus passa na rodoviaria
+      - que horas o onibus passa no segundo ponto
+      - Quais os horarios do onibus?
       - Que horas passa o ônibus da UFC?
       - Como saber os horários do ônibus na UFC?
       - Que horas os ônibus circulam na UFC?
@@ -13,8 +17,11 @@ nlu:
       - O ônibus da UFC passa à noite?
       - Qual é o horário do ônibus da universidade?
       - Quais os horários de funcionamento do ônibus?
+      - quero saber os horarios do onibus
+      - quero saber o itinerario do onibus
+      - qual o itinerario dos onibus
 
-  - intent: faq/site_onibus
+  - intent: site_onibus
     examples: |
       - Qual o site do ônibus?
       - Onde posso ver os horários dos ônibus?
@@ -27,7 +34,7 @@ nlu:
       - Qual página tem os horários dos ônibus?
       - Onde posso verificar os ônibus no site?
 
-  - intent: faq/pontos_onibus
+  - intent: pontos_onibus
     examples: |
       - ônibus pontos
       - Quais os pontos de parada do ônibus?
@@ -40,20 +47,7 @@ nlu:
       - Onde são as paradas do ônibus na universidade?
       - O ônibus tem paradas específicas?
 
-  - intent: faq/quando_passa_os_onibus_do_ifce
-    examples: |
-      - Quais os horários dos ônibus do IFCE
-      - Que horas passa o ônibus do IFCE?
-      - Como saber quando passa o ônibus no IFCE?
-      - O ônibus do IFCE tem horário fixo?
-      - Que horas o ônibus do IFCE sai?
-      - Qual é o horário do ônibus do IFCE?
-      - Os ônibus do IFCE circulam o dia todo?
-      - O ônibus do IFCE funciona à noite?
-      - Quais os turnos do ônibus do IFCE?
-      - Como posso ver o cronograma dos ônibus do IFCE?
-
-  - intent: faq/onibus_ifce
+  - intent: onibus_ifce
     examples: |
       - Posso ir no ônibus do IFCE?
       - Aluno da UFC pode usar o ônibus do IFCE?
@@ -66,56 +60,3 @@ nlu:
       - Existe permissão especial para usar o ônibus do IFCE?
       - Como funciona o transporte do IFCE para externos?
 
-  - intent: faq/qual_o_onibus_roxo
-    examples: |
-      - Qual é o ônibus roxo?
-      - Para onde vai o ônibus roxo?
-      - O que significa o ônibus roxo?
-      - Qual a rota do ônibus roxo?
-      - Onde passa o ônibus roxo?
-      - O ônibus roxo é da UFC?
-      - O que o ônibus roxo faz?
-      - Como saber mais sobre o ônibus roxo?
-      - O ônibus roxo tem horários fixos?
-      - Quem pode pegar o ônibus roxo?
-      - Qual é o ônibus A?
-
-  - intent: faq/qual_o_onibus_cinza
-    examples: |
-      - Qual é o ônibus cinza?
-      - Para onde vai o ônibus cinza?
-      - O que significa o ônibus cinza?
-      - Qual a rota do ônibus cinza?
-      - Onde passa o ônibus cinza?
-      - O ônibus cinza é da UFC?
-      - O que o ônibus cinza faz?
-      - Como saber mais sobre o ônibus cinza?
-      - O ônibus cinza tem horários fixos?
-      - Quem pode pegar o ônibus cinza?
-      - Qual é o ônibus B?
-
-  - intent: faq/qual_o_onibus_do_ifce
-    examples: |
-      - Qual o ônibus do IFCE?
-      - Qual o transporte oficial do IFCE?
-      - Qual a rota do ônibus do IFCE?
-      - Onde passa o ônibus do IFCE?
-      - Qual a cor do ônibus do IFCE?
-      - Como identificar o ônibus do IFCE?
-      - O ônibus do IFCE tem um nome específico?
-      - Como funciona o ônibus do IFCE?
-      - O ônibus do IFCE é fácil de identificar?
-      - O ônibus do IFCE faz paradas na UFC?
-
-  - intent: faq/onibus_quebra
-    examples: |
-      - O que acontece se o ônibus quebra?
-      - E se o ônibus da UFC parar de funcionar?
-      - Quem avisa se o ônibus quebrar?
-      - Como resolver se o ônibus estiver quebrado?
-      - O que fazem quando o ônibus para?
-      - O que é feito em caso de pane no ônibus?
-      - Tem um substituto para o ônibus quebrado?
-      - Como a universidade lida com ônibus quebrados?
-      - O ônibus da UFC tem assistência em caso de quebra?
-      - Qual o plano B se o ônibus estiver com defeito?

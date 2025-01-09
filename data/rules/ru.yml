@@ -1,0 +1,62 @@
+version: "3.1"
+
+rules:
+  - rule: Sobre o RU
+    steps:
+      - intent: o_que_e_o_ru
+      - action: utter_o_que_e_o_ru
+
+  - rule: Como solicitar o cartao do RU
+    steps:
+      - intent: solicitar_cartao
+      - action: utter_solicitar_cartao
+
+  - rule: Como solicitar a segunda via do cartão
+    steps:
+      - intent: segunda_via
+      - action: utter_segunda_via
+
+  - rule: quem pode solicitar o cartão do RU
+    steps:
+      - intent: quem_pode_solicitar
+      - action: utter_quem_pode_solicitar
+  
+  - rule: o cartão é gratuito
+    steps:
+      - intent: eh_gratuito
+      - action: utter_eh_gratuito
+
+  - rule: qual o valor das refeições
+    steps:
+      - intent: valor_da_refeicao
+      - action: utter_valor_da_refeicao
+
+  - rule: quem pode acessar o ru
+    steps:
+      - intent: ru_quem_pode_acessar
+      - action: utter_ru_quem_pode_acessar
+  
+  - rule: saber o cardapio
+    steps:
+      - intent: cardapio
+      - action: utter_cardapio
+
+  - rule: Saber os horarios do RU
+    steps:
+      - intent: horarios_ru
+      - action: utter_horarios_ru
+
+  - rule: Saber o que fazer se esquecer de agendar
+    steps:
+      - intent: esqueci_agendar
+      - action: utter_esqueci_agendar
+
+  - rule: Saber o site do RU
+    steps:
+      - intent: site_do_ru
+      - action: utter_site_do_ru
+
+  - rule: Como agendar o RU
+    steps:
+      - intent: como_agendar_ru
+      - action: utter_como_agendar_ru

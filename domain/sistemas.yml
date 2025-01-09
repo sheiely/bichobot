@@ -19,7 +19,8 @@ intents:
   - qual_site_pergamum
   - qual_site_prae
 
-
+entities:
+  - sistema
 
 responses:    
   utter_quais_sistemas_ufc:
@@ -63,7 +64,7 @@ com acesso através de login (cpf) e senha (cadastrada na
 biblioteca). Essa área de cadastro disponibiliza a renovação
 online, histórico de livros emprestados, suspensão
 (afastamento), lista de reserva, cadastro de assuntos de
-interesse, dentre outros."
+interesse, dentre outros. Acesse: [Sistema Pergamum](https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php)"
 
   utter_oque_e_prae:
     - text: "A Pró-Reitoria de Assuntos Estudantis (PRAE) é a unidade

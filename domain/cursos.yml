@@ -83,7 +83,7 @@ responses:
         Matemática Básica."
 
   utter_cursos_site:
-  - text: "Os sites oficiais dos cursos da UFC - Quixadá:
+  - text: "Os sites oficiais dos cursos da UFC Quixadá onde voce pode achar mais informações - Quixadá:
         \nDesign digital: https://dd.quixada.ufc.br
         \nEngenharia de software: https://es.quixada.ufc.br
         \nCiencias da computação: https://cc.quixada.ufc.br

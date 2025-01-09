@@ -46,14 +46,11 @@ nlu:
     - Como conseguir bolsas
     - Como eu posso ser bolsista do [PET](auxilio-bolsa)
     - o que eu preciso fazer para entrar em uma bolsa
-  
+
 - intent: qual_valor_bolsas
   examples: |
     - Quanto ganha o aux [moradia](auxilio-bolsa)?
     - Qual o valor das bolsas
-    - quanto recebo pelo auxilio?
-    - qual a diferença de valor das bolsas
-    - recebo algo por ter a [isenção do RU](auxilio-bolsa)?
-
-      
-
+    - Quanto recebo pelo auxilio?
+    - Qual a diferença de valor das bolsas
+    - Recebo algo por ter a [isenção do RU](auxilio-bolsa)?
