@@ -1,6 +1,14 @@
 version: "3.1"
 
 nlu:
+  - synonym: onibus
+    examples: |
+      - onibus
+      - ônibus
+      - bus
+      - Onibus
+      - Ônibus
+
   - intent: onibus_horarios
     examples: |
       - ônibus
@@ -25,38 +33,38 @@ nlu:
     examples: |
       - Qual o site do ônibus?
       - Onde posso ver os horários dos ônibus?
-      - Tem um site para o ônibus?
+      - Tem um site para o onibus?
       - Onde encontrar informações sobre o ônibus?
-      - Existe algum link para o site do ônibus?
+      - Existe algum link para o site do onibus?
       - Como acessar o site dos ônibus?
-      - Onde está o site oficial do ônibus?
+      - Onde está o site oficial do onibus?
       - Como vejo o itinerário online?
-      - Qual página tem os horários dos ônibus?
+      - Qual página tem os horários dos onibus?
       - Onde posso verificar os ônibus no site?
 
   - intent: pontos_onibus
     examples: |
-      - ônibus pontos
-      - Quais os pontos de parada do ônibus?
+      - onibus pontos
+      - Quais os pontos de parada do onibus?
       - Quais as paradas dos Ônibus?
-      - Onde o ônibus para?
+      - Onde o onibus para?
       - Quais são as estações do ônibus?
       - Onde ficam os pontos de ônibus na UFC?
-      - Qual é o ponto mais próximo do ônibus?
+      - Qual é o ponto mais próximo do onibus?
       - Onde está o ponto principal do ônibus?
       - Onde são as paradas do ônibus na universidade?
       - O ônibus tem paradas específicas?
 
   - intent: onibus_ifce
     examples: |
-      - Posso ir no ônibus do IFCE?
+      - Posso ir no onibus do IFCE?
       - Aluno da UFC pode usar o ônibus do IFCE?
       - Como funciona o acesso ao ônibus do IFCE?
       - O ônibus do IFCE é aberto a outras instituições?
-      - Quem pode usar o ônibus do IFCE?
-      - Dá para usar o ônibus do IFCE?
+      - Quem pode usar o onibus do IFCE?
+      - Dá para usar o onibus do IFCE?
       - Qualquer pessoa pode pegar o ônibus do IFCE?
       - O ônibus do IFCE tem restrição de uso?
-      - Existe permissão especial para usar o ônibus do IFCE?
+      - Existe permissão especial para usar o onibus do IFCE?
       - Como funciona o transporte do IFCE para externos?
 

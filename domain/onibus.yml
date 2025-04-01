@@ -8,16 +8,8 @@ intents:
 responses:
   utter_onibus_horarios:
   - text: |
-      Os ônibus terceirizados da UFC são destinados exclusivamente aos estudantes da instituição. Para embarcar, é necessário apresentar ao motorista:  
-      - Um documento que comprove vínculo estudantil com a UFC.  
-      - Um documento oficial com foto para identificação.  
-
-      **Regras de uso:**  
-      - Os ônibus somente pararão nos pontos preestabelecidos.  
-      - A lotação será limitada à capacidade máxima permitida por lei.  
-      - O ônibus do Campus será reservado para visitas técnicas.  
-
-      **Horários disponíveis:**  
+      **Horários disponíveis:** 
+      Confira os horarios do onibus no site:
       [Horários dos Ônibus - Campus UFC Quixadá](https://www.quixada.ufc.br/wp-content/uploads/2024/07/SITE-Post-Onibus-Campus-04-1-1024x1024.jpg)
 
   utter_pontos_onibus:

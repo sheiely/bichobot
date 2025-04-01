@@ -9,11 +9,13 @@ intents:
   - mal_humor
   - desafiar_bot
 
-
+actions:
+  - action_default_fallback
 responses:
-  utter_default:
-    - text: "Desculpe, não entendi sua pergunta. Você pode tentar reformular?"
-    
+
+  utter_default_fallback:
+  - text: "nao entendi pode explicar melhor?"
+
   utter_saudacao:
   - text: "Oi! Sou um chatbot feito para tirar duvida dos calouros, como posso te ajudar?"
 

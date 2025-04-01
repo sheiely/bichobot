@@ -1,3 +1,5 @@
+
+
 version: "3.1"
 
 rules: 
@@ -6,16 +8,76 @@ rules:
     steps:
       - intent: como_conseguir_bolsa
       - action: utter_como_conseguir_bolsa
-
-  - rule: Responder como funciona uma bolsa
-    steps:
-      - intent: como_funciona_auxilio_bolsa
-      - action: action_como_funciona_auxilio
       
   - rule: Saber valor das bolsas
     steps:
       - intent: qual_valor_bolsas
       - action: utter_qual_valor_bolsas
+
+  - rule: Saber sobre o PIBIC
+    steps:
+      - intent: como_funciona_auxilio_bolsa
+        entities: 
+          - auxilio-bolsa
+      - slot_was_set:
+        - auxilio-bolsa: "PIBIC"
+      - action: utter_como_funciona_pibic
+  
+  - rule: Saber sobre o PIBITI
+    steps:
+      - intent: como_funciona_auxilio_bolsa
+        entities: 
+          - auxilio-bolsa
+      - slot_was_set:
+        - auxilio-bolsa: "PIBITI"
+      - action: utter_como_funciona_pibiti
+  
+  - rule: Saber sobre o PID
+    steps:
+      - intent: como_funciona_auxilio_bolsa
+        entities: 
+          - auxilio-bolsa
+      - slot_was_set:
+        - auxilio-bolsa: "PID"
+      - action: utter_como_funciona_pid
+  
+  - rule: Saber sobre o BIA
+    steps:
+      - intent: como_funciona_auxilio_bolsa
+        entities: 
+          - auxilio-bolsa
+      - slot_was_set:
+        - auxilio-bolsa: "BIA"
+      - action: utter_como_funciona_bia
+  
+  - rule: Saber sobre o emergencial
+    steps:
+      - intent: como_funciona_auxilio_bolsa
+        entities: 
+          - auxilio-bolsa
+      - slot_was_set:
+        - auxilio-bolsa: "emergencial"
+      - action: utter_como_funciona_aux_emergencial
+  
+  - rule: Saber sobre o aux creche
+    steps:
+      - intent: como_funciona_auxilio_bolsa
+        entities: 
+          - auxilio-bolsa
+      - slot_was_set:
+        - auxilio-bolsa: "creche"
+      - action: utter_como_funciona_aux_creche
+
+  - rule: Saber sobre o moradia
+    steps:
+      - intent: como_funciona_auxilio_bolsa
+        entities: 
+          - auxilio-bolsa
+      - slot_was_set:
+        - auxilio-bolsa: "moradia"
+      - action: utter_como_funciona_aux_moradia      
+
+  
 
  
 

@@ -10,84 +10,79 @@ entities:
 
 slots:
   auxilio-bolsa:
-    type: text
+    type: categorical
+    values:
+      - PIBIC
+      - PIBITI
+      - PID
+      - BIA
+      - emergencial
+      - creche
+      - moradia
     mappings:
       - type: from_entity
         entity: auxilio-bolsa
-
-actions:
-  - action_como_funciona_auxilio
+    influence_conversation: true
 
 responses:
   utter_como_funciona_aux_moradia:
-    - text: "O Programa Auxílio Moradia tem por objetivo viabilizar a
-permanência de estudantes matriculados nos Cursos de
-Graduação dos Campi da Universidade Federal do Ceará (UFC)
-em comprovada situação de vulnerabilidade econômica,
-assegurando-lhes auxílio institucional para complementação
-de despesas com moradia e alimentação durante todo o
-período do curso ou enquanto persistir a mesma situação."
+    - text: |
+        O Programa Auxílio Moradia tem por objetivo viabilizar a
+        permanência de estudantes matriculados nos Cursos de
+        Graduação dos Campi da Universidade Federal do Ceará (UFC)
+        em comprovada situação de vulnerabilidade econômica,
+        assegurando-lhes auxílio institucional para complementação
+        de despesas com moradia e alimentação durante todo o
+        período do curso ou enquanto persistir a mesma situação.
 
   utter_como_funciona_aux_emergencial:
-    - text: "O Auxílio Emergencial surgiu com o intuito de assistir
-estudantes em situação de vulnerabilidade socioeconômica,
-que ingressam na universidade em listas de espera do SISU, e
-que portanto, adentram após os processos seletivos da PRAE."
+    - text: "É um auxílio em dinheiro destinado aos estudantes dos cursos presenciais de graduação (licenciatura ou bacharelado) de todos os Campi da UFC (Fortaleza, Crateús, Itapajé, Quixadá, Russas e Sobral), que apresentem vulnerabilidade socioeconômica comprovada e que atendam a um dos requisitos relacionados abaixo, que estejam impedindo que o aluno frequente normalmente as aulas."
 
   utter_como_funciona_aux_creche:
-    - text: "Para acessar a este benefício, a/o discente deve estar
-matriculada(o) em um dos cursos de graduação da UFC, na
-carga horário mínima exigida no edital correspondente;
-apresentar situação de vulnerabilidade socioeconômica com
-base nos parâmetros estabelecidos no PNAES, e ter filho(a)
-com idade entre 6 meses e 4 anos incompletos, que esteja sob
-sua guarda e que coabite com a(o) mesma(o)."
+    - text: "É um auxílio em dinheiro destinado a estudantes matriculados em cursos presenciais de graduação de todos os Campi da UFC (Fortaleza, Crateús, Itapajé, Quixadá, Russas e Sobral), que se encontrem em situação de vulnerabilidade socioeconômica, tenham filhos, morem e detenham guarda dos mesmos. A criança deve ter idade entre 6 (seis) e 48 (quarenta e oito) meses incompletos.  "
 
   utter_como_conseguir_bolsa:
     - text: "Fique atento aos editais, redes sociais e prazos, https://www.quixada.ufc.br/bolsas/ "
 
   utter_como_funciona_bia:
-    - text: "aos estudantes de Cursos de GRaduação Presenciais da
-Universidade Federal (UFC) - em situação de vulnerabilidade
-socioeconômica comprovada - especialmente os de semestres
-iniciais, condições financeiras para sua permanência e
-desempenho acadêmico satisfatório, mediante atuação, em
-caráter de iniciação acadêmica, nas diversas unidades da
-Instituição."
+    - text: "O Programa de Iniciação Acadêmica é uma forma de oferecer um espaço para que o estudante possa conhecer e participar de ações de iniciação à universidade, ensino, pesquisa e extensão, artes, gestão, dentre outros; além de ter a oferta direta de uma bolsa (no valor de R$ 700,00) para estudantes que apresentam vulnerabilidade socioeconômica.  Tem como objetivo utilizar as horas semanais da bolsa para que o estudante possa ter a possibilidade de participar de um projeto ou possa se dedicar de maneira mais organizada e guiada em suas atividades de estudos. "
 
 
   utter_como_funciona_pibic:
-    - text: "O Programa Institucional de Bolsas de Iniciação Científica -
-PIBIC - compreende a realização de projetos de pesquisa por
-alunos (as) de graduação com apoio de um professor
-orientador. A seleção na bolsa se dá por meio de requisitos
-determinados pelo professor orientador. Para mais
-informações sobre a bolsa acesse: http://www.inpe.br/bolsas/."
+    - text: |
+        O Programa Institucional de Bolsas de Iniciação Científica -
+        PIBIC - compreende a realização de projetos de pesquisa por
+        alunos (as) de graduação com apoio de um professor
+        orientador. A seleção na bolsa se dá por meio de requisitos
+        determinados pelo professor orientador. Para mais
+        informações sobre a bolsa acesse: http://www.inpe.br/bolsas/.
 
-  utter_como_funciona_pibit:
-    - text: "O Programa Institucional de Bolsas de Iniciação em
-Desenvolvimento Tecnológico e Inovação - PIBITI - visa
-proporcionar ao bolsista, orientado por pesquisador
-qualificado, a aprendizagem de técnicas e métodos de
-pesquisa tecnológica, bem como estimular o desenvolvimento
-do pensar tecnológico e da criatividade, decorrentes das
-condições criadas pelo confronto direto com os problemas de
-pesquisa. Para mais informações sobre a bolsa acesse: http://
-www.inpe.br/bolsas/."
+  utter_como_funciona_pibiti:
+    - text: |
+        O Programa Institucional de Bolsas de Iniciação em
+        Desenvolvimento Tecnológico e Inovação - PIBITI - visa
+        proporcionar ao bolsista, orientado por pesquisador
+        qualificado, a aprendizagem de técnicas e métodos de
+        pesquisa tecnológica, bem como estimular o desenvolvimento
+        do pensar tecnológico e da criatividade, decorrentes das
+        condições criadas pelo confronto direto com os problemas de
+        pesquisa. Para mais informações sobre a bolsa acesse: http://
+        www.inpe.br/bolsas/."
   utter_como_funciona_pid:
-    - text: "O Programa de Iniciação à Docência - PID - Vinculado à
-Coordenadoria de Acompanhamento Discente da Pró-Reitoria
-de Graduação (Prograd), é um sistema de monitoria de
-disciplinas que inclui o estudante em atividades docentes e de
+    - text: |
+        O Programa de Iniciação à Docência - PID - Vinculado à
+        Coordenadoria de Acompanhamento Discente da Pró-Reitoria
+        de Graduação (Prograd), é um sistema de monitoria de
+        disciplinas que inclui o estudante em atividades docentes e de
 
-ensino associado à pesquisa, sob a tutela de um professor-
-orientador. Tem como objetivo fomentar o interesse dos
+        ensino associado à pesquisa, sob a tutela de um professor-
+        orientador. Tem como objetivo fomentar o interesse dos
 
-estudantes de graduação pela carreira docente e melhorar seu
-desempenho na vida acadêmica. Para mais informações sobre
+        estudantes de graduação pela carreira docente e melhorar seu
+        desempenho na vida acadêmica. Para mais informações sobre
 
-a bolsa acesse: https://prograd.ufc.br/pt/bolsas/bolsas-do-pid-
-programa-de-iniciacao-a-docencia/."
+        a bolsa acesse: https://prograd.ufc.br/pt/bolsas/bolsas-do-pid-
+        programa-de-iniciacao-a-docencia/.
 
   utter_qual_valor_bolsas:
     - text: "Os valores das bolsas são 700R$, para auxilios, 900R$, e a isenção do RU te deixa isento da taxa"
