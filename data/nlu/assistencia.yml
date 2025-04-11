@@ -28,15 +28,6 @@ nlu:
     - Qual o número para falar com a [psicóloga](assistencia)?
     - Como agendo uma consulta com a [psicóloga](assistencia)?
 
-- intent: qual_contato
-  examples: |
-    - e qual o contato?
-    - qual o contato
-    - qual o email
-    - diz o telefone
-    - diz o numero
-    - diz o email
-    - diz o contato
 
 - intent: na_ufc_tem_nutricionista
   examples: |

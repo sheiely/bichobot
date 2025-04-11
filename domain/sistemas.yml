@@ -9,7 +9,6 @@ intents:
   - oque_e_sippa
   - oque_e_moodle
   - oque_e_pergamum
-  - oque_e_prae
   - qual_site_biblioteca
   - como_reserva_sala
   - como_cria_email_institucional
@@ -37,52 +36,44 @@ responses:
 
   utter_oque_e_sigaa:
     - text: "O Sistema Integrado de Gestão de Atividades Acadêmicas
-(SIGAA) é o espaço para gerenciamento de disciplinas e de
-todas as informações relativas à vida acadêmica do aluno. O
-SIGAA agrupa todas as informações de ensino, pesquisa e
-extensão."
+            (SIGAA) é o espaço para gerenciamento de disciplinas e de
+            todas as informações relativas à vida acadêmica do aluno. O
+            SIGAA agrupa todas as informações de ensino, pesquisa e
+            extensão."
 
   utter_oque_e_sippa:
     - text: "O Sistema de Presenças e Planos de aula (SIPPA) é utilizado
-por alunos e professores, nele o aluno pode verificar notas,
-arquivos submetido pelos professores e também a
-porcentagem de presenças em cada disciplina. O SIPPA é um
-sistema criado pelo nosso campus, o acesso é através de login
-e senha cadastrado pela secretaria."
+            por alunos e professores, nele o aluno pode verificar notas,
+            arquivos submetido pelos professores e também a
+            porcentagem de presenças em cada disciplina. O SIPPA é um
+            sistema criado pelo nosso campus, o acesso é através de login
+            e senha cadastrado pela secretaria."
 
   utter_oque_e_moodle:
     - text: "MOODLE é o acrônimo de “Modular Object-Oriented Dynamic
-Learning Environment”, um software livre, de apoio à
-aprendizagem, executado num ambiente virtual. É este
-ambiente o mais utilizado para as aulas. Especialmente em
-nosso Campus tem o Moodle2, feito para a dinâmica remota e
-que provavelmente irá continuar para os próximos semestres"
+            Learning Environment”, um software livre, de apoio à
+            aprendizagem, executado num ambiente virtual. É este
+            ambiente o mais utilizado para as aulas. Especialmente em
+            nosso Campus tem o Moodle2, feito para a dinâmica remota e
+            que provavelmente irá continuar para os próximos semestres"
 
   utter_oque_e_pergamum:
     - text: "Meu Pergamum é a área de cadastro do usuário na Biblioteca,
-com acesso através de login (cpf) e senha (cadastrada na
-biblioteca). Essa área de cadastro disponibiliza a renovação
-online, histórico de livros emprestados, suspensão
-(afastamento), lista de reserva, cadastro de assuntos de
-interesse, dentre outros. Acesse: [Sistema Pergamum](https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php)"
-
-  utter_oque_e_prae:
-    - text: "A Pró-Reitoria de Assuntos Estudantis (PRAE) é a unidade
-gestora de políticas para a promoção e apoio ao estudante de
-graduação da Universidade Federal do Ceará (UFC),
-consolidando o amplo objetivo de construção da cidadania
-nos diversos segmentos acadêmicos que compõem a
-comunidade universitária. Link para acesso: https://prae.ufc.br/pt/"
+            com acesso através de login (cpf) e senha (cadastrada na
+            biblioteca). Essa área de cadastro disponibiliza a renovação
+            online, histórico de livros emprestados, suspensão
+            (afastamento), lista de reserva, cadastro de assuntos de
+            interesse, dentre outros. Acesse: [Sistema Pergamum](https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php)"
 
   utter_qual_site_biblioteca:
     - text: "O site da biblioteca da UFC pode ser acessado no endereço: https://www.quixada.ufc.br/biblioteca/"
 
   utter_como_reservar_sala:
     - text: "Para reservar alguma sala é
-necessário falar com alguém da
-secretaria acadêmica, explicar o
-motivo da solicitação e será realizado
-os procedimentos."
+            necessário falar com alguém da
+            secretaria acadêmica, explicar o
+            motivo da solicitação e será realizado
+            os procedimentos."
 
   utter_qual_site_sigaa:
     - text: "O site do SIGAA pode ser acessado em: https://si3.ufc.br."

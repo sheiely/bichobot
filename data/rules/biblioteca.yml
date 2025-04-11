@@ -14,7 +14,7 @@ rules:
   - rule: sobre o minhabiblioteca
     steps:
       - intent: o_que_e_minhabiblioteca
-      - action: utter_qual_site_biblioteca
+      - action: utter_o_que_e_minhabiblioteca
   
   - rule: saber sobre cadastro na biblioteca
     steps:

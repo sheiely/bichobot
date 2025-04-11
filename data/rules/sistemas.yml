@@ -41,11 +41,6 @@ rules:
       - intent: oque_e_pergamum
       - action: utter_oque_e_pergamum
 
-  - rule: Explicar sobre o PRAE
-    steps:
-      - intent: oque_e_prae
-      - action: utter_oque_e_prae
-
   - rule: Consultar site da biblioteca
     steps:
       - intent: qual_site_biblioteca

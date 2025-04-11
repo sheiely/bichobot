@@ -1,7 +1,6 @@
 version: "3.1"
 
 intents:
-  - o_que_e_o_prae
   - o_que_e_o_pet
   - qual_o_site_do_pet
   - o_que_e_o_inove

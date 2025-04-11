@@ -10,6 +10,7 @@ intents:
   - qual_contato_secretaria_academica
   - quais_servicos_ufc
   - qual_contato
+  - oque_e_prae
 
 entities:
   - servico
@@ -44,3 +45,10 @@ responses:
   utter_quais_servicos_ufc:
   - text: "A UFC oferece diversos serviços aos alunos, como atendimento psicológico, nutricional, apoio acadêmico, entre outros. Precisa de mais informações sobre algum serviço específico?"
   
+  utter_oque_e_prae:
+    - text: "A Pró-Reitoria de Assuntos Estudantis (PRAE) é a unidade
+            gestora de políticas para a promoção e apoio ao estudante de
+            graduação da Universidade Federal do Ceará (UFC),
+            consolidando o amplo objetivo de construção da cidadania
+            nos diversos segmentos acadêmicos que compõem a
+            comunidade universitária. Link para acesso: https://prae.ufc.br/pt/"
