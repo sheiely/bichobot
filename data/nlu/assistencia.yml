@@ -1,6 +1,5 @@
 version: "3.1"
 
-
 nlu:
 - intent: qual_contato_servico_social
   examples: |
@@ -9,6 +8,11 @@ nlu:
     - Onde encontro o telefone do serviço [social](assistencia)?
     - Qual o número para falar com o serviço [social](assistencia)?
     - Como faço para obter informações sobre o serviço [social](assistencia)?
+    - Tem como falar com o serviço [social](assistencia)?
+    - Onde pego o contato do serviço [social](assistencia)?
+    - Qual é o número do serviço [social](assistencia)?
+    - Onde posso ligar para o serviço [social](assistencia)?
+    - Como posso conversar com o serviço [social](assistencia)?
 
 - intent: qual_contato_nutricao
   examples: |
@@ -19,6 +23,9 @@ nlu:
     - Como faço para marcar uma consulta com a [nutrição](assistencia)?
     - Qual o contato da [nutricionista](assistencia)?
     - Qual contato da [nutricionista](assistencia)?
+    - Como falo com a [nutricionista](assistencia)?
+    - Onde posso encontrar o número da [nutricionista](assistencia)?
+    - Onde consigo atendimento com a [nutricionista](assistencia)?
 
 - intent: qual_contato_psicologa
   examples: |
@@ -27,7 +34,11 @@ nlu:
     - Onde encontro o telefone do setor de [psicologia](assistencia)?
     - Qual o número para falar com a [psicóloga](assistencia)?
     - Como agendo uma consulta com a [psicóloga](assistencia)?
-
+    - Onde consigo falar com a [psicóloga](assistencia)?
+    - Qual o email da [psicóloga](assistencia)?
+    - Como faço para conversar com a [psicóloga](assistencia)?
+    - Tem algum telefone da [psicologia](assistencia)?
+    - Como posso buscar atendimento psicológico?
 
 - intent: na_ufc_tem_nutricionista
   examples: |
@@ -36,14 +47,16 @@ nlu:
     - A universidade oferece acompanhamento nutricional?
     - Como faço para consultar um nutricionista na UFC?
     - Queria saber se tem nutricionista na UFC
-    - na UFC tem nutricionista?
-    - tem nutricionista na UFC?
+    - Na UFC tem nutricionista?
+    - Tem nutricionista na UFC?
     - Onde posso encontrar ajuda nutricional na universidade?
     - Posso agendar uma consulta com o nutricionista da UFC?
     - A UFC oferece apoio nutricional aos seus alunos?
     - O que fazer para receber orientações nutricionais na UFC?
     - Onde encontro informações sobre nutrição na UFC?
-    - e nutricionista? tem?
+    - E nutricionista? tem?
+    - Como é o serviço de nutrição na UFC?
+    - Quem pode me ajudar com alimentação na UFC?
 
 - intent: na_ufc_tem_psicologa
   examples: |
@@ -62,7 +75,9 @@ nlu:
     - Como faço para acessar o serviço psicológico da universidade?
     - Há psicólogos disponíveis para os alunos na UFC?
     - A universidade oferece acompanhamento psicológico?
-    - e psicologa? tem?
+    - E psicóloga? tem?
+    - Como posso receber suporte psicológico na UFC?
+    - Psicóloga? A universidade tem?
 
 - intent: qual_contato_secretaria_academica
   examples: |
@@ -93,21 +108,22 @@ nlu:
     - Como fazer contato com a Secretaria Acadêmica da UFC?
     - Qual o email da Secretaria Acadêmica?
     - Como faço para tirar dúvidas com a Secretaria Acadêmica?
-
+    - Secretaria Acadêmica: como falar?
+    - Tem telefone da Secretaria Acadêmica?
 
 - intent: oque_e_prae
   examples: |
-    - O que é o [PRAE](assistencia)
-    - O que significa [PRAE](assistencia)
-    - Qual a finalidade do [PRAE](assistencia)
-    - Como o PRAE pode me ajudar
-    - O que é o Programa de Apoio Estudantil (PRAE)
-    - Como posso acessar o PRAE
-    - Quais serviços o PRAE oferece para os alunos
-    - Onde encontro informações sobre o PRAE
-    - Como o PRAE pode me auxiliar durante o curso
-
-
+    - O que é o [PRAE](assistencia)?
+    - O que significa [PRAE](assistencia)?
+    - Qual a finalidade do [PRAE](assistencia)?
+    - Como o PRAE pode me ajudar?
+    - O que é o Programa de Apoio Estudantil (PRAE)?
+    - Como posso acessar o PRAE?
+    - Quais serviços o PRAE oferece para os alunos?
+    - Onde encontro informações sobre o PRAE?
+    - Como o PRAE pode me auxiliar durante o curso?
+    - PRAE é o quê?
+    - Que tipo de apoio o PRAE dá?
 
 - intent: quais_servicos_ufc
   examples: |
@@ -118,6 +134,8 @@ nlu:
     - Quais são os serviços da Universidade Federal do Ceará?
     - Quais serviços a UFC tem para os estudantes?
     - Quais são as facilidades que a UFC oferece para seus alunos?
+    - A UFC tem que tipo de apoio?
+    - Quais setores de apoio estudantil existem na UFC?
 
 - intent: a_quem_buscar_ajuda
   examples: |
@@ -157,7 +175,5 @@ nlu:
     - Com quem posso falar sobre problemas com a biblioteca ou materiais de estudo?
     - Como posso obter assistência com questões de nutrição ou psicologia na UFC Quixadá?
     - Onde posso obter apoio para melhorar meu rendimento acadêmico?
-
-
-
+    - Quem me orienta se eu estiver com dificuldades emocionais ou de saúde mental?
 

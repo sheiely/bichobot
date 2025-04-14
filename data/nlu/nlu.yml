@@ -11,6 +11,7 @@ nlu:
     - Boa tarde
     - Boa noite
     - Oi, Boa tarde!
+    - /start
 
 - intent: despedida
   examples: |

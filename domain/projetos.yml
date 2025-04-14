@@ -1,12 +1,25 @@
 version: "3.1"
 
 intents:
-  - o_que_e_o_pet
+  - perguntar_sobre_projeto
   - qual_o_site_do_pet
-  - o_que_e_o_inove
-  - o_que_e_o_pacce
-  - o_que_e_o_poa
   - quais_os_projetos_ufc_quixada
+
+entities:
+  - projeto
+
+slots:
+  projeto:
+    type: categorical
+    values:
+      - PET
+      - INOVE
+      - PACCE
+      - POA
+    mappings:
+      - type: from_entity
+        entity: projeto
+    influence_conversation: true
 
 responses:
   utter_o_que_e_o_pet:
