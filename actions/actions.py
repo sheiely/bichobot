@@ -41,14 +41,26 @@ class ActionFallback(Action):
         return " ".join([hit.payload["page_content"] for hit in results])
 
     def generate_response_with_ollama(self, dispatcher, query, context, max_length=1000):
-        input_text = f"Voce é um assistente para alunos da Universidade Federal do Ceará (UFC) de Quixadá, fonecerei um contexto APENAS SE PRECISAR, use o contexto para elaborar a resposta caso seja pedido - Requisição: {query}\nContexto: {context}\n Resposta:"
+        input_text = f"Pergunta: {query}\nContexto: {context}"
         payload = {
             "model": OLLAMA_MODEL,
-            "messages": [{"role": "user", "content": input_text}],
+            "messages": [
+                {
+                "role": "system",
+                "content": "Você é um assistente especializado que responde com base no contexto fornecido. Se o contexto não contiver a resposta, apenas diga 'Não sei' e não invente informações. Seja direto e objetivo."
+                },
+                {
+                "role": "user",
+                "content": input_text
+                }
+            ],
+            "temperature": 0.1,
+            "top_p": 0.95,
+            "presence_penalty": 0.0,
+            "frequency_penalty": 0.0,
             "max_tokens": max_length,
-            "stream": False  # 🔹 Desativa o streaming
+            "stream": False
         }
-
         headers = {"Content-Type": "application/json"}
         print(OLLAMA_URL)
         response = requests.post(OLLAMA_URL, json=payload, headers=headers)
