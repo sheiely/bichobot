@@ -6,6 +6,7 @@ intents:
   - cqm_grupo_whatsapp
   - cqm_compras
   - cqm_dicas_calouro
+  - residencia_universitaria
 
 responses:
 
@@ -30,3 +31,8 @@ responses:
   utter_cqm_dicas_calouro:
     - text: "Dica de ouro: converse com veteranos! Eles podem te ajudar com dúvidas, grupo de repúblicas, professores e tudo mais. Participar de projetos também ajuda na adaptação."
 
+  utter_residencia_universitaria:
+    - text: >
+        "Atualmente, o campus da UFC em Quixadá não possui residência universitária. 
+        Os estudantes que estudam no campus geralmente alugam casas, apartamentos ou quartos na cidade.
+        Em caso de dúvidas sobre opções de moradia, você pode procurar apoio nos canais de atendimento da UFC Quixadá."

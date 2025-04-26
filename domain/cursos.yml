@@ -92,10 +92,7 @@ responses:
         \nRedes de computadores: https://redes.quixada.ufc.br"
 
   utter_horas_complementares:
-  - text: "Objetivando a formação de profissionais qualificados, as atividades complementares proporcionam 
-        ao aluno oportunidades para auxilia-lo no desenvolvimento pessoal, social e de competências necessárias no mercado de trabalho, 
-        tais como perfil empreendedor, iniciativa, liderança, autoconhecimento, perseverança e habilidade em lidar com obstáculos, mudanças e transformações, 
-        além de prestar serviços a comunidade. Cada curso possui uma quantidade obrigatória de horas em atividades complementares, que podem ser consultadas nos sites de cada curso."
+  - text: "As atividades complementares são uma oportunidade para o aluno desenvolver competências importantes para o mercado de trabalho, como iniciativa, liderança, empreendedorismo, autoconhecimento, perseverança e capacidade de adaptação. Além disso, permitem prestar serviços à comunidade, enriquecendo a formação pessoal e social. Cada curso exige uma quantidade mínima de horas complementares, que pode ser consultada no site oficial do próprio curso. Para cumprir essas horas, o aluno pode participar de cursos de extensão, palestras, seminários, congressos, projetos de pesquisa, iniciação científica, atividades de voluntariado, monitorias, estágios e outras atividades acadêmicas."
 
 
 

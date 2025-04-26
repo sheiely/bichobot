@@ -5,7 +5,7 @@ from qdrant_client import QdrantClient
 from actions.get_embedding_Qdrant import get_embedding
 from dotenv import load_dotenv
 import os
-
+load_dotenv()
 # 🔹 Configurações
 QDRANT_URL = os.getenv("QDRANT_URL")
 COLLECTION_NAME = "documentos_academicos"
@@ -50,7 +50,7 @@ class ActionFallback(Action):
         }
 
         headers = {"Content-Type": "application/json"}
-
+        print(OLLAMA_URL)
         response = requests.post(OLLAMA_URL, json=payload, headers=headers)
 
         if response.status_code == 200:
@@ -58,4 +58,5 @@ class ActionFallback(Action):
             message = response_data.get("choices", [{}])[0].get("message", {}).get("content", "")
             dispatcher.utter_message(text=message)
         else:
+            print(response)
             dispatcher.utter_message(text="Ocorreu um erro ao buscar a resposta.")

@@ -26,3 +26,8 @@ rules:
   steps:
     - intent: cqm_dicas_calouro
     - action: utter_cqm_dicas_calouro
+
+- rule: Nao tem residencia universitaria
+  steps:
+    - intent: residencia_universitaria
+    - action: utter_residencia_universitaria

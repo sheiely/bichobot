@@ -62,3 +62,23 @@ nlu:
       - Tem muito calor aí?
       - Como é o transporte em Quixadá?
       - Tem ônibus na cidade?
+
+  - intent: residencia_universitaria
+    examples: |
+      - Existe residência universitária no campus de Quixadá?
+      - A UFC Quixadá tem alojamento estudantil?
+      - Como funciona a residência universitária em Quixadá?
+      - O campus da UFC em Quixadá oferece moradia para estudantes?
+      - Tem residência universitária na UFC Quixadá?
+      - Posso morar na residência universitária em Quixadá?
+      - Quais as opções de moradia estudantil na UFC Quixadá?
+      - Existe alojamento para estudantes na UFC Quixadá?
+      - A UFC Quixadá disponibiliza residência estudantil?
+      - Como faço para conseguir residência universitária na UFC Quixadá?
+      - Tem alojamento para alunos da UFC Quixadá?
+      - Como funciona o alojamento estudantil na UFC Quixadá?
+      - A UFC Quixadá oferece residência universitária?
+      - Existe casa do estudante na UFC Quixadá?
+      - Tem casa do estudante na UFC Quixadá?
+      - Quais são as opções de residência para estudantes em Quixadá?
+
