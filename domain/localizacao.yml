@@ -3,6 +3,7 @@ version: "3.1"
 intents:
   - localidade_campus
   - localidade_mapa
+  - perguntar_sala_ou_aula
 
 entities:
   - local
@@ -15,5 +16,5 @@ responses:
     - text: "O mapa do campus detalhado:"
       image: "https://www.quixada.ufc.br/wp-content/uploads/2024/08/Mapa-de-Localizacao-de-Unidades-SITE-2024-new-72dpi-01-1.jpg"
 
-  utter_resposta_alocacao_salas:
+  utter_perguntar_sala_ou_aula:
     - text: "Você pode ver a alocação das salas através deste link: [Alocação de Salas](https://www.quixada.ufc.br/alocacao/)."
