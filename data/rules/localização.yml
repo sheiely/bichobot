@@ -11,3 +11,10 @@ rules:
     steps:
     - intent: localidade_mapa
     - action: utter_localidade_mapa
+  
+  - rule: resposta alocação de salas
+    steps:
+    - intent: perguntar_sala_ou_aula
+    - action: utter_perguntar_sala_ou_aula
+
+    

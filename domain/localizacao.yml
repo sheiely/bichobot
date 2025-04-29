@@ -9,9 +9,11 @@ entities:
 
 responses:
   utter_localidade_campus:
-    - text: "O campus fica nessa localização:
-    \nhttps://maps.app.goo.gl/YYoGHuZ1FyzrgvMG9"
+    - text: "O campus fica nessa localização: https://maps.app.goo.gl/YYoGHuZ1FyzrgvMG9"
 
   utter_localidade_mapa:
     - text: "O mapa do campus detalhado:"
       image: "https://www.quixada.ufc.br/wp-content/uploads/2024/08/Mapa-de-Localizacao-de-Unidades-SITE-2024-new-72dpi-01-1.jpg"
+
+  utter_resposta_alocacao_salas:
+    - text: "Você pode ver a alocação das salas através deste link: [Alocação de Salas](https://www.quixada.ufc.br/alocacao/)."

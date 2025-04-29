@@ -41,4 +41,24 @@ nlu:
       - Onde encontrar o [bloco](local) 2
       - onde fica a [secretaria](local)
 
+  - intent: perguntar_sala_ou_aula
+    examples: |
+      - Onde é minha aula?
+      - Em qual sala estou?
+      - Como vejo minha sala?
+      - Como descubro onde é minha aula?
+      - Qual sala eu tenho aula hoje?
+      - Onde vai ser minha aula?
+      - Onde fica minha sala?
+      - Em qual sala está minha turma?
+      - Como vejo onde estou alocado?
+      - Onde encontro a alocação de salas?
+      - Como saber a sala da minha aula?
+      - Onde posso ver minha aula?
+      - Qual é a sala da minha próxima aula?
+      - Onde foi alocada minha aula?
+      - Como descobrir em qual sala terei aula?
+      - Onde olho minha alocação de salas?
+
+
 
