@@ -40,7 +40,7 @@ class ActionFallback(Action):
         )
         return " ".join([hit.payload["page_content"] for hit in results])
 
-    def generate_response_with_ollama(self, dispatcher, query, context, max_length=1000):
+    def generate_response_with_ollama(self, dispatcher, query, context, max_length=3000):
         input_text = f"Pergunta: {query}\nContexto: {context}"
         payload = {
             "model": OLLAMA_MODEL,

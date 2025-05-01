@@ -43,7 +43,7 @@ def main():
     print(f"✅ Banco vetorial criado com {len(points)} points!")
 
     # 🔹 Exemplo de busca
-    query = "Qual o email da nutrição?"
+    query = "Que dia começa as ferias?"
     resultados = search_qdrant(query)
     print("\n🔍 Resultados da Busca:\n")
     for r in resultados:
@@ -90,39 +90,51 @@ def load_documents(folder_path):
 
 def split_documents(docs):
     payloads = []
-    
-    
+
     for document in docs:
-        paragraphs = []
-        
-        doc = fitz.open(document.metadata["source"])
-        page = doc.load_page(document.metadata['page'])
-        blocks = page.get_text("blocks")
-        current_paragraph = ""
-        for block in blocks:
-            text = block[4] 
-            if text.strip() == '':
-                current_paragraph += text.strip() + " "
-            else:
-                paragraphs.append(current_paragraph + text.strip()+ "")
-                current_paragraph = ""
-        if current_paragraph.strip() != "":
-            paragraphs.append(current_paragraph.strip())
-        
-        page_label = 1
-        for paragraph in paragraphs:
+        source = document.metadata["source"]
+        if source.endswith(".pdf"):
+            doc = fitz.open(source)
+            page = doc.load_page(document.metadata['page'])
+            blocks = page.get_text("blocks")
+            paragraphs = []
+            current_paragraph = ""
+            for block in blocks:
+                text = block[4]
+                if text.strip() == '':
+                    current_paragraph += text.strip() + " "
+                else:
+                    paragraphs.append(current_paragraph + text.strip())
+                    current_paragraph = ""
+            if current_paragraph.strip() != "":
+                paragraphs.append(current_paragraph.strip())
+
+            page_label = 1
+            for paragraph in paragraphs:
+                payload = {
+                    "page_content": paragraph,
+                    "metadata": {
+                        "source": source,
+                        "page": document.metadata["page"] + 1,
+                        "page_label": page_label
+                    }
+                }
+                page_label += 1
+                payloads.append(payload)
+
+        elif source.endswith(".txt"):
             payload = {
-                "page_content":f"{paragraph}",
-                "metadata":{
-                    "source": document.metadata["source"],
-                    "page":  document.metadata["page"] + 1,  # Páginas no PyMuPDF começam em 0
-                    "page_label": page_label
+                "page_content": document.page_content,
+                "metadata": {
+                    "source": source,
+                    "page": 1,
+                    "page_label": 1
                 }
             }
-            page_label += 1
             payloads.append(payload)
 
     return payloads
+
 
 def check_if_exists(payload):
     filter = Filter(
