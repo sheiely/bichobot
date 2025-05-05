@@ -40,6 +40,9 @@ nlu:
       - Onde é o [bloco administrativo](local)
       - Onde encontrar o [bloco](local) 2
       - onde fica a [secretaria](local)
+      - mapa do campus
+      - quero o mapa 
+      - tem um mapa?
 
   - intent: perguntar_sala_ou_aula
     examples: |
