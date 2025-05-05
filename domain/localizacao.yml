@@ -13,8 +13,7 @@ responses:
     - text: "O campus fica nessa localização: https://maps.app.goo.gl/YYoGHuZ1FyzrgvMG9"
 
   utter_localidade_mapa:
-    - text: "O mapa do campus detalhado:"
-      image: "https://www.quixada.ufc.br/wp-content/uploads/2024/08/Mapa-de-Localizacao-de-Unidades-SITE-2024-new-72dpi-01-1.jpg"
+    - text: "O mapa do campus detalhado: https://www.quixada.ufc.br/wp-content/uploads/2024/08/Mapa-de-Localizacao-de-Unidades-SITE-2024-new-72dpi-01-1.jpg"
 
   utter_perguntar_sala_ou_aula:
     - text: "Você pode ver a alocação das salas através deste link: [Alocação de Salas](https://www.quixada.ufc.br/alocacao/)."
