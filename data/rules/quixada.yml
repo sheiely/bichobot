@@ -31,3 +31,8 @@ rules:
   steps:
     - intent: residencia_universitaria
     - action: utter_residencia_universitaria
+
+- rule: Perguntar do calendario
+  steps:
+    - intent: perguntar_calendario
+    - action: utter_perguntar_calendario

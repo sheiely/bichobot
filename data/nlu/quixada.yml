@@ -82,3 +82,17 @@ nlu:
       - Tem casa do estudante na UFC Quixadá?
       - Quais são as opções de residência para estudantes em Quixadá?
 
+
+  - intent: perguntar_calendario
+    examples: |
+      - Onde posso ver o calendário acadêmico?
+      - Qual o calendário da UFC?
+      - Me mostra o calendário universitário
+      - Quando começam as aulas?
+      - Quero saber os feriados da UFC
+      - Quando são os encontros universitários?
+      - Me dá o link do calendário 2025
+      - calendário 2025
+      - Onde vejo as datas letivas?
+
+

@@ -7,6 +7,7 @@ intents:
   - cqm_compras
   - cqm_dicas_calouro
   - residencia_universitaria
+  - perguntar_calendario
 
 responses:
 
@@ -33,6 +34,10 @@ responses:
 
   utter_residencia_universitaria:
     - text: >
-        "Atualmente, o campus da UFC em Quixadá não possui residência universitária. 
+        Atualmente, o campus da UFC em Quixadá não possui residência universitária. 
         Os estudantes que estudam no campus geralmente alugam casas, apartamentos ou quartos na cidade.
-        Em caso de dúvidas sobre opções de moradia, você pode procurar apoio nos canais de atendimento da UFC Quixadá."
+        Em caso de dúvidas sobre opções de moradia, você pode procurar apoio nos canais de atendimento da UFC Quixadá.
+
+  utter_perguntar_calendario:
+    - text: >
+        Você pode acessar o calendário universitário da UFC 2025 neste link: https://www.ufc.br/calendario-universitario/2025
