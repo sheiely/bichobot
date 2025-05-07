@@ -26,3 +26,7 @@ def search_qdrant(query, top_k=3):
         limit=top_k,
     )
     return [hit.payload["page_content"] for hit in results]
+
+
+if __name__ == "__main__":
+    main()

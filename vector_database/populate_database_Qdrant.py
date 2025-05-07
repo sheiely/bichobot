@@ -123,6 +123,7 @@ def split_documents(docs):
                 payloads.append(payload)
 
         elif source.endswith(".txt"):
+            print("opa um txt")
             payload = {
                 "page_content": document.page_content,
                 "metadata": {
@@ -131,6 +132,7 @@ def split_documents(docs):
                     "page_label": 1
                 }
             }
+            print(payload)
             payloads.append(payload)
 
     return payloads
