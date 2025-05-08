@@ -1,8 +1,7 @@
 Admissão de Graduados. O processo de Admissão de Graduados na UFC ocorre por meio de um edital específico 
 publicado no site da Prograd. A seleção é baseada na nota do Exame Nacional do Ensino 
 Médio (Enem), sempre considerando sua edição mais recente. 
-As datas de publicação do edital podem ser verificadas no Calendário Universitário, disponível 
-em http://www.ufc.br/calendario-universitario. O aluno que ingressar como graduado pode solicitar o aproveitamento de disciplinas já 
+As datas de publicação do edital podem ser verificadas no Calendário Universitário. O aluno que ingressar como graduado pode solicitar o aproveitamento de disciplinas já 
 cursadas na UFC ou em outra universidade. A solicitação deve ser feita no momento do 
 ingresso no curso e analisada pela coordenação do novo curso. Não serão aproveitados 
 estudos realizados em instituições não autorizadas. 
@@ -23,7 +22,7 @@ de matrícula regular na instituição de origem e uma autorização formal para
 na UFC. 
 O aluno especial pode cursar no máximo cinco disciplinas na UFC e não pode ultrapassar um 
 período de quatro semestres letivos. O período de inscrições para aluno especial é informado 
-no Calendário Universitário, disponível em http://www.ufc.br/calendario-universitario. 
+no Calendário Universitário. 
  
 Assistência Estudantil. A UFC oferece um conjunto de programas de assistência estudantil para apoiar seus alunos, 
 incluindo restaurante universitário, 
@@ -91,8 +90,7 @@ semestre do curso. A única exceção é para casos em que o aluno comprove prob
 saúde que inviabilizem a continuidade dos estudos. 
 Para realizar o trancamento total ou parcial da matrícula, o estudante deve acessar o Sistema 
 Integrado de Gestão de Atividades Acadêmicas (SIGAA) e seguir as instruções disponibilizadas 
-na plataforma. Mais informações sobre os procedimentos e prazos podem ser encontradas em 
-http://www.ufc.br/calendario-universitario. 
+na plataforma. Mais informações sobre os procedimentos e prazos podem ser encontradas no calendario universitario. 
  
 Transferência de Curso. A transferência interna permite que o estudante da UFC mude para outro curso dentro da 
 própria universidade. Essa modalidade é regulamentada por edital específico, publicado 
