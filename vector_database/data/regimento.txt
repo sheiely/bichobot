@@ -1,4 +1,4 @@
-ESSE É O REGIMENTO GERAL
+ESSE É O REGIMENTO GERAL PARTE 1:
 Os currículos dos cursos são compostos por disciplinas obrigatórias e optativas, estruturadas 
 para garantir a formação acadêmica e profissional dos estudantes. 
 A UFC adota o sistema de créditos para integralização curricular, exigindo que os alunos 
@@ -247,6 +247,8 @@ A UFC estabelece limites para a quantidade de créditos que podem ser aproveitad
 curso, garantindo a integridade da formação acadêmica. 
 Os alunos ingressantes pelo Sistema de Seleção Unificada (SISU) podem aproveitar até 50% 
 da carga horária total do curso. 
+
+REGIMENTO GERAL PARTE 2:
 Alunos que cursam disciplinas em outra instituição concomitantemente ao curso da UFC 
 podem aproveitar no máximo 10% da carga horária total. 
 O processo de aproveitamento de estudos é de competência da Coordenação do Curso, que 
@@ -423,6 +425,8 @@ A UFC possui regulamentações para garantir o funcionamento adequado dos órgã
 e sua relação com a administração universitária. 
 O Conselho Universitário estabelece as diretrizes gerais para a atuação dos representantes 
 estudantis na UFC. 
+
+REGIMENTO GERAL PARTE 3:
 A universidade presta contas de seus recursos financeiros e administrativos, garantindo 
 transparência na gestão pública. 
 O orçamento da UFC inclui recursos do governo federal e outras fontes de financiamento, 
