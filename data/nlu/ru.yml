@@ -84,7 +84,14 @@ nlu:
       - quero saber o que vai ter pra comer no [RU](local) amanha
       - quero saber qual o cardapio de amanha
       - me diz o cardapio de terça-feira
-
+      - qual o cardápio de hoje
+      - me manda o cardápio
+      - o que vai ter no cardápio
+      - quero saber o cardapio de hoje
+      - quero saber o cardápio de hoje
+      - Qual o cardápio da semana?
+      - Qual o cardápio de hoje?
+      
   - intent: horarios_ru
     examples: |
       - Quando o [ru](local) funciona?

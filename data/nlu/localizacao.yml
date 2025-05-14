@@ -43,6 +43,13 @@ nlu:
       - mapa do campus
       - quero o mapa 
       - tem um mapa?
+      - mapa
+      - qual bloco fica a sala multiuso
+      - qual bloco fica a biblioteca
+      - onde fica a biblioteca
+      - onde é a sala de atendimento
+      - onde é as salas de aula
+      - onde é a sala do professor
 
   - intent: perguntar_sala_ou_aula
     examples: |
