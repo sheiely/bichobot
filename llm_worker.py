@@ -24,7 +24,7 @@ def generate_response_ollama(query, context, max_length=3000):
             },
             {
             "role": "user",
-            "content": "Pergunta: manda o link pro calendario \n Contexto: link pro calendario: facebppl.com"
+            "content": input_text
             }
         ],
         "temperature": 0.1,
