@@ -1,7 +1,7 @@
 import os
 import json
 import time
-import requests  # Troquei para requests
+import requests 
 import redis
 from dotenv import load_dotenv
 
@@ -9,8 +9,8 @@ load_dotenv()
 
 OLLAMA_URL = os.getenv("OLLAMA_URL")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL")
-RASA_WEBHOOK = os.getenv("RASA_WEBHOOK", "http://localhost:5005/webhooks/rest/webhook")  # porta padrão
-
+RASA_WEBHOOK = os.getenv("RASA_WEBHOOK", "http://localhost:5005/webhooks/rest/webhook")
+API_TOKEN = os.getenv("API_TOKEN")
 redis_conn = redis.Redis(host="localhost", port=6379, db=0, decode_responses=True)
 
 def generate_response_ollama(query, context, max_length=3000):
@@ -40,16 +40,14 @@ def generate_response_ollama(query, context, max_length=3000):
             "Content-Type": "application/json",
         }
         response = requests.post(OLLAMA_URL, json=payload, headers=headers)
-        response.raise_for_status()  # Levanta exceção para erros HTTP
+        response.raise_for_status()
         return response.json()["choices"][0]["message"]["content"]
     except requests.exceptions.RequestException as e:
         print(f"Erro na LLM: {e}")
         return "Ocorreu um erro ao gerar a resposta."
 
-TELEGRAM_BOT_TOKEN = '8040579065:AAEo5q0EXvWw-ZgbBiXMuRhlBTXw9y4HkP0'
-
 def send_message_to_user(chat_id, message):
-    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    url = f"https://api.telegram.org/bot{API_TOKEN}/sendMessage"
     payload = {
         "chat_id": chat_id,
         "text": message
@@ -61,7 +59,6 @@ def send_message_to_user(chat_id, message):
         print(f"Erro ao enviar mensagem para o Telegram: {e}")
 
 def worker_loop():
-    print("Worker iniciado. Aguardando tarefas...")
     while True:
         task_json = redis_conn.lpop("llm_tasks")
         
@@ -70,11 +67,8 @@ def worker_loop():
             sender_id = task["sender_id"]
             query = task["query"]
             context = task["context"]
-
-            print(f"⏳ Processando pergunta de {sender_id}: {query}")
             response = generate_response_ollama(query, context)
             send_message_to_user(sender_id, response)
-            print(f"✅ Resposta enviada para {sender_id}")
         else:
             time.sleep(1)
 

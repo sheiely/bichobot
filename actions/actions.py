@@ -9,12 +9,10 @@ import json
 
 load_dotenv()
 
-# Configurações
 QDRANT_URL = os.getenv("QDRANT_URL")
 COLLECTION_NAME = "documentos_academicos"
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL")
 
-# Redis e Qdrant
 redis_conn = redis.Redis(host="localhost", port=6379, db=0, decode_responses=True)
 client = QdrantClient(url=QDRANT_URL)
 embedder = get_embedding()
@@ -29,7 +27,6 @@ class ActionFallback(Action):
 
         context = self.search_qdrant(user_message)
 
-        # 🔹 Enfileirar tarefa
         task = {
             "sender_id": sender_id,
             "query": user_message,
