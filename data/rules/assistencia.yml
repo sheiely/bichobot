@@ -41,3 +41,7 @@ rules:
       - intent: qual_contato_secretaria_academica
       - action: utter_qual_contato_secretaria_academica
   
+  - rule: Explicar sobre o PRAE
+    steps:
+      - intent: oque_e_prae
+      - action: utter_oque_e_prae

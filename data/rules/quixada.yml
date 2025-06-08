@@ -1,0 +1,38 @@
+version: "3.1"
+
+rules:
+
+- rule: Responder onde fica Quixadá
+  steps:
+    - intent: cqm_onde_fica_quixada
+    - action: utter_cqm_onde_fica_quixada
+
+- rule: Responder sobre moradia em Quixadá
+  steps:
+    - intent: cqm_moradia
+    - action: utter_cqm_moradia
+
+- rule: Responder sobre grupo de WhatsApp da UFC Quixadá
+  steps:
+    - intent: cqm_grupo_whatsapp
+    - action: utter_cqm_grupo_whatsapp
+
+- rule: Responder onde comprar coisas em Quixadá
+  steps:
+    - intent: cqm_compras
+    - action: utter_cqm_compras
+
+- rule: Responder com dicas para calouros
+  steps:
+    - intent: cqm_dicas_calouro
+    - action: utter_cqm_dicas_calouro
+
+- rule: Nao tem residencia universitaria
+  steps:
+    - intent: residencia_universitaria
+    - action: utter_residencia_universitaria
+
+- rule: Perguntar do calendario
+  steps:
+    - intent: perguntar_calendario
+    - action: utter_perguntar_calendario

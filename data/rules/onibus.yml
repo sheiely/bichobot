@@ -1,0 +1,22 @@
+version: "3.1"
+
+rules:
+  - rule: saber horario dos onibus e mais
+    steps:
+    - intent: onibus_horarios
+    - action: utter_onibus_horarios
+  
+  - rule: saber site do onibus
+    steps:
+    - intent: site_onibus
+    - action: utter_site_onibus
+  
+  - rule: saber os pontos do onibus
+    steps:
+    - intent: pontos_onibus
+    - action: utter_pontos_onibus
+  
+  - rule: saber se pode pegar o onibus do ifce
+    steps:
+    - intent: onibus_ifce
+    - action: utter_onibus_ifce

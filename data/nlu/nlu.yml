@@ -10,6 +10,8 @@ nlu:
     - Bom dia
     - Boa tarde
     - Boa noite
+    - Oi, Boa tarde!
+    - /start
 
 - intent: despedida
   examples: |
@@ -17,20 +19,6 @@ nlu:
     - xau
     - bye bye
     - ate mais
-
-- intent: afirmacao
-  examples: |
-    - sim
-    - s
-    - isso
-    - é
-
-- intent: negacao
-  examples: |
-    - não
-    - nunca
-    - jamais
-    - n
 
 - intent: desafiar_bot
   examples: |

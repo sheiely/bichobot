@@ -1,4 +1,6 @@
-venv/*
+**/venv/*
 models/*
 .rasa/*
 results/*
+**/__pycache__
+.env

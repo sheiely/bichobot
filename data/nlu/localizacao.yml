@@ -1,7 +1,5 @@
 version: "3.1"
 
-  ## PERGUNTAS SOBRE LOCALIZAÇÃO---------------------------------------------------------
-
 nlu:
   - intent: localidade_campus
     examples: |
@@ -20,101 +18,61 @@ nlu:
       - Onde está o Campus universitário da UFC em Quixadá
       - Qual é a localização do Campus da UFC de Quixadá
       - Onde fica o Campus da UFC de Quixadá
+      - onde é o campus
+      - onde fica o campus
 
-  - intent: localidade_convivencia
+  - intent: localidade_mapa
     examples: |
-      - Onde fica a Area de Convivência
-      - Onde está a Area de Convivência da UFC
-      - Onde está a Area de Convivência da UFC de Quixadá
-      - Onde é a Area de Convivência da UFC de Quixadá
-      - Onde é a Area de Convivência
-      - Onde está localizada a Área de Convivência 
-      - Onde se encontra a Área de Convivência
-      - Qual é o local da Área de Convivência
-      - Onde posso encontrar a Área de Convivência
-      - Onde está situada a Área de Convivência
-      - Onde está a Área de Convivência no campus
-      - Qual o endereço da Área de Convivência
-      - Qual a localização da Área de Convivência
-      - Onde se localiza a Área de Convivência
+      - Onde fica o [AC](local)
+      - Onde está a [Area de Convivência](local) da UFC
+      - Onde está a [AC](local)
+      - Onde está localizada a [Área de Convivência](local) 
+      - Onde é a [biblioteca](local)
+      - Onde se encontra a [biblioteca](local)
+      - Onde é o [restaurante](local) da UFC de Quixadá
+      - Onde é o [Restaurante Universitário](local) da UFC de Quixadá
+      - Onde é o [RU](local)
+      - Onde fica o [RU](local)
+      - Onde é o [restaurante](local) da UFC
+      - [RU](local), onde fica
+      - Onde é o [bloco](local) 1
+      - Onde é o [bloco](local) 3
+      - Onde é o [bloco administrativo](local)
+      - Onde encontrar o [bloco](local) 2
+      - onde fica a [secretaria](local)
+      - mapa do campus
+      - quero o mapa 
+      - tem um mapa?
+      - mapa
+      - qual bloco fica a sala multiuso
+      - qual bloco fica a biblioteca
+      - onde fica a biblioteca
+      - onde é a sala de atendimento
+      - onde é as salas de aula
+      - onde é a sala do professor
 
-  - intent: localidade_restaurante
+  - intent: perguntar_sala_ou_aula
     examples: |
-      - Onde é o restaurante da UFC de Quixadá
-      - Onde é o Restaurante Universitário da UFC de Quixadá
-      - Onde é o RU
-      - Onde fica o RU
-      - Onde é o restaurante da UFC
-      - Onde fica o restaurante da UFC em Quixadá
-      - Onde está o RU
-      - Qual o local do RU
-      - Qual o local do Restaurante Universitário
-      - Onde se localiza o Restaurante Universitário
-      - Onde se localiza o RU
-      - RU, onde fica
-      - Restaurante Universitário, onde é
+      - Onde é minha aula?
+      - Em qual sala estou?
+      - Como vejo minha sala?
+      - Como descubro onde é minha aula?
+      - Qual sala eu tenho aula hoje?
+      - Onde vai ser minha aula?
+      - Onde fica minha sala?
+      - Em qual sala está minha turma?
+      - Como vejo onde estou alocado?
+      - Onde encontro a alocação de salas?
+      - Como saber a sala da minha aula?
+      - Onde posso ver minha aula?
+      - Qual é a sala da minha próxima aula?
+      - Onde foi alocada minha aula?
+      - Como descobrir em qual sala terei aula?
+      - Onde olho minha alocação de salas?
+      - alocação de salas
+      - salas
+      - aulas
+      - alocação de aulas
 
-  - intent: localidade_blocos
-    examples: |
-      - Onde é o bloco 1
-      - Onde é o bloco 2
-      - Onde é o bloco 3
-      - Onde é o bloco 4
-      - Onde é o bloco administrativo
-      - Onde fica o bloco 1
-      - Onde fica o bloco 2
-      - Onde fica o bloco 3
-      - Onde fica o bloco 4
-      - Onde fica o bloco administrativo
-      - Onde encontrar o bloco 1
-      - Onde encontrar o bloco 2
-      - Onde encontrar o bloco 3
-      - Onde encontrar o bloco 4
-      - Onde encontrar o bloco administrativo
-      - Bloco 1, onde é
-      - Bloco 2, onde é
-      - Bloco 3, onde é
-      - Bloco 4, onde é
-      - Bloco administrativo, onde é
-      - Bloco 1, onde fica
-      - Bloco 2, onde fica
-      - Bloco 3, onde fica
-      - Bloco 4, onde fica
-      - Bloco administrativo, onde fica
-      - Como achar o bloco 1
-      - Como achar o bloco 2
-      - Como achar o bloco 3
-      - Como achar o bloco 4
-      - Como achar o bloco administrativo
-      - Onde está o bloco 1
-      - Onde está o bloco 2
-      - Onde está o bloco 3
-      - Onde está o bloco 4
-      - Onde está o bloco administrativo
-      - Qual o local do bloco 1
-      - Qual o local do bloco 2
-      - Qual o local do bloco 3
-      - Qual o local do bloco 4
-      - Qual o local do bloco administrativo
-      - Onde se localiza o bloco 1
-      - Onde se localiza o bloco 2
-      - Onde se localiza o bloco 3
-      - Onde se localiza o bloco 4
-      - Onde se localiza o bloco administrativo
 
-  - intent: localidade_biblioteca
-    examples: |
-      - Onde é a biblioteca
-      - Onde fica a biblioteca
-      - Onde se encontra a biblioteca
-      - Qual o local da biblioteca
-      - Onde se localiza a biblioteca
-      - Onde é a biblioteca da UFC
-      - Onde é a biblioteca da UFC de Quixadá
-      - Onde posso encontrar a biblioteca
-      - Onde está situada a biblioteca
-      - Onde está a biblioteca no campus
-      - Qual a localização da biblioteca
-      - Onde posso encontrar a bilbioteca
 
-      

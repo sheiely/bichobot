@@ -2,36 +2,49 @@ version: "3.1"
 
 rules:
 
+  - rule: O que é o PET
+    steps:
+      - intent: perguntar_sobre_projeto
+        entities:
+          - projeto
+      - slot_was_set:
+        - projeto: "PET"
+      - action: utter_o_que_e_o_pet
 
-##Rules de projetos
+  - rule: O que é o INOVE
+    steps:
+      - intent: perguntar_sobre_projeto
+        entities:
+          - projeto
+      - slot_was_set:
+        - projeto: "INOVE"
+      - action: utter_o_que_e_o_inove
 
-- rule: O que é o PET
-  steps:
-    - intent: o_que_e_o_pet
-    - action: utter_o_que_e_o_pet
+  - rule: O que é o PACCE
+    steps:
+      - intent: perguntar_sobre_projeto
+        entities:
+          - projeto
+      - slot_was_set:
+        - projeto: "PACCE"
+      - action: utter_o_que_e_o_pacce
 
-- rule: Qual o site do PET
-  steps:
-    - intent: qual_o_site_do_pet
-    - action: utter_qual_o_site_do_pet
+  - rule: O que é o POA
+    steps:
+      - intent: perguntar_sobre_projeto
+        entities:
+          - projeto
+      - slot_was_set:
+        - projeto: "POA"
+      - action: utter_o_que_e_o_poa
 
-- rule: O que é o INOVE
-  steps:
-    - intent: o_que_e_o_inove
-    - action: utter_o_que_e_o_inove
+  - rule: Quais os projetos da UFC Quixadá
+    steps:
+      - intent: quais_os_projetos_ufc_quixada
+      - action: utter_quais_os_projetos_ufc_quixada
 
-- rule: O que é o PACCE
-  steps:
-    - intent: o_que_e_o_pacce
-    - action: utter_o_que_e_o_pacce
-
-- rule: O que é o POA
-  steps:
-    - intent: o_que_e_o_poa
-    - action: utter_o_que_e_o_poa
-
-- rule: Quais os projetos da UFC Quixadá
-  steps:
-    - intent: quais_os_projetos_ufc_quixada
-    - action: utter_quais_os_projetos_ufc_quixada
+  - rule: Qual o site do PET
+    steps:
+      - intent: qual_o_site_do_pet
+      - action: utter_qual_o_site_do_pet
 

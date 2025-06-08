@@ -1,0 +1,42 @@
+version: "3.1"
+
+rules: 
+  - rule: saber sobre a biblioteca
+    steps:
+      - intent: biblioteca_informações
+      - action: utter_biblioteca_informações
+
+  - rule: saber horarios da biblioteca
+    steps:
+      - intent: biblioteca_horarios
+      - action: utter_biblioteca_horarios
+  
+  - rule: sobre o minhabiblioteca
+    steps:
+      - intent: o_que_e_minhabiblioteca
+      - action: utter_o_que_e_minhabiblioteca
+  
+  - rule: saber sobre cadastro na biblioteca
+    steps:
+      - intent: cadastro_biblioteca
+      - action: utter_cadastro_biblioteca
+  
+  - rule: saber a multa da biblioteca
+    steps:
+      - intent: biblioteca_multa_como_funciona
+      - action: utter_biblioteca_multa_como_funciona
+  
+  - rule: saber sobre as reservas de livro
+    steps:
+      - intent: biblioteca_reservar_livro
+      - action: utter_biblioteca_reservar_livro
+
+  - rule: saber sobre como achar livro na biblioteca
+    steps:
+      - intent: biblioteca_achar_livro
+      - action: utter_biblioteca_achar_livro
+  
+  - rule: saber sobre os dias limites da biblioteca
+    steps:
+      - intent: biblioteca_quantos_dias
+      - action: utter_biblioteca_quantos_dias

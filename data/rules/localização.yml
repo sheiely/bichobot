@@ -1,7 +1,5 @@
 version: "3.1"
 
-##RULES LOCALIZAÇÃO---------------------------------------------------------
-
 rules:
 
   - rule: local da ufc de quixadá
@@ -9,22 +7,14 @@ rules:
     - intent: localidade_campus
     - action: utter_localidade_campus
 
-  - rule: local da área deconvivência
+  - rule: respostas mapa
     steps:
-    - intent: localidade_convivencia
-    - action: utter_localidade_convivencia
+    - intent: localidade_mapa
+    - action: utter_localidade_mapa
+  
+  - rule: resposta alocação de salas
+    steps:
+    - intent: perguntar_sala_ou_aula
+    - action: utter_perguntar_sala_ou_aula
 
-  - rule: local do restaurante
-    steps:
-    - intent: localidade_restaurante
-    - action: utter_localidade_restaurante
-
-  - rule: local dos blocos
-    steps:
-    - intent: localidade_blocos
-    - action: utter_localidade_blocos
-
-  - rule: local da biblioteca
-    steps:
-    - intent: localidade_biblioteca
-    - action: utter_localidade_biblioteca
+    

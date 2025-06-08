@@ -1,0 +1,2 @@
+Link para ajuda ao se conectar no wifi do campus: https://ajuda.eduroam.ufc.br/
+O nome do wifi é eduroam

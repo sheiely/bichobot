@@ -227,175 +227,24 @@ nlu:
     - O que não reprovar em redes
     - O que não tirar nota baixa em redes
 
-- intent: cursos_site_dd
+- intent: cursos_site
   examples: |
-    - Qual é o site do curso de DD
-    - Onde posso acessar o site do curso de DD
-    - Qual endereço do site do curso de DD
-    - Você sabe qual é o site do curso de DD
-    - Pode me informar o site do curso de DD
-    - Onde encontro o site do curso de DD
-    - Qual é o link do site do curso de DD
-    - Onde posso encontrar informações sobre o curso de DD online
-    - Qual o site oficial do curso de DD
-    - Onde está disponível o site do curso de DD
-    - Existe um site do curso de DD
-    - Qual é o site oficial do curso de DD
-    - O curso de DD tem um site oficial
-    - Onde é o site oficial do curso de DD
-    - Qual é o site do curso de Design Digital
-    - Onde posso acessar o site do curso de Design Digital
-    - Qual endereço do site do curso de Design Digital
-    - Você sabe qual é o site do curso de Design Digital
-    - Pode me informar o site do curso de Design Digital
-    - Onde encontro o site do curso de Design Digital
-    - Qual é o link do site do curso de Design Digital
-    - Onde posso encontrar informações sobre o curso de Design Digital online
-    - Qual o site oficial do curso de Design Digital
-    - Onde está disponível o site do curso de Design Digital
-    - Existe um site do curso de Design Digital
-    - Qual é o site oficial do curso de Design Digital
-    - O curso de Design Digital tem um site oficial
-    - Onde é o site oficial do curso de Design Digital
-
-- intent: cursos_site_es
-  examples: |
-    - Qual é o site do curso de ES
-    - Onde posso acessar o site do curso de ES
-    - Qual endereço do site do curso de ES
-    - Você sabe qual é o site do curso de ES
-    - Pode me informar o site do curso de ES
-    - Onde encontro o site do curso de ES
-    - Qual é o link do site do curso de ES
-    - Onde posso encontrar informações sobre o curso de ES online
-    - Qual o site oficial do curso de ES
-    - Onde está disponível o site do curso de ES
-    - Existe um site do curso de ES
-    - Qual é o site oficial do curso de ES
-    - O curso de ES tem um site oficial
-    - Onde é o site oficial do curso de ES
-    - Qual é o site do curso de Engenharia de Software
-    - Onde posso acessar o site do curso de Engenharia de Software
-    - Qual endereço do site do curso de Engenharia de Software
-    - Você sabe qual é o site do curso de Engenharia de Software
-    - Pode me informar o site do curso de Engenharia de Software
-    - Onde encontro o site do curso de Engenharia de Software
-    - Qual é o link do site do curso de Engenharia de Software
-    - Onde posso encontrar informações sobre o curso de Engenharia de Software online
-    - Qual o site oficial do curso de Engenharia de Software
-    - Onde está disponível o site do curso de Engenharia de Software
-    - Existe um site do curso de Engenharia de Software
-    - Qual é o site oficial do curso de Engenharia de Software
-    - O curso de Engenharia de Software tem um site oficial
-    - Onde é o site oficial do curso de Engenharia de Software
-
-- intent: cursos_site_cc
-  examples: | 
-    - Qual é o site do curso de CC
-    - Onde posso acessar o site do curso de CC
-    - Qual endereço do site do curso de CC
-    - Você sabe qual é o site do curso de CC
-    - Pode me informar o site do curso de CC
-    - Onde encontro o site do curso de CC
-    - Qual é o link do site do curso de CC
-    - Onde posso encontrar informações sobre o curso de CC online
-    - Qual o site oficial do curso de CC
-    - Onde está disponível o site do curso de CC
-    - Existe um site do curso de CC
-    - Qual é o site oficial do curso de CC
-    - O curso de CC tem um site oficial
-    - Onde é o site oficial do curso de CC
-    - Qual é o site do curso de Ciência da Computação
-    - Onde posso acessar o site do curso de Ciência da Computação
-    - Qual endereço do site do curso de Ciência da Computação
-    - Você sabe qual é o site do curso de Ciência da Computação
-    - Pode me informar o site do curso de Ciência da Computação
-    - Onde encontro o site do curso de Ciência da Computação
-    - Qual é o link do site do curso de Ciência da Computação
-    - Onde posso encontrar informações sobre o curso de Ciência da Computação online
-    - Qual o site oficial do curso de Ciência da Computação
-    - Onde está disponível o site do curso de Ciência da Computação
-    - Existe um site do curso de Ciência da Computação
-    - Qual é o site oficial do curso de Ciência da Computação
-    - O curso de Ciência da Computação tem um site oficial
-    - Onde é o site oficial do curso de Ciência da Computação
-
-- intent: cursos_site_ec
-  examples: | 
-    - Qual é o site do curso de EC
-    - Onde posso acessar o site do curso de EC
-    - Qual endereço do site do curso de EC
-    - Você sabe qual é o site do curso de EC
-    - Pode me informar o site do curso de EC
-    - Onde encontro o site do curso de EC
-    - Qual é o link do site do curso de EC
-    - Onde posso encontrar informações sobre o curso de EC online
-    - Qual o site oficial do curso de EC
-    - Onde está disponível o site do curso de EC
-    - Existe um site do curso de EC
-    - Qual é o site oficial do curso de EC
-    - O curso de EC tem um site oficial
-    - Onde é o site oficial do curso de EC
-    - Qual é o site do curso de Engenharia de Computação
-    - Onde posso acessar o site do curso de Engenharia de Computação
-    - Qual endereço do site do curso de Engenharia de Computação
-    - Você sabe qual é o site do curso de Engenharia de Computação
-    - Pode me informar o site do curso de Engenharia de Computação
-    - Onde encontro o site do curso de Engenharia de Computação
-    - Qual é o link do site do curso de Engenharia de Computação
-    - Onde posso encontrar informações sobre o curso de Engenharia de Computação online
-    - Qual o site oficial do curso de Engenharia de Computação
-    - Onde está disponível o site do curso de Engenharia de Computação
-    - Existe um site do curso de Engenharia de Computação
-    - Qual é o site oficial do curso de Engenharia de Computação
-    - O curso de Engenharia de Computação tem um site oficial
-    - Onde é o site oficial do curso de Engenharia de Computação
-
-- intent: cursos_site_si
-  examples: | 
-    - Qual é o site do curso de SI
-    - Onde posso acessar o site do curso de SI
-    - Qual endereço do site do curso de SI
-    - Você sabe qual é o site do curso de SI
-    - Pode me informar o site do curso de SI
-    - Onde encontro o site do curso de SI
-    - Qual é o link do site do curso de SI
-    - Onde posso encontrar informações sobre o curso de SI online
-    - Qual o site oficial do curso de SI
-    - Onde está disponível o site do curso de SI
-    - Existe um site do curso de SI
-    - Qual é o site oficial do curso de SI
-    - O curso de SI tem um site oficial
-    - Onde é o site oficial do curso de SI
-    - Qual é o site do curso de Sistemas de Informação
-    - Onde posso acessar o site do curso de Sistemas de Informação
-    - Qual endereço do site do curso de Sistemas de Informação
-    - Você sabe qual é o site do curso de Sistemas de Informação
-    - Pode me informar o site do curso de Sistemas de Informação
-    - Onde encontro o site do curso de Sistemas de Informação
-    - Qual é o link do site do curso de Sistemas de Informação
-    - Onde posso encontrar informações sobre o curso de Sistemas de Informação online
-    - Qual o site oficial do curso de Sistemas de Informação
-    - Onde está disponível o site do curso de Sistemas de Informação
-    - Existe um site do curso de Sistemas de Informação
-    - Qual é o site oficial do curso de Sistemas de Informação
-
-- intent: cursos_site_redes
-  examples: | 
-    - Qual é o site do curso de Redes
-    - Onde posso acessar o site do curso de Redes
-    - Qual endereço do site do curso de Redes
-    - Você sabe qual é o site do curso de Redes
-    - Pode me informar o site do curso de Redes
-    - Onde encontro o site do curso de Redes
-    - Qual é o link do site do curso de Redes
-    - Onde posso encontrar informações sobre o curso de Redes online
-    - Qual o site oficial do curso de Redes
-    - Onde está disponível o site do curso de Redes
-    - Existe um site do curso de Redes
-    - Qual é o site oficial do curso de Redes
-    - O curso de Redes tem um site oficial
-    - Onde é o site oficial do curso de Redes
+    - Qual é o site do curso de [ES](curso)
+    - Onde posso acessar o site do curso de [ES](curso)
+    - Onde posso encontrar informações sobre o curso de [ES](curso) online
+    - Qual é o site do curso de [Engenharia de Software](curso)
+    - Você sabe qual é o site do curso de [CC](curso)
+    - Pode me informar o site do curso de [CC](curso)
+    - Qual é o site do curso de [Ciência da Computação](curso)
+    - Qual é o site do curso de [EC](curso)
+    - Você sabe qual é o site do curso de [Engenharia de Computação](curso)
+    - Qual é o site do curso de [SI](curso)
+    - Qual o site de [DD](curso)?
+    - Qual o site de [SI](curso)?
+    - Qual endereço do site do curso de [Sistemas de Informação](curso)
+    - Qual é o site do curso de [Redes](curso)
+    - Onde posso encontrar informações sobre o curso de [Redes](curso) online
+    - O curso de [Redes](curso) tem um site oficial
 
 - intent: cursos_horas_complementares
   examples: |  
@@ -412,5 +261,14 @@ nlu:
     - O que são as horas complementares
     - O que é horas complementares
     - e horas complementares?
+    - Como consigo horas complementares
+    - Como ganhar horas complementares
+    - Como faço para conseguir horas complementares
+    - Como obter horas complementares
+    - De que forma eu posso ganhar horas complementares
+    - Quero saber como conseguir horas complementares
+    - Como conquistar horas complementares
+    - Como obter minhas horas complementares
+
 
 

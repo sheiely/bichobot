@@ -1,0 +1,43 @@
+version: "3.1"
+
+intents:
+  - cqm_onde_fica_quixada
+  - cqm_moradia
+  - cqm_grupo_whatsapp
+  - cqm_compras
+  - cqm_dicas_calouro
+  - residencia_universitaria
+  - perguntar_calendario
+
+responses:
+
+  utter_cqm_onde_fica_quixada:
+    - text: "Quixadá é uma cidade localizada no interior do Ceará, a cerca de 160 km de Fortaleza. É onde está situado o campus da UFC Quixadá."
+
+  utter_cqm_moradia:
+    - text: >
+        O mais recomendado é morar no centro da cidade, já que lá é onde você encontra mais opções de mercados, farmácias e outros serviços essenciais. 
+        Como o campus é um pouco afastado, isso facilita bastante o dia a dia, especialmente para quem não tem meio de transporte próprio. 
+        A UFC disponibiliza ônibus gratuitos que saem do centro para o campus, o que ajuda bastante. 
+        Para encontrar apartamentos, muitos calouros e veteranos usam grupos específicos de Quixadá. 
+        Você pode pedir essas indicações diretamente no grupo geral da UFC Quixadá no WhatsApp: 
+        [Grupo da UFC Quixadá](https://chat.whatsapp.com/J9xK4z5gfIHGtKMh0Ajf6U).
+
+  utter_cqm_grupo_whatsapp:
+    - text: "Link para o grupo geral da UFC Quixadá no WhatsApp onde veteranos e calouros trocam informações úteis sobre o curso, moradia, eventos e muito mais. Você pode entrar por aqui: https://chat.whatsapp.com/J9xK4z5gfIHGtKMh0Ajf6U"
+
+  utter_cqm_compras:
+  - text: "Você pode encontrar água, comida e outros itens no Atacarejo, no Pinheiro ou no Mercado São Geraldo, que são opções bem procuradas pelos estudantes. Para informações mais atualizadas sobre mercados e compras em Quixadá, vale a pena perguntar aos veteranos no grupo geral da UFC Quixadá."
+
+  utter_cqm_dicas_calouro:
+    - text: "Dica de ouro: converse com veteranos! Eles podem te ajudar com dúvidas, grupo de repúblicas, professores e tudo mais. Participar de projetos também ajuda na adaptação."
+
+  utter_residencia_universitaria:
+    - text: >
+        Atualmente, o campus da UFC em Quixadá não possui residência universitária. 
+        Os estudantes que estudam no campus geralmente alugam casas, apartamentos ou quartos na cidade.
+        Em caso de dúvidas sobre opções de moradia, você pode procurar apoio nos canais de atendimento da UFC Quixadá.
+
+  utter_perguntar_calendario:
+    - text: >
+        Você pode acessar o calendário universitário da UFC 2025 neste link: https://www.ufc.br/calendario-universitario/2025

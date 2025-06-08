@@ -1,30 +1,47 @@
 version: "3.1"
 
+intents:
+  - o_que_e_o_ru
+  - solicitar_cartao
+  - segunda_via
+  - quem_pode_solicitar
+  - eh_gratuito
+  - valor_da_refeicao
+  - ru_quem_pode_acessar
+  - cardapio
+  - horarios_ru
+  - esqueci_agendar
+  - site_do_ru
+  - como_agendar_ru
+
+entities:
+  - objeto
+
 responses:
-  faq/o_que_e_o_ru:
+  utter_o_que_e_o_ru:
   - text: |
       O Restaurante Universitário (RU) tem como objetivo oferecer refeições balanceadas e de qualidade, promovendo a integração e convivência da comunidade acadêmica.
 
-  faq/solicitar_cartao:
+  utter_solicitar_cartao:
   - text: |
       Não há necessidade de solicitação formal do cartão. O nome do usuário deve estar registrado no sistema para que o cartão seja entregue.  
       Basta apresentar um documento oficial com foto (RG, CNH, entre outros) no guichê.
 
-  faq/segunda_via:
+  utter_segunda_via:
   - text: |
       Para obter a segunda via do cartão do RU, acesse a página **Gerar GRU Segunda Via** e siga as **Normas para Uso do Cartão**.  
       Mais informações: [Gerar GRU Segunda Via](https://si3.ufc.br/public//jsp/restaurante_universitario/consulta_comensal_2_via_cartao_ru.jsf)
 
-  faq/quem_pode_solicitar:
+  utter_quem_pode_solicitar:
   - text: |
       Alunos regularmente matriculados, servidores docentes e técnico-administrativos da UFC podem solicitar o cartão do RU.
 
-  faq/eh_gratuito:
+  utter_eh_gratuito:
   - text: |
       - A primeira via do cartão é gratuita.  
       - A segunda via tem uma taxa de R$ 8,00, exceto em casos de roubo ou defeito inerente no cartão dentro do prazo  de 7 dias.
 
-  faq/valor_da_refeicao:
+  utter_valor_da_refeicao:
   - text: |
       **Valores das refeições no RU:**  
       - Estudantes: R$ 1,10  
@@ -33,52 +50,34 @@ responses:
       - Visitantes: R$ 13,50  
       - Participantes de eventos: R$ 6,00  
 
-  faq/ruquem_pode_acessar:
+  utter_ru_quem_pode_acessar:
   - text: |
       O RU é destinado exclusivamente a pessoas com vínculo ativo com a UFC, incluindo:  
       - Alunos regularmente matriculados  
       - Servidores docentes e técnico-administrativos  
       - Funcionários terceirizados
 
-  faq/quantidade_maxima_de_creditos_no_cartao:
-  - text: |
-      Sim, o cartão comporta no máximo 50 tíquetes por vez.
-
-  faq/cardapio:
+  utter_cardapio:
   - text: |
       O cardápio do RU é atualizado semanalmente.  
       Acesse: [Cardápio RU Quixadá](https://www.ufc.br/restaurante/cardapio/5-restaurante-universitario-de-quixada)
 
-  faq/o_ru_funciona:
-  - text: |
-      Para utilizar o RU:  
-      - Entre na fila destinada ao público com vínculo na UFC.  
-      - Apresente o cartão do RU.  
-      - Retire sua refeição e consuma-a dentro das dependências do restaurante (não é permitido levar a comida para fora).
+  utter_horarios_ru:
+  - text: "horarios do RU:
+      \nSegunda - Sexta
+      \nAlmoço: 11h - 14h
+      \nJantar: 17h - 18h45"
 
-  faq/como_faco_segunda_via:
-  - text: |
-      Para emitir a segunda via do cartão, vá ao guichê do RU e utilize o link:  
-      [Gerar Segunda Via do Cartão RU](https://si3.ufc.br/public//jsp/restaurante_universitario/consulta_comensal_2_via_cartao_ru.jsf)
-
-  faq/nutricionista:
-  - text: |
-      Para informações sobre a nutricionista do RU, consulte a administração do restaurante.
-
-  faq/esqueci_agendar:
+  utter_esqueci_agendar:
   - text: |
       Caso esqueça de realizar o agendamento, ainda será possível ser atendido, mas poderá enfrentar maior tempo de espera.
 
-  faq/esqueci_o_cartao:
-  - text: |
-      O acesso ao RU só é permitido com a apresentação do cartão físico. Mesmo sabendo o número do cartão, não será possível utilizá-lo sem o documento.
-
-  faq/site_do_ru:
+  utter_site_do_ru:
   - text: |
       Informações detalhadas sobre o RU estão disponíveis no site oficial:  
       [Restaurante Universitário - UFC Quixadá](https://www.quixada.ufc.br/restaurante-universitario/)
 
-  faq/como_funciona_o_agendamento:
+  utter_como_agendar_ru:
   - text: |
       Para agendar refeições no RU, siga os passos:  
       1. Acesse o SIGAA: [Portal SIGAA](https://si3.ufc.br/sigaa)  
@@ -87,16 +86,3 @@ responses:
       4. Clique em **Cadastrar Agendamento**.  
 
       - É possível cancelar o agendamento caso não compareça ou desista.
-
-  faq/quanto_custa_o_cartao:
-  - text: |
-      A primeira via do cartão é gratuita.
-
-  faq/quanto_custa_segunda_via_do_cartao:
-  - text: |
-      A segunda via do cartão tem o custo de R$ 8,00.
-
-  faq/meu_cartao_deu_defeito:
-  - text: Em caso de defeito inerente ao cartão uma segunda via gratuita será disponibilizada mediante apresentação do cartão anterior. É considerado defeito inerente ao cartão aquele apresentado até 7 (sete) dias úteis do recebimento do cartão.
-  faq/posso_emprestar_o_cartão:
-  - text: O cartão é para uso exclusivo do usuário cadastrado. Em caso de uso por terceiros, o cartão poderá ser apreendido e o usuário deverá responder pelo fato.

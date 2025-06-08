@@ -1,0 +1,95 @@
+version: "3.1"
+
+intents:
+  - quais_sistemas_ufc
+  - saber_matricula
+  - quais_disciplinas_matriculado
+  - como_cadastrar_horas_complementares
+  - oque_e_sigaa
+  - oque_e_sippa
+  - oque_e_moodle
+  - oque_e_pergamum
+  - qual_site_biblioteca
+  - como_reserva_sala
+  - como_cria_email_institucional
+  - qual_site_sigaa
+  - qual_site_sippa
+  - qual_site_moodle
+  - qual_site_pergamum
+  - qual_site_prae
+
+entities:
+  - sistema
+
+responses:    
+  utter_quais_sistemas_ufc:
+    - text: "A UFC Quixadá utiliza os seguintes sistemas: SIGAA, SIPPA, Moodle, Pergamum, entre outros."
+
+  utter_saber_matricula:
+    - text: "Você pode acessar sua matrícula diretamente no SIGAA -> https://si3.ufc.br."
+
+  utter_quais_disciplinas_matriculado:
+    - text: "Você pode ver as disciplinas que está matriculado no SIGAA -> https://si3.ufc.br/sigaa/portais/discente/discente.jsf."
+
+  utter_como_cadastrar_horas_complementares:
+    - text: "Para cadastrar horas complementares, acesse o SIGAA no portal do discente, siga para o menu Ensino -> Atividades Complementares e Extensão -> Solicitação de creditação de horas"
+
+  utter_oque_e_sigaa:
+    - text: "O Sistema Integrado de Gestão de Atividades Acadêmicas
+            (SIGAA) é o espaço para gerenciamento de disciplinas e de
+            todas as informações relativas à vida acadêmica do aluno. O
+            SIGAA agrupa todas as informações de ensino, pesquisa e
+            extensão."
+
+  utter_oque_e_sippa:
+    - text: "O Sistema de Presenças e Planos de aula (SIPPA) é utilizado
+            por alunos e professores, nele o aluno pode verificar notas,
+            arquivos submetido pelos professores e também a
+            porcentagem de presenças em cada disciplina. O SIPPA é um
+            sistema criado pelo nosso campus, o acesso é através de login
+            e senha cadastrado pela secretaria."
+
+  utter_oque_e_moodle:
+    - text: "MOODLE é o acrônimo de “Modular Object-Oriented Dynamic
+            Learning Environment”, um software livre, de apoio à
+            aprendizagem, executado num ambiente virtual. É este
+            ambiente o mais utilizado para as aulas. Especialmente em
+            nosso Campus tem o Moodle2, feito para a dinâmica remota e
+            que provavelmente irá continuar para os próximos semestres"
+
+  utter_oque_e_pergamum:
+    - text: "Meu Pergamum é a área de cadastro do usuário na Biblioteca,
+            com acesso através de login (cpf) e senha (cadastrada na
+            biblioteca). Essa área de cadastro disponibiliza a renovação
+            online, histórico de livros emprestados, suspensão
+            (afastamento), lista de reserva, cadastro de assuntos de
+            interesse, dentre outros. Acesse: [Sistema Pergamum](https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php)"
+
+  utter_qual_site_biblioteca:
+    - text: "O site da biblioteca da UFC pode ser acessado no endereço: https://www.quixada.ufc.br/biblioteca/"
+
+  utter_como_reservar_sala:
+    - text: "Para reservar alguma sala é
+            necessário falar com alguém da
+            secretaria acadêmica, explicar o
+            motivo da solicitação e será realizado
+            os procedimentos."
+
+  utter_qual_site_sigaa:
+    - text: "O site do SIGAA pode ser acessado em: https://si3.ufc.br."
+
+  utter_qual_site_sippa:
+    - text: "O site do SIPPA pode ser acessado em: https://sistemas.quixada.ufc.br/sippa/."
+
+  utter_qual_site_moodle:
+    - text: "O site do Moodle pode ser acessado em: http://moodle2.quixada.ufc.br/."
+
+  utter_qual_site_pergamum:
+    - text: "O site do Pergamum pode ser acessado em: https://pergamum.ufc.br/pergamum/biblioteca_s/php/login_usu.php."
+
+  utter_qual_site_prae:
+    - text: "O site do PRAE pode ser acessado em: https://prae.ufc.br/pt/."
+
+  utter_como_criar_email_institucional:
+    - text: "Você pode criar seu e-mail institucional acessando o portal da UFC e seguindo o processo de cadastro de e-mail."
+

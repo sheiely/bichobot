@@ -1,9 +1,119 @@
 version: "3.1"
 
-## PERGUNTAS SOBRE O CAMPUS/QUIXADA/MORADIA---------------------------------------------------------
-
 nlu:
-  - intent: CQM_quixada
+
+  - intent: cqm_onde_fica_quixada
     examples: |
-      - Onde fica quixadá
-      - Onde é quixadá
+      - Onde fica Quixadá
+      - Quixadá é onde
+      - Quixadá fica em qual estado
+      - Qual a localização de Quixadá
+      - Em que cidade é o campus
+      - O campus da UFC é em qual cidade
+      - Onde é essa cidade chamada Quixadá
+      - Quixadá fica longe?
+
+  - intent: cqm_moradia
+    examples: |
+      - Onde acho apartamento em Quixadá
+      - Como encontrar lugar pra morar em Quixadá
+      - Onde tem república em Quixadá
+      - Como alugar apartamento em Quixadá
+      - Tem alguma dica de moradia em Quixadá?
+      - Sabe onde encontro quitinete em Quixadá?
+      - Onde procurar por lugar pra morar perto da UFC Quixadá?
+      - Tem algum grupo de aluguel em Quixadá?
+      - Como conseguir moradia perto da UFC Quixadá?
+      - Onde ficam os bairros bons pra morar em Quixadá?
+
+  - intent: cqm_grupo_whatsapp
+    examples: |
+      - Tem grupo de WhatsApp da UFC Quixadá?
+      - Onde encontro grupo da galera da UFC Quixadá?
+      - Existe algum grupo da turma no WhatsApp?
+      - Como entrar no grupo do curso?
+      - Tem grupo de calouros da UFC Quixadá?
+      - Onde consigo o link do grupo da UFC Quixadá?
+      - Me manda o grupo dos alunos?
+      - Tem grupo de novatos da UFCQ?
+
+  - intent: cqm_compras
+    examples: |
+      - Onde eu compro água em Quixadá?
+      - Onde tem supermercado em Quixadá?
+      - Onde dá pra comprar gás?
+      - Qual o mercado mais perto da UFC Quixadá?
+      - Tem padaria perto do campus?
+      - Onde compro comida em Quixadá?
+      - Onde tem farmácia em Quixadá?
+      - Qual mercado os alunos costumam ir?
+      - Tem iFood em Quixadá?
+      - Onde comprar material de limpeza?
+
+  - intent: cqm_dicas_calouro
+    examples: |
+      - Sou calouro, o que preciso saber sobre Quixadá?
+      - Dicas para quem tá chegando agora em Quixadá?
+      - É tranquilo morar em Quixadá?
+      - O que você recomenda pra quem vai morar aí?
+      - Como é a cidade de Quixadá?
+      - Quixadá é segura?
+      - Onde os estudantes costumam morar?
+      - Tem muito calor aí?
+      - Como é o transporte em Quixadá?
+      - Tem ônibus na cidade?
+
+  - intent: residencia_universitaria
+    examples: |
+      - Existe residência universitária no campus de Quixadá?
+      - A UFC Quixadá tem alojamento estudantil?
+      - Como funciona a residência universitária em Quixadá?
+      - O campus da UFC em Quixadá oferece moradia para estudantes?
+      - Tem residência universitária na UFC Quixadá?
+      - Posso morar na residência universitária em Quixadá?
+      - Quais as opções de moradia estudantil na UFC Quixadá?
+      - Existe alojamento para estudantes na UFC Quixadá?
+      - A UFC Quixadá disponibiliza residência estudantil?
+      - Como faço para conseguir residência universitária na UFC Quixadá?
+      - Tem alojamento para alunos da UFC Quixadá?
+      - Como funciona o alojamento estudantil na UFC Quixadá?
+      - A UFC Quixadá oferece residência universitária?
+      - Existe casa do estudante na UFC Quixadá?
+      - Tem casa do estudante na UFC Quixadá?
+      - Quais são as opções de residência para estudantes em Quixadá?
+
+
+  - intent: perguntar_calendario
+    examples: |
+      - Onde posso ver o calendário acadêmico?
+      - Qual o calendário da UFC?
+      - Me mostra o calendário universitário
+      - Quando começam as aulas?
+      - Quero saber os feriados da UFC
+      - Quando são os encontros universitários?
+      - Me dá o link do calendário 2025
+      - calendário 2025
+      - Onde vejo as datas letivas?
+      - calendario
+      - que dia é as ferias
+      - quando começa o recesso?
+      - que dia é os encontros universitarios
+      - cadê o calendário da universidade?
+      - como vejo o calendário letivo?
+      - já saiu o calendário de 2025?
+      - quando é que começam as aulas?
+      - tem como me mandar o calendário da UFC?
+      - quais são os dias de folga da faculdade?
+      - onde tá o calendário do próximo semestre?
+      - e o calendário do ano que vem, já tem?
+      - quando é o início do período letivo?
+      - que dia acaba o semestre?
+      - já tem data pros encontros universitários?
+      - quais os dias que não tem aula?
+      - onde encontro o cronograma acadêmico?
+      - quando vão ser as férias?
+      - o calendário foi atualizado?
+      - tem o cronograma do semestre?
+      - me mostra as datas do período 2025.1
+
+

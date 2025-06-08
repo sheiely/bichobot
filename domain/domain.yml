@@ -1,0 +1,19 @@
+version: "3.1"
+
+intents:
+  - saudacao
+  - despedida
+  - desafiar_bot
+
+actions:
+  - action_default_fallback
+responses:
+
+  utter_saudacao:
+  - text: "Oi! Sou um chatbot feito para tirar duvida dos calouros, como posso te ajudar?"
+
+  utter_despedida:
+  - text: "Tchau!"
+
+  utter_soubot:
+  - text: "Sou um bot"
