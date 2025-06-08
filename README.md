@@ -1,93 +1,180 @@
-# CalouroBot
+# BichoBot
 
-*depois eu boto uma fotinha*
+**BichoBot** é um chatbot desenvolvido para auxiliar calouros da Universidade Federal do Ceará – Campus Quixadá. Ele responde dúvidas frequentes sobre a vida acadêmica de forma rápida, precisa e centralizada, utilizando tecnologias modernas como **RASA**, **RAG** e **LLMs** (LLaMA 3).
 
-## Sobre
+## ✨ Funcionalidades
 
-Este repositório tem como objetivo desenvolver uma **IA** utilizando a plataforma [**Rasa**](https://github.com/RasaHQ/rasa) para responder às perguntas mais frequentes de calouros de forma automatizada e eficiente. A base de conhecimento será o [Manual dos Calouros]((https://drive.google.com/file/d/1CsDc-PBksHCyYneYCpuDRfPPXHJSXNET/view)) da **UFC Quixadá** e o [site oficial da instituição](https://www.quixada.ufc.br/). Essas fontes serão organizadas e transformadas em um conjunto de regras, intenções e histórias para que a **IA** possa oferecer respostas claras facilitando a experiência dos novos estudantes.
+- Respostas instantâneas via Telegram
+- Cobertura de tópicos essenciais:
+  - 📚 Biblioteca
+  - 🍽️ Restaurante Universitário
+  - 🎓 Bolsas e assistência estudantil
+  - 🚌 Horários de ônibus e localização
+  - 🧭 Sistemas acadêmicos e matrícula
+- Fallback inteligente para perguntas abertas usando RAG + LLM
 
-**Link:** [Manual_dos_calouros.pdf](https://drive.google.com/file/d/1CsDc-PBksHCyYneYCpuDRfPPXHJSXNET/view)
+## 🧠 Arquitetura
 
-## Como Executar o Projeto
+O BichoBot combina duas abordagens:
 
-### Pré-requisitos
+1. **RASA** – Para perguntas objetivas com alta previsibilidade.
+2. **RAG + LLaMA 3** – Para perguntas abertas e complexas.
 
-- python 3.9.13 ([windows](https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe)/[linux])
-- makefile
-- venv
+![Arquitetura do BichoBot](./docs/architecture.png) <!-- Substitua pela imagem do diagrama, se disponível -->
 
-### Instalação Linux
+- Banco vetorial: [Qdrant](https://qdrant.tech)
+- Execução local do modelo: [Ollama](https://ollama.com)
+- Geração de embeddings: [Sentence-Transformers](https://www.sbert.net/)
 
-1. Clone o repositório
+### Exemplo de perguntas que o sistema responde:
+- *"Como faço matrícula?"*
+- *"Quais os horários dos ônibus?"*
+- *"Existe residência universitária em Quixadá?"*
+
+## 🛠️ Como executar localmente RASA + RAG
+
+> ⚠️ **Pré-requisitos:**
+> - Python 3.9
+> - Docker instalado e em execução
+> - [Ollama](https://ollama.com) com o modelo **LLaMA 3** baixado localmente
+> - Token do Telegram configurado no arquivo `.env`
+> - [Qdrant](https://qdrant.tech) (servidor vetorial, rodando via Docker)
+
+---
+
+### 🔧 Etapas de configuração
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/bichobot.git
+cd bichobot
+
+# 2. Crie o arquivo .env com seu token e URL do RASA
+cp .env.example .env
+# Edite o .env com o seu token do Telegram
+
+# 3. Instale as dependências Python
+pip install -r requirements.txt
 ```
-git clone https://github.com/seu-usuario/CalouroBot.git
-cd CalouroBot
+### 🐳 Subindo o Qdrant com Docker
+```bash
+docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
 ```
-2. Crie e ative um ambiente virtual
-```sh
-python3.9 -m venv venv
-source venv/bin/activate  # No Windows: venv\Scripts\activate
-```
-3. instale as dependências
-```sh
-make install
-```
+📝 Essa é apenas uma sugestão, você pode usar outro banco Qdrant já upado em sua máquina
 
-### Execução
-
-1. Para iniciar assistente:
-```sh
-make start
+### 📦 Popular o banco vetorial do Qdrant
+```bash
+cd vector_database
+python populate_database_Qdrant.py
+cd ..
+```
+### 🤖 Treinando o RASA
+```bash
+rasa train --domain domain
+rasa run
 ```
 
-### Testes
-
-1. Para executar os testes:
-```sh
-rasa test
+### 💬 Executando o bot do Telegram
+```bash
+cd bot
+python bot.py
 ```
 
-### Instalação Codespace
+## 📁 Estrutura do Repositório
 
-## TODO List
+```bash
+bichobot/
+├── actions/
+│   ├── __init__.py
+│   ├── actions.py
+│   └── get_embedding_Qdrant.py
+├── bot/
+│   ├── bot.py
+│   └── llm_worker.py
+├── data/
+│   ├── nlu/
+│   │   ├── assistencia.yml
+│   │   ├── biblioteca.yml
+│   │   ├── bolsas.yml
+│   │   ├── cursos.yml
+│   │   ├── localizacao.yml
+│   │   ├── nlu.yml
+│   │   ├── onibus.yml
+│   │   ├── projetos.yml
+│   │   ├── quixada.yml
+│   │   ├── ru.yml
+│   │   └── sistemas.yml
+│   ├── rules/
+│   │   ├── assistencia.yml
+│   │   ├── biblioteca.yml
+│   │   ├── bolsas.yml
+│   │   ├── cursos.yml
+│   │   ├── localização.yml
+│   │   ├── onibus.yml
+│   │   ├── projetos.yml
+│   │   ├── quixada.yml
+│   │   ├── ru.yml
+│   │   ├── rules.yml
+│   │   └── sistemas.yml
+│   └── stories/
+│       └── assistencia.yml
+├── domain/
+│   ├── assistencia.yml
+│   ├── biblioteca.yml
+│   ├── bolsas.yml
+│   ├── cursos.yml
+│   ├── domain.yml
+│   ├── localizacao.yml
+│   ├── onibus.yml
+│   ├── projetos.yml
+│   ├── quixada.yml
+│   ├── ru.yml
+│   └── sistemas.yml
+├── results/
+├── tests/
+│   └── test_stories.yml
+├── vector_database/
+│   ├── data/
+│   │   ├── aproveitamento.pdf
+│   │   ├── avaliacao institucional.txt
+│   │   ├── biblioteca.txt
+│   │   ├── Bolsas info.pdf
+│   │   ├── bolsas.txt
+│   │   ├── calendario2025.txt
+│   │   ├── cursos.pdf
+│   │   ├── duvidas frequentes.txt
+│   │   ├── eduroam.txt
+│   │   ├── estagio.pdf
+│   │   ├── geral.pdf
+│   │   ├── matricula online.pdf
+│   │   ├── matricula.pdf
+│   │   ├── nas.pdf
+│   │   ├── onibus.pdf
+│   │   ├── procedimento trancamento.pdf
+│   │   ├── psicologia.pdf
+│   │   ├── regimento.txt
+│   │   ├── reservas de sala.pdf
+│   │   ├── ru e nutricao.pdf
+│   │   └── servico social.pdf
+│   ├── get_embedding_Qdrant.py
+│   ├── populate_database_Qdrant.py
+│   └── search_test.py
+├── .gitignore
+├── config.yml
+├── credentials.yml
+├── endpoints.yml
+├── graph.html
+├── README.md
+└── requirements.txt
 
-- [X] Fazer o `makefile` das dependências
-- [X] Separar `nlu.yml`, `rule.yml`, `domain.yml`, em pastas com nomes descritivos.
-- [X] Implementar `chitchat` para não precisar criar os rule do projeto.
-- [X] Criar pelo menos um teste
-- [ ] Criar FAQ
-    - [nlu](./data/nlu/faq.yml)/[response](./domain/faq.yml)
+```
 
-## Divisão da Equipe
+## 🤝 Contribua com o BichoBot!
 
-- [X] Exemplo
-    - [nlu](./data/nlu/__exemplo__.yml)/[response](./domain/__exemplo__.yml)
+Se você tem ideias, encontrou bugs, ou quer ajudar a adaptar o BichoBot para outras instituições, toda contribuição é bem-vinda.
+Vamos juntos tornar o acolhimento estudantil mais acessível, tecnológico e humano. 💙
 
-**Henrique** 
--  [ ] Perguntas sobre localização
-    - [nlu](./data/nlu/localizacao.yml)/[response](./domain/localizacao.yml) (localizacao)
--  [ ] Perguntas sobre o \(campus/Quixadá/moradia\)
-    - [nlu](./data/nlu/campus.yml)/[response](./domain/campus.yml) (campus)
-    - [nlu](./data/nlu/quixada.yml)/[response](./domain/quixada.yml) (quixada)
-    - [nlu](./data/nlu/moradia.yml)/[response](./domain/moradia.yml) (moradia)
--  [ ] Perguntas sobre os cursos
-    - [nlu](./data/nlu/cursos.yml)/[response](./domain/cursos.yml) (cursos)
+---
 
-**Victor**
--  [ ] Perguntas sobre o RU
-    - [nlu](./data/nlu/ru.yml)/[response](./domain/ru.yml) (ru) fonte: [ru](https://www.quixada.ufc.br/restaurante-universitario/), [ru/regulamento](https://www.ufc.br/restaurante/regulamento)
--  [ ] Perguntas sobre os ônibus  
-    - [nlu](./data/nlu/onibus.yml)/[response](./domain/onibus.yml) (onibus) fonte: [onibus](https://www.quixada.ufc.br/itinerario-dos-onibus/) [ifce/onibus](https://ifce.edu.br/quixada/campus_quixada/como-chegar)
--  [ ] Perguntas sobre a biblioteca
-    - [nlu](./data/nlu/biblioteca.yml)/[response](./domain/biblioteca.yml) (biblioteca) fonte: [biblioteca](https://www.quixada.ufc.br/biblioteca/)
-
-**Sheiely**
--  [ ] Perguntas sobre os projetos
-    - [nlu](./data/nlu/projetos.yml)/[response](./domain/projetos.yml) (projetos)
--  [ ] Perguntas sobre sistemas e serviços
-    - [nlu](./data/nlu/sistemas.yml)/[response](./domain/sistemas.yml) (sistemas)
--  [ ] Perguntas sobre bolsas/assistência
-    - [nlu](./data/nlu/bolsas.yml)/[response](./domain/bolsas.yml) (bolsas)
-    - [nlu](./data/nlu/assistencia.yml)/[response](./domain/assistencia.yml) (assistencia)
--  [ ] Perguntas gerais
-    - [nlu](./data/nlu/geral.yml)/[response](./domain/geral.yml) (geral)
+📬 Entre em contato ou contribua abrindo uma [issue](https://github.com/sheiely/bichobot/issues) ou [pull request](https://github.com/sheiely/bichobot/pulls).  
+Feito com dedicação 🚀
